@@ -2,14 +2,14 @@
 
 var paths = {
   // localDev:"http://llwp:8888",
-  js: ['_source/js/**/*.js'],
-  html: ['*.{php,html}', '_source/_includes/**/*.{php,html}', '_source/_layouts/**/*.{php,html}'],
-  md: ['*.{md, markdown}'],
   coffee: ['*.coffee'],
-  sass: ['_source/_sass/**/*.{scss,sass}'],
-  images:['_source/images/**/*.{png,jpg,jpeg,gif,webp,svg}'],
   css: ['*.css'],
-  myData: ['_source/_data/**/*.{csv.json}']
+  html: ['*.{php,html}', '_source/_includes/**/*.{php,html}', '_source/_layouts/**/*.{php,html}'],
+  images:['_source/images/**/*.{png,jpg,jpeg,gif,webp,svg}'],
+  js: ['_source/js/**/*.js'],
+  md: ['*.{md, markdown}'],
+  myData: ['_source/_data/**/*.{csv.json}'],
+  sass: ['_source/_sass/**/*.{scss,sass}']
 };
 
 
