@@ -12,7 +12,7 @@ sourcemap = true
 # Location of the theme's resources.
 css_dir = "css"
 fonts_dir = "css/fonts"
-sass_dir = "sass"
+sass_dir = "_sass"
 images_dir = "images"
 javascripts_dir = "js"
 
