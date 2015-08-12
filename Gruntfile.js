@@ -66,13 +66,17 @@ module.exports = function (grunt) {
 
          // watch for files to change and run tasks when they do
         watch: {
+            options: {
+                livereload: true,
+            },
             html: {
                 files: [paths.html, paths.md, paths.myData],
                 tasks: ['shell:jekyllBuild'],
-                options: {
-                    livereload: true
-                }
-            }
+            },
+            sass: {
+                files: [paths.sass],
+                tasks: ['shell:jekyllBuild'],
+            },
         },
         
         // run tasks in parallel
@@ -99,6 +103,6 @@ module.exports = function (grunt) {
     ]);
     
     // Register build as the default task fallback
-    grunt.registerTask('default', 'build');
+    grunt.registerTask('default', 'serve');
     
 };
