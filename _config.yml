@@ -10,6 +10,7 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+permalink: /:title
 
 # Custom settings
 source: _source
@@ -19,4 +20,6 @@ highlighter: rouge
 gems:
 - jekyll-compass
 
+#Exclude Folders
 exclude: ['config.rb']
+
