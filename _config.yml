@@ -18,3 +18,5 @@ sass_dir: _sass
 highlighter: rouge
 gems:
 - jekyll-compass
+
+exclude: ['config.rb']
