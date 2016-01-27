@@ -13,5 +13,5 @@ markdown: kramdown
 permalink: /:title
 
 # Custom settings
-exclude: ['node_modules','css', '_sass']
+exclude: ['node_modules','css', '_sass', 'Gemfile', 'Gemfile.lock', 'Gruntfile.js', 'package.json']
 keep_files: ['_site/css']
