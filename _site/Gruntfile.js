@@ -44,7 +44,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: '_sass/',
-                    src: [paths.sass],
+                    src: ['**/*.{scss,sass}'],
                     dest: '_site/css',
                     ext: '.css'
                 }]
@@ -62,7 +62,7 @@ module.exports = function (grunt) {
                 ]
             },
             dist: {
-                src: '_public/css/*.css'
+                src: '_site/css/*.css'
             }
         },
 
@@ -77,7 +77,7 @@ module.exports = function (grunt) {
             },
             sass: {
                 files: [paths.sass],
-                tasks: ['shell:jekyllBuild', 'sass'],
+                tasks: ['sass'],
             },
         },
         
@@ -103,9 +103,9 @@ module.exports = function (grunt) {
     
     // Register the grunt build task
     grunt.registerTask('build', [
+        'sass',
         'shell:jekyllBuild',
-        'postcss:dist',
-        'sass'
+        'postcss:dist'
     ]);
     
     // Register build as the default task fallback
