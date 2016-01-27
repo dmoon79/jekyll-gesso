@@ -31,6 +31,26 @@ module.exports = function (grunt) {
             }
         },
         
+        // sass (libsass) config
+       sass: {
+           options: {
+               sourceMap: true,
+               relativeAssets: false,
+               outputStyle: 'expanded',
+               sassDir: '_source/_sass',
+               cssDir: '_public/css'
+           },
+           build: {
+               files: [{
+                   expand: true,
+                   cwd: '_source/_sass/',
+                   src: ['**/*.{scss,sass}'],
+                   dest: '_public/css',
+                   ext: '.css'
+               }]
+           }
+       },
+
         // Autoprefixer
         postcss: {
             options: {
@@ -57,7 +77,7 @@ module.exports = function (grunt) {
             },
             sass: {
                 files: [paths.sass],
-                tasks: ['shell:jekyllBuild'],
+                tasks: ['sass'],
             },
         },
         
@@ -82,6 +102,7 @@ module.exports = function (grunt) {
     
     // Register the grunt build task
     grunt.registerTask('build', [
+        'sass',
         'shell:jekyllBuild',
         'postcss:dist'
     ]);

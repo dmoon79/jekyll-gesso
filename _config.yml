@@ -16,10 +16,10 @@ permalink: /:title
 source: _source
 destination: _public
 sass_dir: _sass
-highlighter: rouge
-gems:
-- jekyll-compass
+# highlighter: rouge
+# gems:
+# - jekyll-compass
 
 #Exclude Folders
-exclude: ['config.rb']
+# exclude: ['config.rb']
 
