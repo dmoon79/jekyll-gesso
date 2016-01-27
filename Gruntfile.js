@@ -4,11 +4,11 @@ var paths = {
   coffee: ['*.coffee'],
   css: ['*.css'],
   html: ['*.{php,html}', '**/*.{php,html}'],
-  images:['images/**/*.{png,jpg,jpeg,gif,webp,svg}'],
-  js: ['js/**/*.js'],
-  md: ['*.{md, markdown}'],
-  myData: ['_data/**/*.{csv.json}'],
-  sass: ['_sass/**/*.{scss,sass}']
+  images:['_source/images/**/*.{png,jpg,jpeg,gif,webp,svg}'],
+  js: ['_source/js/**/*.js'],
+  md: ['_source/*.{md, markdown}'],
+  myData: ['_source/_data/**/*.{csv.json}'],
+  sass: ['_source/_sass/**/*.{scss,sass}']
 };
 
 module.exports = function (grunt) {
@@ -37,15 +37,15 @@ module.exports = function (grunt) {
                 sourceMap: true,
                 relativeAssets: false,
                 outputStyle: 'expanded',
-                sassDir: '_sass',
-                cssDir: '_site/css'
+                sassDir: '_source/_sass',
+                cssDir: '_public/css'
             },
             build: {
                 files: [{
                     expand: true,
-                    cwd: '_sass/',
+                    cwd: '_source/_sass/',
                     src: ['**/*.{scss,sass}'],
-                    dest: '_site/css',
+                    dest: '_public/css',
                     ext: '.css'
                 }]
             }
@@ -62,7 +62,7 @@ module.exports = function (grunt) {
                 ]
             },
             dist: {
-                src: '_site/css/*.css'
+                src: '_public/css/*.css'
             }
         },
 
