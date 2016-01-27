@@ -21,5 +21,6 @@ sass_dir: _sass
 # - jekyll-compass
 
 #Exclude Folders
-# exclude: ['config.rb']
+exclude: ['node_modules','css', '_sass', 'Gruntfile.js', 'package.json']
+keep_files: ['_public/css']
 

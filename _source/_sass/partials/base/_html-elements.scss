@@ -5,7 +5,7 @@
 *:before,
 *:after {
   // Box-sizing: border-box
-  @include border-box;
+  // @include border-box;
 }
 
 * {
@@ -41,7 +41,7 @@ a {
 }
 
 abbr {
-  @include smallcaps();
+  // @include smallcaps();
 
   &[title] {
     border-bottom: 1px dotted;
@@ -121,7 +121,7 @@ fieldset {}
 figcaption {}
 
 figure {
-  margin: 0 0 rhythm(1);
+  // margin: 0 0 rhythm(1);
 }
 
 footer {}
@@ -136,7 +136,7 @@ form {
 %hN {
   color: $heading-text-color;
   font-family: $header-font-family;
-  @include hyphens(none);
+  // @include hyphens(none);
   line-height: 1.1;
   text-rendering: optimizeLegibility;
 }
@@ -180,7 +180,7 @@ h6 {
 header {}
 
 hr {
-  @include box-sizing(content-box);
+  // @include box-sizing(content-box);
   border: 1px solid $form-border-color;
   height: 0;
   margin: rhythm(1) 0;
@@ -188,8 +188,8 @@ hr {
 }
 
 html {
-  @include adjust-leading-to(1);
-  @include hyphens(auto);
+  // @include adjust-leading-to(1);
+  // @include hyphens(auto);
   font-family: $base-font-family;
   font-size: 100% * ($base-font-size / 16px);
   -ms-text-size-adjust: 100%;
@@ -332,7 +332,7 @@ section {}
 select {}
 
 small {
-  @include adjust-font-size-to($font-size-md);
+  // @include adjust-font-size-to($font-size-md);
 }
 
 strong {}

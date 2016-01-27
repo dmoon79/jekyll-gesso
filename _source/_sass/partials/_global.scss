@@ -9,8 +9,11 @@
 // @import 'breakpoint'; // github.com/Team-Sass/breakpoint
 // @import 'singularitygs'; // github.com/Team-Sass/Singularity
 
-// Custom partials to be shared with all .scss files. Imported with limited
+// Custom partials to be shared with all  files. Imported with limited
 // sass globbing to ensure load order.
-@import 'global/variables/**/*.*';
-@import 'global/helpers/**/*.*';
-@import 'global/extendables/**/*.*';
+@import 'global/variables/colors';
+@import 'global/variables/layout';
+@import 'global/variables/typography';
+
+// @import 'global/helpers/**/*.*';
+// @import 'global/extendables/**/*.*';

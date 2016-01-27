@@ -6,6 +6,7 @@
 // automatically import these partials.
 
 // Variable to add special styles for Panels admin interface.
-$panels-admin: false;
+// $panels-admin: false;
 
-@import 'layout/**/*.*';
+@import 'layout/grid';
+@import 'layout/page';
