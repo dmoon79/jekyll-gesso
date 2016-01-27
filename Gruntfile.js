@@ -1,18 +1,15 @@
 'use strict';
 
 var paths = {
-  // localDev:"http://llwp:8888",
   coffee: ['*.coffee'],
   css: ['*.css'],
-  html: ['*.{php,html}', '_source/_includes/**/*.{php,html}', '_source/_layouts/**/*.{php,html}'],
+  html: ['*.{php,html}', '_source/**/*.{php,html}'],
   images:['_source/images/**/*.{png,jpg,jpeg,gif,webp,svg}'],
   js: ['_source/js/**/*.js'],
   md: ['*.{md, markdown}'],
   myData: ['_source/_data/**/*.{csv.json}'],
   sass: ['_source/_sass/**/*.{scss,sass}']
 };
-
-
 
 module.exports = function (grunt) {
     
@@ -34,35 +31,20 @@ module.exports = function (grunt) {
             }
         },
         
-        // sass (libsass) config
-        // sass: {
-        //     options: {
-        //         sourceMap: true,
-        //         relativeAssets: false,
-        //         outputStyle: 'expanded',
-        //         sassDir: '_sass',
-        //         cssDir: '_site/css'
-        //     },
-        //     build: {
-        //         files: [{
-        //             expand: true,
-        //             cwd: '_sass/',
-        //             src: ['**/*.{scss,sass}'],
-        //             dest: '_site/css',
-        //             ext: '.css'
-        //         }]
-        //     }
-        // },
-
-        // COMPASS
-        // compass:{
-        //   dist: {
-        //     options: {
-        //       sassDir: '_sass',
-        //       config: 'config.rb'
-        //     }
-        //   }
-        // },
+        // Autoprefixer
+        postcss: {
+            options: {
+                map: true,
+                processors: [
+                    require('autoprefixer')({
+                        browsers: ['last 2 versions']
+                    })
+                ]
+            },
+            dist: {
+                src: '_public/css/*.css'
+            }
+        },
 
          // watch for files to change and run tasks when they do
         watch: {
@@ -94,12 +76,14 @@ module.exports = function (grunt) {
     
     // Register the grunt serve task
     grunt.registerTask('serve', [
-        'concurrent:serve'
+        'concurrent:serve',
+        'postcss:dist'
     ]);
     
     // Register the grunt build task
     grunt.registerTask('build', [
-        'shell:jekyllBuild'
+        'shell:jekyllBuild',
+        'postcss:dist'
     ]);
     
     // Register build as the default task fallback

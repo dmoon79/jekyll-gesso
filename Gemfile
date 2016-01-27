@@ -13,6 +13,6 @@ gem 'singularitygs', '~>1.6.2'
 # temporarily specifying version 1.1.0 until fixed.
 # https://github.com/chriseppstein/sass-globbing/pull/20
 gem 'sass-globbing', '1.1.0'
-gem 'jekyll', '~>2.5.3'
-gem 'jekyll-compass', '~>1.1.0'
-gem 'rouge', '~>1.9.0'
+gem 'jekyll'
+gem 'jekyll-compass'
+gem 'rouge'
