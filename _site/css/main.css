@@ -21,7 +21,7 @@ body {
   line-height: 1.5;
   font-weight: 300;
   color: #111;
-  background-color: #FFF;
+  background-color: blue;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -136,6 +136,7 @@ pre > code {
  * Wrapper
  */
 .wrapper {
+  max-width: -webkit-calc(800px - (30px * 2));
   max-width: calc(800px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
@@ -145,6 +146,7 @@ pre > code {
 
 @media screen and (max-width: 800px) {
   .wrapper {
+    max-width: -webkit-calc(800px - (30px));
     max-width: calc(800px - (30px));
     padding-right: 15px;
     padding-left: 15px;
@@ -219,7 +221,7 @@ pre > code {
     position: absolute;
     top: 9px;
     right: 30px;
-    background-color: #FFF;
+    background-color: blue;
     border: 1px solid #e6e6e6;
     border-radius: 5px;
     text-align: right;
@@ -286,23 +288,28 @@ pre > code {
 }
 
 .footer-col-1 {
+  width: -webkit-calc(35% - (30px / 2));
   width: calc(35% - (30px / 2));
 }
 
 .footer-col-2 {
+  width: -webkit-calc(20% - (30px / 2));
   width: calc(20% - (30px / 2));
 }
 
 .footer-col-3 {
+  width: -webkit-calc(45% - (30px / 2));
   width: calc(45% - (30px / 2));
 }
 
 @media screen and (max-width: 800px) {
   .footer-col-1,
   .footer-col-2 {
+    width: -webkit-calc(50% - (30px / 2));
     width: calc(50% - (30px / 2));
   }
   .footer-col-3 {
+    width: -webkit-calc(100% - (30px / 2));
     width: calc(100% - (30px / 2));
   }
 }
@@ -310,6 +317,7 @@ pre > code {
 @media screen and (max-width: 600px) {
   .footer-col {
     float: none;
+    width: -webkit-calc(100% - (30px / 2));
     width: calc(100% - (30px / 2));
   }
 }
@@ -753,4 +761,5 @@ pre > code {
   color: blue;
   border-bottom: 1px dotted blue !important;
 }
+
 /*# sourceMappingURL=main.css.map */
