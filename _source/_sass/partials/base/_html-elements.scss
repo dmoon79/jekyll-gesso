@@ -4,8 +4,7 @@
 *,
 *:before,
 *:after {
-  // Box-sizing: border-box
-  // @include border-box;
+  box-sizing: border-box;
 }
 
 * {
@@ -180,7 +179,6 @@ h6 {
 header {}
 
 hr {
-  // @include box-sizing(content-box);
   border: 1px solid $form-border-color;
   height: 0;
   margin: rhythm(1) 0;
@@ -188,8 +186,6 @@ hr {
 }
 
 html {
-  // @include adjust-leading-to(1);
-  // @include hyphens(auto);
   font-family: $base-font-family;
   font-size: 100% * ($base-font-size / 16px);
   -ms-text-size-adjust: 100%;
@@ -331,9 +327,7 @@ section {}
 
 select {}
 
-small {
-  // @include adjust-font-size-to($font-size-md);
-}
+small {}
 
 strong {}
 

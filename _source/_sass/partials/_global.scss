@@ -5,9 +5,7 @@
 // extensions, variables, functions, extendables, and mixins.
 
 // Helper functions and mixins from external libraries.
-// @import 'compass';
-// @import 'breakpoint'; // github.com/Team-Sass/breakpoint
-// @import 'singularitygs'; // github.com/Team-Sass/Singularity
+
 
 // Custom partials to be shared with all  files. Imported with limited
 // sass globbing to ensure load order.
@@ -15,5 +13,11 @@
 @import 'global/variables/layout';
 @import 'global/variables/typography';
 
-// @import 'global/helpers/**/*.*';
-// @import 'global/extendables/**/*.*';
+@import 'global/helpers/accessibility';
+@import 'global/helpers/blend-modes';
+@import 'global/helpers/em';
+@import 'global/helpers/image-replace';
+@import 'global/helpers/smallcaps';
+@import 'global/helpers/svg-background';
+
+// @import 'global/extendables/button';

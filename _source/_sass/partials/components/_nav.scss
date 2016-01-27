@@ -74,40 +74,6 @@
       background-color: darken($pillbox-bg-color, 80%);
     }
   }
-
-  // > .nav__item:first-child > .nav__link {
-  //   @include border-top-left-radius();
-  //   @include border-top-right-radius();
-
-  //   @include breakpoint(30em) {
-  //     @include border-bottom-left-radius(); // LTR
-  //     @include border-top-right-radius(0); // LTR
-
-  //     [dir="rtl"] & {
-  //       @include border-bottom-left-radius(0);
-  //       @include border-bottom-right-radius();
-  //       @include border-top-left-radius(0);
-  //       @include border-top-right-radius();
-  //     }
-  //   }
-  // }
-
-  // > .nav__item:last-child > .nav__link {
-  //   @include border-bottom-left-radius();
-  //   @include border-bottom-right-radius();
-
-  //   @include breakpoint(30em) {
-  //     @include border-bottom-left-radius(0); // LTR
-  //     @include border-top-right-radius(); // LTR
-
-  //     [dir="rtl"] & {
-  //       @include border-bottom-left-radius();
-  //       @include border-bottom-right-radius(0);
-  //       @include border-top-left-radius();
-  //       @include border-top-right-radius(0);
-  //     }
-  //   }
-  // }
 }
 
 // Extendable pipeline nav style.

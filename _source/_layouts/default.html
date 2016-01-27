@@ -10,8 +10,10 @@
     <div class="skiplinks">
       <a href="#main" class="skiplinks__link element-focusable">Skip to main content</a>
     </div>
-    {% include header.html %}
-    {{ content }} 
-    {% include footer.html %}
+    <div class="layout-constrain">
+      {% include header.html %}
+      {{ content }} 
+      {% include footer.html %}
+    </div>
   </body>
 </html>
