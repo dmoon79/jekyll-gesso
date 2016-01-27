@@ -13,7 +13,7 @@ markdown: kramdown
 permalink: /:title
 
 # Custom settings
-exclude: ['node_modules','css', '_sass', 'Gemfile', 'Gemfile.lock', 'Gruntfile.js', 'package.json']
+exclude: ['node_modules','css', '_sass', 'Gruntfile.js', 'package.json']
 keep_files: ['_public/css']
 
 source: _source
