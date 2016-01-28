@@ -2,7 +2,9 @@
   min-height: 100vh;
   color: black;
   .main-col1 {
-    height: 75vh;
+    overflow: hidden;
+    height: 60vh;
+    max-height: 75vh;
     @include large {
       height: 100vh;
     }
