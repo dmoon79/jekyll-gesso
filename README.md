@@ -20,7 +20,7 @@ To Use
 ***
 
 Tags
-* Gesso Jekyll base starting point (tag --compass_v1)
+* Gesso Jekyll base starting point (tag -- compass_v1)
 * Bourbon/Libsass starting point (tag -- bourbon_v0.1)
   May contain some unnecessary partials from the base Gesso theme that have little relevance to a blank Jekyll project.
 * Libsass only starting point (tag -- libsass_v1)
