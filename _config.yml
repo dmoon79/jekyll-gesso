@@ -16,9 +16,7 @@ permalink: /:title
 source: _source
 destination: _public
 sass_dir: _sass
-# highlighter: rouge
-# gems:
-# - jekyll-compass
+highlighter: rouge
 
 #Exclude Folders
 exclude: ['node_modules','css', '_sass', 'Gruntfile.js', 'package.json']
