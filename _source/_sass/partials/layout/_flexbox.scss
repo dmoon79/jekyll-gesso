@@ -5,18 +5,14 @@
   display: flex;
   flex-flow: row wrap;
   .layout-2col-66-33-flex__col1 {
-    @media (max-width: 699px) {
-      width: 100%;
-    }
-    @media (min-width: 700px) {
+    width: 100%;
+    @include large {
       flex: 2;
     }
   }
   .layout-2col-66-33-flex__col2 {
-    @media (max-width: 699px) {
-      width: 100%;
-    }
-    @media (min-width: 700px) {
+    width: 100%;
+    @include large {
       flex: 1;
     }
   }

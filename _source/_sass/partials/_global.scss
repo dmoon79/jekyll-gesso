@@ -10,6 +10,7 @@
 // Custom partials to be shared with all  files. Imported with limited
 // sass globbing to ensure load order.
 
+// Gesso Leftovers
 @import 'global/variables/colors';
 @import 'global/variables/layout';
 @import 'global/variables/typography';
@@ -20,5 +21,9 @@
 @import 'global/helpers/image-replace';
 @import 'global/helpers/smallcaps';
 @import 'global/helpers/svg-background';
+
+
+// Custom
+@import 'global/helpers/mq';
 
 // @import 'global/extendables/button';

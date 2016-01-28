@@ -2,9 +2,12 @@
   min-height: 100vh;
   color: black;
   .main-col1 {
-    background-color: red;
+    height: 75vh;
+    @include large {
+      height: 100vh;
+    }
   }
   .main-col2 {
-    background-color: yellow;
+    background-color: #ccc;
   }
 }
