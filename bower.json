@@ -1,0 +1,28 @@
+{
+  "name": "F1-jekyll-starter",
+  "description": "A base project for Jekyll that includes lots of integration with other features out of the box.",
+  "main": "index.js",
+  "authors": [
+    "Derek Moon"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Jekyll",
+    "Node.js",
+    "LiveReload"
+  ],
+  "homepage": "https://github.com/dmoon79/jekyll-gesso",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "_src/_bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "modernizr": "^3.3.1"
+  }
+}
