@@ -1,15 +1,51 @@
 .main {
-  min-height: 100vh;
   color: black;
+  justify-content: center;
+  flex-flow: row wrap-reverse;
   .main-col1 {
+    padding: 2em;
     overflow: hidden;
-    height: 60vh;
-    max-height: 75vh;
-    @include large {
-      height: 100vh;
-    }
   }
   .main-col2 {
     background-color: #ccc;
+  }
+}
+
+
+// Homepage 
+.background {
+  background: url('/images/skyline.jpg');
+  background-size: cover;
+  color: white;
+}
+.intro {
+  padding: 2em;
+}
+.intro__title {
+  @extend h1;
+  color: white;
+  font-size: 3em;
+  line-height: 1em;
+}
+.intro__subtitle {
+  @extend h3;
+  padding: 1em 0;
+}
+.intro__copy {
+  @extend p;
+}
+
+.nav-container {
+  .nav {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .nav-item {
+    // align-self: center;
+    border: 1px solid grey;
+    width: 100%;
+    padding: 1em 0;
+    margin: 5px 0;
+    text-align: center;
   }
 }
