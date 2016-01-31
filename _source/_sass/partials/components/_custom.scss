@@ -1,10 +1,9 @@
 .main {
-  color: black;
-  justify-content: center;
+  justify-content: flex-start;
   flex-flow: row wrap-reverse;
   .main-col1 {
     padding: 2em;
-    overflow: hidden;
+    background-color: rgba($blue, .3);
   }
   .main-col2 {
     background-color: #ccc;
@@ -13,10 +12,11 @@
 
 
 // Homepage 
-.background {
+.background-sea {
+  // @include image-overlay($red, .7);
   background: url('/images/skyline.jpg');
   background-size: cover;
-  color: white;
+  color: $white;
 }
 
 //Intro Content Styling
@@ -24,7 +24,6 @@
   padding: 2em;
 }
 .intro__title {
-  color: white;
   font-size: 3em;
   line-height: 1em;
   margin: 0;
@@ -36,7 +35,14 @@
 
 //Post Style
 .post {
+  background-color: rgba($blue, .3);
   min-height: 100vh;
+  padding: 2em;
+  .post-loop__container & {
+    padding: initial;
+    background-color: initial;
+    min-height: initial;
+  }
 }
 .post__header{}
 .post__meta{}
@@ -46,6 +52,7 @@
   margin: 0;
 }
 .post__content{}
+
 
 
 //Nav Styling
