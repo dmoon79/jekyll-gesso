@@ -5,13 +5,13 @@ layout: default
 
   <header class="post__header">
     <h1 class="post__title">{{ page.title }}</h1>
-    <p class="post__meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p class="post__meta"><span class="post__date">{{ page.date | date: "%b %-d, %Y" }}</span>{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
   <article class="post__content">
     {{ content }}
   </article>
   
-  <a href="{{site.url}}">Return to list</a>
+  <a class="article__link" href="{{site.url}}">Return to list</a>
 
 </div>

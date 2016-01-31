@@ -1,14 +1,14 @@
 <div class="post-loop__container">
   {% for post in site.posts %}
-    <article class="post {% if forloop.first %}first{% elsif forloop.last %}last{% else %}middle{% endif %}">
+    <article class="article {% if forloop.first %}first{% elsif forloop.last %}last{% else %}middle{% endif %}">
       
-      <div class="post-head">
-        <h2 class="post__title"><a href="{{ post.url }}" class="js-pjax">{{ post.title }}</a></h2>
-        <p class="post__date">{{ post.date | date: "%b %d, %Y" }}</p>
+      <div class="article__header">
+        <h2 class="article__title"><a href="{{ post.url }}" class="js-pjax">{{ post.title }}</a></h2>
+        <p class="article__date">{{ post.date | date: "%b %d, %Y" }}</p>
       </div><!--/.article-head-->
   
-      <div class="post__content">
-      {{ post.excerpt }}
+      <div class="article__content">
+      {{ post.excerpt | truncatewords: 25, ' [...]' }}
       <a href="{{ post.url }}/" class="article__link full-post-link js-pjax">Read more</a> 
       </div><!--/.article-content-->
   
