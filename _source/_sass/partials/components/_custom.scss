@@ -18,23 +18,37 @@
   background-size: cover;
   color: white;
 }
+
+//Intro Content Styling
 .intro {
   padding: 2em;
 }
 .intro__title {
-  @extend h1;
   color: white;
   font-size: 3em;
   line-height: 1em;
+  margin: 0;
 }
 .intro__subtitle {
-  @extend h3;
   padding: 1em 0;
 }
-.intro__copy {
-  @extend p;
-}
+.intro__copy {}
 
+//Post Style
+.post {
+  min-height: 100vh;
+}
+.post__header{}
+.post__meta{}
+.post__title {
+  color: $white;
+  padding: 1em 0;
+  margin: 0;
+}
+.post__content{}
+
+
+//Nav Styling
 .nav-container {
   .nav {
     display: flex;

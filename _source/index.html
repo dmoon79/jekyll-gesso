@@ -4,30 +4,11 @@ layout: default
 
 <div class="layout-2col-66-33-flex main">
   <div class="layout-2col-66-33-flex__col1 main-col1 background">
-    {% for post in site.posts %}
-      <article class="article {% if forloop.first %}first{% elsif forloop.last %}last{% else %}middle{% endif %}">
-        <div class="article-head">
-          <h2 class="article__title"><a href="{{ post.url }}" class="js-pjax">{{ post.title }}</a></h2>
-          <p class="article__date">{{ post.date | date: "%b %d, %Y" }}</p>
-        </div><!--/.article-head-->
-        <div class="article__content">
-        {{ post.content }}
-        <a href="{{ post.url }}/" class="article__link full-post-link js-pjax">Read more</a> 
-        </div><!--/.article-content-->
-      </article>
-      {% if forloop.last %}{% else %}<div class="separater"></div>{% endif %}
-    {% endfor %}
+    {% include post-loop.html %}
   </div>
   
   <!-- Sidebar -->
   <div class="layout-2col-66-33-flex__col2 main-col2">
-      <div class="intro">
-        <div class="intro__title">Derek Moon</div>
-        <div class="intro__subtitle">Front-End Developer</div>
-        <div class="intro__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-        </div>
-      </div>
-
-    <!-- {% include nav.html %} -->
+      {% include intro.html %}
   </div>
 </div>
