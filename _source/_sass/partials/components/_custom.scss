@@ -4,26 +4,33 @@
   .main-col1 {
     padding: 2em;
     background-color: rgba($blue, .8);
+    min-height: 600px;
   }
   .main-col2 {
-    background-color: #ccc;
+    background-color: $light-grey;
+    @include desktop {
+      border-left: 2px solid $dark-grey;
+    }
   }
 }
 
+.site-header {
+  background-color: rgba($green, .8);
+  border-bottom: 2px solid $dark-grey;
+}
 
 // Homepage 
 .background-sea {
   // @include image-overlay($red, .7);
   background: url('/images/skyline.jpg') no-repeat no-repeat;
   background-size: cover;
-  color: $white;
 }
 
 //Intro Content Styling
 .intro {
   padding: 2em;
   text-align: center;
-  @include large {
+  @include desktop {
     text-align: initial;
   }
 }
@@ -43,17 +50,24 @@
 //Social
 .social {
   display: flex;
+  border-top: 2px dotted $dark-grey;
+  border-bottom: 2px solid $dark-grey;
+  // background-color: $dark-grey;
   flex-flow: row wrap;
   position: relative;
   justify-content: space-around;
-  @include large {
+  @include desktop {
     justify-content: space-between;
+    border-bottom: none;
   }
   width: 100%;
   padding: 1em 2em;
 }
 .social__svg {
   fill: $blue;
+  &:hover {
+    fill: $red;
+  }
 }
 .social__link {
   a {
@@ -67,11 +81,6 @@
   background-color: rgba($blue, .7);
   min-height: 100vh;
   padding: 2em;
-  // .post-loop__container & {
-  //   padding: initial;
-  //   background-color: initial;
-  //   min-height: initial;
-  // }
 }
 .post__header{}
 .post__meta{
@@ -117,17 +126,23 @@
 }
 
 //Nav Styling
-.nav-container {
+.nav--main{
   .nav {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
+    margin: 0;
   }
-  .nav-item {
-    // align-self: center;
-    border: 1px solid grey;
-    width: 100%;
+  .nav__item {
+    align-self: flex-start;
     padding: 1em 0;
-    margin: 5px 0;
-    text-align: center;
+    margin: 0 auto;
+    a {
+      @extend h3;
+      color: $white;
+      display: block;
+      text-decoration: none;
+      width: 100%;
+      height: 100%;
+    }
   }
 }
