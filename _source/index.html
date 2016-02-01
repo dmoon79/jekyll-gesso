@@ -4,6 +4,7 @@ layout: default
 
 <div class="layout-2col-66-33-flex main">
   <div class="layout-2col-66-33-flex__col1 main-col1">
+    {{ site.projects | inspect }}
     {% include post-loop.html %}
   </div>
   

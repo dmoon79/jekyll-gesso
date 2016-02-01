@@ -26,4 +26,4 @@ keep_files: ['_public/css']
 collections:
   projects:
     output: true
-    permalink: /project/:path/
+    permalink: /projects/:path/
