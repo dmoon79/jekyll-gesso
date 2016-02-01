@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Test Project
+title: Test
 year: 2016
 url: http://bestsite.yeah
 tags: drupal, wordpress
