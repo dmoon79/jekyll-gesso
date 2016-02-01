@@ -10,4 +10,3 @@ excerpt: Short Description
 
 What up tho?
 
-{{ site.projects.title }}
