@@ -1,4 +1,6 @@
-{% for skill in site.data.skills %}
-	<div>{{ skill.skill }}</div>
-	<div>{{ skill.level }}</div>
+<div class="skill__list">
+    {% for skill in site.data.skills %}
+    <div>{{ skill.skill }}</div>
+    <div>{{ skill.level }}</div>
 {% endfor %}
+</div>
