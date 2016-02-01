@@ -18,12 +18,30 @@ permalink: /resume/
 
   <!-- Work Experience -->
   <section class="resume__work">
-    {% include job.html %}
+    {% assign jobsOrdered = site.jobs | sort: 'order' %}
+    {% for job in jobsOrdered %}
+      <div class="job">
+        <div class="job__title">{{ job.title }}</div>
+        <div class="job__tenure">{{ job.tenure }}</div>
+        
+        <div class="job__company-meta">
+          <div class="job__company">{{ job.company }}</div>
+          <div class="job__company-location">{{ job.location }}</div>
+        </div>
+        <div class="job__description">{{ job.description }}</div>
+        <div class="job__bullets">{{job.content}}</div>
+      </div>
+    {% endfor %}
   </section>
 
 
   <section class="resume__skills">
-    
+    <div class="skill__list">
+      {% for skill in site.data.skills %}
+        <div>{{ skill.skill }}</div>
+        <div>{{ skill.level }}</div>
+      {% endfor %}
+    </div>
   </section>
 
   
