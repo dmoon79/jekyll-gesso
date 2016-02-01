@@ -22,3 +22,8 @@ highlighter: rouge
 exclude: ['node_modules','css', '_sass', 'Gruntfile.js', 'package.json']
 keep_files: ['_public/css']
 
+#Collection defined
+collections:
+  projects:
+    output: true
+    permalink: /project/:path/
