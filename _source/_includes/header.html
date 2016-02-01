@@ -1,5 +1,11 @@
 <header class="site-header">
   <div class="site-header__wrapper">
-    {% include nav.html %}
+
+    {% if site.logo %}
+        <div class="site-logo">Logo</div>
+    {% endif %}
+
+    <nav id="mainNav" class="nav--main">{% include nav.html %}</nav>
+    
   </div>
 </header>

@@ -1,3 +1,4 @@
+//Index Page Layout
 .main {
   justify-content: flex-start;
   flex-flow: row wrap-reverse;
@@ -7,9 +8,9 @@
     min-height: 600px;
   }
   .main-col2 {
-    background-color: $light-grey;
+    background-color: rgba($light-grey, .8);
     @include desktop {
-      border-left: 2px solid $dark-grey;
+      border-left: 2px dotted $dark-grey;
     }
   }
 }
@@ -24,6 +25,7 @@
   // @include image-overlay($red, .7);
   background: url('/images/skyline.jpg') no-repeat no-repeat;
   background-size: cover;
+  min-height: 100vh;
 }
 
 //Intro Content Styling
@@ -145,4 +147,9 @@
       height: 100%;
     }
   }
+}
+
+//Resume
+.resume {
+  background-color: rgba($white, .8);
 }
