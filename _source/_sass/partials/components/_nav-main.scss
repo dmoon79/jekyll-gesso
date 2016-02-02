@@ -1,0 +1,21 @@
+//Nav Styling
+.nav--main{
+  .nav {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+  }
+  .nav__item {
+    align-self: flex-start;
+    padding: 1em 0;
+    margin: 0 auto;
+    a {
+      @extend h3;
+      color: $white;
+      display: block;
+      text-decoration: none;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+// Homepage 
+.background-sea {
+  // @include image-overlay($red, .7);
+  background: url('/images/skyline.jpg') no-repeat no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+//Intro Content Styling
+.intro {
+  padding: 2em;
+  text-align: center;
+  @include desktop {
+    text-align: initial;
+  }
+}
+.intro__title {
+  font-size: 3em;
+  line-height: 1em;
+  margin: 0;
+}
+.intro__subtitle {
+  padding: 1em 0;
+  margin: 0;
+}
+.intro__copy {
+  margin: 0;
+}

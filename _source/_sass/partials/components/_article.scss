@@ -1,0 +1,28 @@
+//Article 
+.article {
+  padding-bottom: 2em;
+}
+.article__header {
+  a {
+    color: $white;
+    text-decoration: none;
+    &:hover{
+      color: $red;
+    }
+  }
+}
+.article__date,
+.post__date {
+  @extend h6;
+  margin: 0;
+}
+.article__link {
+  @extend h6;
+  color: $red;
+  display: block;
+  text-decoration: none;
+  padding-top: 1em;
+  &:hover {
+    color: $dark-grey;
+  }
+}
