@@ -3,4 +3,11 @@ layout: default
 permalink: /skill/
 ---
 
-{% include skills.html %}
+<div class="skill__list">
+  {% for skill in site.data.skills %}
+    <div class="skill__item">
+      <span class="skill__label">{{ skill.skill }}</span>
+      <span class="skill__level">{{ skill.level }}</span>
+    </div>
+  {% endfor %}
+</div>

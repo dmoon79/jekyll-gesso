@@ -6,8 +6,8 @@ var paths = {
   html: ['*.{php,html}', '_source/**/*.{php,html}'],
   images:['_source/images/**/*.{png,jpg,jpeg,gif,webp,svg}'],
   js: ['_source/js/**/*.js'],
-  md: ['*.{md, markdown}'],
-  myData: ['_source/_data/**/*.{csv.json}'],
+  md: ['_source/**/*.{md, markdown}'],
+  myData: ['_source/_data/**/*.{csv,json,yml}'],
   sass: ['_source/_sass/**/*.{scss,sass}']
 };
 
