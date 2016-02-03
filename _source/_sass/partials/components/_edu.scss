@@ -1,10 +1,23 @@
 //@file
 //Edu Resume Block
 .edu {
+  display: flex;
+  flex-flow: row wrap;
   padding-bottom: 1em;
+  .col-1{}
+  .col-2{}
+  .col-3{}
+  .col {
+    padding: 10px;
+    align-self: center;
+  }
 }
 .edu__degree{}
 .edu__major{}
-.edu__school{}
+.edu__school{
+  
+}
 .edu__city{}
-.edu__degree-year{}
+.edu__degree-year{
+
+}
