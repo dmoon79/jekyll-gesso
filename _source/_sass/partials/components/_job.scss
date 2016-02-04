@@ -1,0 +1,17 @@
+.job {
+  @extend h5;
+}
+.job__title {}
+.job__tenure {}
+.job__company-meta {
+  .job__company{}
+  .job__company-location{}
+}
+.job__description {}
+.job__bullets {
+  ul {
+    li{
+
+    }
+  }
+}

@@ -1,6 +1,9 @@
 //@file
 //Edu Resume Block
+$v-pad: 10px;
+
 .edu {
+  @extend h5;
   display: flex;
   flex-flow: row wrap;
   padding-bottom: 1em;
@@ -8,16 +11,35 @@
   .col-2{}
   .col-3{}
   .col {
-    padding: 10px;
+    padding: 10px 1em 10px 0;
     align-self: center;
+    border-left: 1px solid black;
+    padding-left: 1em;
+    &:first-child {
+      border-left: none;
+      padding-left: 0;
+    }
   }
 }
-.edu__degree{}
-.edu__major{}
-.edu__school{
-  
+.edu__degree{
+  font-size: $smaller;
+  padding-bottom: $v-pad;
 }
-.edu__city{}
+.edu__gpa {
+  font-size: $smaller;
+}
+.edu__major{
+  font-size: $bigger;
+  padding-bottom: $v-pad;
+}
+.edu__school{
+  font-size: $bigger;
+  padding-bottom: $v-pad;
+}
+.edu__city{
+  font-size: $smaller;
+}
 .edu__degree-year{
-
+  font-size: $bigger;
+  padding-bottom: $v-pad;
 }
