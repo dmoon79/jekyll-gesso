@@ -1,17 +1,69 @@
 .job {
-  @extend h5;
+  // @extend h5;
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 2em;
 }
-.job__title {}
-.job__tenure {}
-.job__company-meta {
-  .job__company{}
-  .job__company-location{}
-}
-.job__description {}
-.job__bullets {
-  ul {
-    li{
 
+.cell {
+  // padding-right: 1em;
+}
+.row {
+  padding: 10px 0;
+  &:first-child{
+    padding-top: 0;
+  }
+}
+
+.job__header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  // padding-bottom: .5em;
+  border-bottom: 1px solid $green;
+  .cell {
+    flex: 1 1 200px;
+  }
+  .job__title {
+    @extend h3;
+    font-weight: 700;
+    
+  }
+  .job__tenure {
+    font-weight: 100;
+  }
+}
+
+.job__company-meta {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-bottom: 1em;
+  text-transform: uppercase;
+  .cell {
+    flex: 1 1 200px;
+  }
+  .job__company{
+    @extend h6;
+    text-transform: uppercase;
+    // margin-left: 100px;
+  }
+  .job__company-location{
+    @extend h6;
+    // text-transform: uppercase;
+  }
+}
+
+.job__content{
+  
+  .job__description {
+  }
+  .job__bullets {
+    ul {
+      li{
+
+      }
     }
   }
+  
 }

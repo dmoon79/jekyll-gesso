@@ -22,24 +22,28 @@ $v-pad: 10px;
   }
 }
 .edu__degree{
-  font-size: $smaller;
-  padding-bottom: $v-pad;
+  @extend h6;
+  // text-transform: uppercase;
+  padding-bottom: 5px;
 }
 .edu__gpa {
-  font-size: $smaller;
+  @extend h6;
 }
 .edu__major{
-  font-size: $bigger;
-  padding-bottom: $v-pad;
+  @extend h3;
+  font-weight: 700;
+  // text-transform: uppercase;
 }
 .edu__school{
-  font-size: $bigger;
+  @extend h4;
+  // font-weight: 700;
   padding-bottom: $v-pad;
 }
 .edu__city{
-  font-size: $smaller;
+  @extend h6;
+  text-transform: uppercase;
 }
 .edu__degree-year{
-  font-size: $bigger;
+  font-weight: 700;
   padding-bottom: $v-pad;
 }
