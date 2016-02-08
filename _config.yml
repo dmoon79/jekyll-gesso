@@ -25,6 +25,8 @@ keep_files: ['_public/css']
 #Collection defined
 collections:
   jobs:
+    output: true
+    permalink: /jobs/:path/
   projects:
     output: true
     permalink: /projects/:path/

@@ -4,6 +4,6 @@ title: Deployment Team Lead / Project Manager
 company: Kraft Foods
 location: Northfield, Illinois
 tenure: August 2002 - March 2007
-description: "testing to see if this escapes : that would be great"
-order: 6
+description: "Team leader for group responsible for the recoup/refresh/replacement of thousands of leased technology assets at Kraft Food's North American headquarters. "
+order: 60
 ---

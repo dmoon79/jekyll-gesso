@@ -1,13 +1,16 @@
 ---
-layout: default
+layout: portfolio
 permalink: /portfolio/
 ---
 
 <div class="project-list">
   {% for project in site.projects %}
-    <h3>{{ project.title }}</h3>
-    <p> {{ project.url | prepend: site.url }} </p>
-    <p>Completed in {{ project.year }}</p>
-    <p>Description {{ project.description }}</p>
+    <div>
+      <h3>{{ project.title }}</h3>
+      <a target="_blank" href="{{ project.link }}">View External Website</a>
+      <p>Completed in {{ project.year }}</p>
+      <p>Description {{ project.description }}</p>
+      <a href="{{ project.url}}">Detail Page</a>
+    </div>
   {% endfor %}
 </div>
