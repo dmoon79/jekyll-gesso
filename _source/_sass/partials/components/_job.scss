@@ -50,7 +50,10 @@
   .job__company{
     @extend h6;
     text-transform: uppercase;
-    // margin-left: 100px;
+    padding-bottom: 10px;
+    @include large {
+      padding-bottom: 0;
+    }
   }
   .job__company-location{
     @extend h6;
