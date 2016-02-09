@@ -10,7 +10,7 @@
       mousewheel: true
     });
 
-    $('.job__bullets').hide();
+    $('.job__content').hide();
      
   });
 

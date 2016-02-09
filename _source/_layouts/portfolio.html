@@ -10,7 +10,7 @@
   <body class="">
     <section class="section-meta">
       <div class="skiplinks breadcrumbs">
-        <a href="#main" class="skiplinks__link element-focusable">Skip to main content</a>
+        <a href="/" class="skiplinks__link element-focusable">Skip to main content</a>
       </div>
     </section>
 
@@ -19,7 +19,15 @@
     </section>
 
     <section class="section-content">
-      {{ content }}
+      <div>{{ page.title }}</div>
+      <div>{{ page.link }}</div>
+      <div>{{ page.year }}</div>
+      <div>{{ page.url }}</div>
+      <div>{{ page.role }}</div>
+      <div>{{ page.tags }}</div>
+      <div>{{ page.image }}</div>
+      <div>{{ page.description }}</div>
+      <div>{{ content }}</div>
     </section>
 
     <section class="section-footer">

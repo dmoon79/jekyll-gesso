@@ -2,6 +2,17 @@
 //Edu Resume Block
 $v-pad: 10px;
 
+
+.edu-header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  div {
+    padding-right: 1em;
+  }
+}
+
 .edu {
   @extend h5;
   display: flex;
@@ -20,12 +31,6 @@ $v-pad: 10px;
       padding-left: 0;
     }
   }
-  // &:before {
-  //   content: ' ';
-  //   background-image: url('/images/bg/book.png') center center;
-  //   width: 10px;
-  // }
-
 }
 .edu__degree{
   @extend h6;

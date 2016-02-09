@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Web Develoepr
+title: Web Developer
 company: RentPath
 location: Atlanta, Georgia
 tenure: April 2012 - June 2012

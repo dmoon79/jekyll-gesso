@@ -2,7 +2,8 @@
   // @extend h5;
   display: flex;
   flex-flow: column;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
+  padding: 0 .25em; 
 }
 
 .cell {
@@ -15,23 +16,27 @@
   }
 }
 
+.job-header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  div {
+    padding-right: 1em;
+  }
+}
+
 .job__header {
+  border-bottom: 1px solid $green;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  // padding-bottom: .5em;
-  border-bottom: 1px solid $green;
   .cell {
     flex: 1 1 200px;
-  }
-  .job__icon {
-    width: 25px;
   }
   .job__title {
     @extend h3;
     font-weight: 700;
-
-    
   }
   .job__tenure {
     font-weight: 100;

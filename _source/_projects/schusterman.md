@@ -6,6 +6,7 @@ url:
 link: "https://www.schusterman.org"
 image:
 tags: drupal, wordpress
-description:
-excerpt: 
+description: 
+role:  Front-End Devleoper
 ---
+

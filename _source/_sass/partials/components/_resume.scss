@@ -2,4 +2,34 @@
 .resume {
   background-color: rgba($white, .8);
   padding: 1em;
+  section {
+    padding-bottom: 2em;
+  }
+}
+
+.header-icon {
+  svg {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+.resume__skills {
+  .skill-header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    div {
+      padding-right: 1em;
+    }
+  }
+
+  .skill__item {
+    .label {
+      @extend h5;
+      padding-right: 1em;
+    }
+    .level {}
+  }
 }

@@ -1,8 +1,18 @@
 - skill: Javascript
-  level: 7
+  level: 3
+- skill: jQuery
+  level: 4 
 - skill: Wordpress
-  level: 8
+  level: 4
 - skill: Drupal 7
-  level: 7
+  level: 3
 - skill: Drupal 8
+  level: 2
+- skill: AngularJS
+  level: 3
+- skill: React
   level: 1
+- skill: Project Management
+  level: 4
+- skill:
+  level: 
