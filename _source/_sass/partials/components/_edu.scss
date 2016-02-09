@@ -20,6 +20,12 @@ $v-pad: 10px;
       padding-left: 0;
     }
   }
+  // &:before {
+  //   content: ' ';
+  //   background-image: url('/images/bg/book.png') center center;
+  //   width: 10px;
+  // }
+
 }
 .edu__degree{
   @extend h6;

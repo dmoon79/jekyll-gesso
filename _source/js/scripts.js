@@ -1,9 +1,21 @@
 // Custom scripts file
-// to load, uncomment the call to this file in gesso.info
+
 
 (function ($) {
 
   'use strict';
+  $(document).ready(function() {
+    $('.flexslider').flexslider({
+      animation: "slide",
+      mousewheel: true
+    });
+
+    $('.job__bullets').hide();
+     
+  });
+
+
+  
 
   // Generic function that runs on window resize.
   function resizeStuff() {

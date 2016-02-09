@@ -4,13 +4,18 @@ permalink: /portfolio/
 ---
 
 <div class="project-list">
+  <div class="flexslider">
+    <ul class="slides">
   {% for project in site.projects %}
-    <div>
-      <h3>{{ project.title }}</h3>
-      <a target="_blank" href="{{ project.link }}">View External Website</a>
-      <p>Completed in {{ project.year }}</p>
-      <p>Description {{ project.description }}</p>
-      <a href="{{ project.url}}">Detail Page</a>
-    </div>
+    
+        <li>
+          <h3>{{ project.title }}</h3>
+          <a target="_blank" href="{{ project.link }}">View External Website</a>
+          <p>Completed in {{ project.year }}</p>
+          <p>Description {{ project.description }}</p>
+          <a href="{{ project.url}}">Detail Page</a>
+        </li>
   {% endfor %}
+      </ul>
+    </div>
 </div>
