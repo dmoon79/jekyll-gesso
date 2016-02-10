@@ -67,9 +67,14 @@ permalink: /resume/
     </div>
     <div class="skill__list">
       {% for skill in site.data.skills %}
-        <div class="skill__item">
+        <!-- <div class="skill__item">
           <span class="label">{{ skill.skill }}</span>
           <span class="level">{{ skill.level }}</span>
+        </div> -->
+        <div class="skillbar" data-percent="{{ skill.level }}">
+          <span class="skillbar-title">{{ skill.skill }}</span>
+          <p class="skillbar-bar"></p>
+          <span class="skill-bar-percent"></span>
         </div>
       {% endfor %}
     </div>

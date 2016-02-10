@@ -5,12 +5,29 @@
 
   'use strict';
   $(document).ready(function() {
+
+    // var divCount = $('.skillbar').length;
+    // console.log(divCount);
+    // var skillValue = $('.skillbar').attr('data-percent');
+    // var skillValue = parseInt(skillValue);
+    // switch(skillValue){
+    //   case (skillValue <= 59): alert("Lower than 60");
+    //   break;
+    //   case (skillValue >= 60): alert("More than than 60");
+    //   break;
+    // }
+    // console.log(typeof skillValue);
+    
     $('.flexslider').flexslider({
       animation: "slide",
       mousewheel: true
     });
 
     $('.job__content').hide();
+
+    $('.skillbar').skillBars({
+      from: 0,
+    });
      
   });
 
