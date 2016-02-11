@@ -1,9 +1,9 @@
 ---
 layout: portfolio
-title: Schusterman
+title: Texas Academic Progression in Nursing 
 year: 2015
-link: "https://www.schusterman.org"
-image: schus-main.jpg
+link: "http://texasapin.org/"
+image: texas-apin.jpg
 tags: drupal, wordpress
 description: 
 role:  Front-End Devleoper
