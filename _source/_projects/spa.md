@@ -7,5 +7,5 @@ image: spa.jpg
 tags: Wordpress
 description:  
 role:  Technical Architect, Front-End Devleoper
-published: yes
+published: false
 ---

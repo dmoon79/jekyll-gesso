@@ -7,5 +7,5 @@ image: level-one.jpg
 tags: Wordpress
 description: Gates Foundation initiative
 role:  Front-End Devleoper
-published: yes
+published: false
 ---

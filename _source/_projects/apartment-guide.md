@@ -7,5 +7,5 @@ image: apartment-guide.jpg
 tags: Ruby on Rails, Javascript
 description: 
 role: Devleoper
-published: yes
+published: false
 ---

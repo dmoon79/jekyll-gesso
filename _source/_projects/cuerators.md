@@ -7,5 +7,5 @@ image: cuerators.jpg
 tags: "Drupal 7"
 description: 
 role:  Front-End Devleoper
-published: yes
+published: false
 ---

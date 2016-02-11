@@ -1,0 +1,24 @@
+.project-list {
+  .flex-viewport {
+    max-height: 80vh;
+  }
+
+}
+.project-list__slide {
+  position: relative;
+}
+.project-list__image {
+  img {}
+}
+.project-list__meta {
+  background-color: rbga(grey, .7);
+  width: 100%;
+  position: absolute;
+  bottom: 5%;
+  z-index: 5;
+}
+.project-list__title {}
+.project-list__link {}
+.project-list__year {}
+.project-list__caption {}
+.project-list__button {}

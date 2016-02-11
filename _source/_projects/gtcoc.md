@@ -7,5 +7,5 @@ image: gt-coc.jpg
 tags: Drupal 7
 description: 
 role:  Front-End Devleoper
-published: yes
+published: false
 ---
