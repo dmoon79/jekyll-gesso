@@ -6,6 +6,8 @@
 }
 .project-list__slide {
   position: relative;
+  max-height: 80vh;
+  overflow: hidden;
 }
 .project-list__image {
   img {}
