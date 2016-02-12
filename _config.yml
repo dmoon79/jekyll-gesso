@@ -1,5 +1,5 @@
 # Site settings
-title: Call me Mr. Moon
+title: Derek Moon
 email: dmoon79@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -28,5 +28,5 @@ collections:
     output: true
     permalink: /jobs/:path/
   projects:
-    output: true
+    output: false
     permalink: /projects/:path/
