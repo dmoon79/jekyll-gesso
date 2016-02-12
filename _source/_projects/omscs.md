@@ -4,7 +4,7 @@ title: Online Masters Degree Program - Georgia Tech College of Computing
 year: 2013
 link: "http://www.omscs.gatech.edu/"
 image: omscs.jpg
-tags: drupal, wordpress
+tags: Wordpress
 description: 
 role:  Front-End Devleoper
 published: false

@@ -4,7 +4,7 @@ title: Texas Academic Progression in Nursing
 year: 2015
 link: "http://texasapin.org/"
 image: texas-apin.jpg
-tags: drupal, wordpress
+tags: Wordpress
 description: 
 role:  Front-End Devleoper
 published: false

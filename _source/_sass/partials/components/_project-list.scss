@@ -1,8 +1,16 @@
+.portfolio {
+  min-height: 100vh;
+  background: linear-gradient($white);
+  .flexslider {
+    border: none;
+    box-shadow: 5px 5px 3px 0px rgba($dark-grey,0.75);
+  }
+}
 .project-list {
+  margin-top: 1em !important;
   .flex-viewport {
     max-height: 80vh;
   }
-
 }
 .project-list__slide {
   position: relative;
@@ -13,14 +21,25 @@
   img {}
 }
 .project-list__meta {
-  background-color: rbga(grey, .7);
+  background: rgba($blue, .9);
+  color: $white;
   width: 100%;
+  padding: 1em 2em;
   position: absolute;
-  bottom: 5%;
+  bottom: 0;
   z-index: 5;
+  p {
+    margin: 0;
+  }
 }
-.project-list__title {}
-.project-list__link {}
+.project-list__title {
+  color: $white;
+  font-weight: initial;
+  margin: .5em 0;
+}
+.project-list__link {
+  text-decoration: none;
+}
 .project-list__year {}
 .project-list__caption {}
 .project-list__button {}

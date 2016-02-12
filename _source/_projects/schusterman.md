@@ -4,7 +4,7 @@ title: Schusterman
 year: 2015
 link: "https://www.schusterman.org"
 image: schus-main.jpg
-tags: drupal, wordpress
+tags: "Drupal 7"
 description: 
 role:  Front-End Devleoper
 published: false

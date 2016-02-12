@@ -4,7 +4,7 @@ title: Apartment Guide
 year: 2012
 link: "http://www.apartmentguide.com/"
 image: apartment-guide.jpg
-tags: Ruby on Rails, Javascript
+tags: "Ruby on Rails, Javascript"
 description: 
 role: Devleoper
 published: false
