@@ -21,7 +21,7 @@
   img {}
 }
 .project-list__meta {
-  background: rgba($blue, .9);
+  background: rgba(darken($blue, 20%), .9);
   color: $white;
   width: 100%;
   padding: 1em 2em;
@@ -31,6 +31,12 @@
   p {
     margin: 0;
   }
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
 }
 .project-list__title {
   color: $white;
@@ -38,7 +44,12 @@
   margin: .5em 0;
 }
 .project-list__link {
+  @extend h5;
   text-decoration: none;
+  color: $white;
+  float: right;
+  position: relative;
+
 }
 .project-list__year {}
 .project-list__caption {}

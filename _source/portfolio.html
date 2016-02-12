@@ -13,11 +13,17 @@ permalink: /portfolio/
           </div>
           <div class="project-list__meta">
             <h1 class="project-list__title">{{ project.title }}</h1>
-            <a class="project-list__link" target="_blank" href="{{ project.link }}">View External Website</a>
-            <p class="project-list__year">Completed in {{ project.year }}</p>
-            <p class="project-list__caption flex-caption">{{ project.description }}</p>
-            <p>{{ project.role }}</p>
-            <!-- <p>Site was built using {{ project.tags }}</p> -->
+            <div class="wrapper">
+              <div class="wrapper-col1">
+                <p class="project-list__year">Completed in {{ project.year }}</p>
+                <p class="project-list__caption flex-caption">{{ project.description }}</p>
+                <p>{{ project.role }}</p>
+                <p>Site built using {{ project.tags }}</p>
+              </div>
+              <div class="wrapper-col2">
+                <a class="button project-list__link" target="_blank" href="{{ project.link }}">View Project</a>
+              </div>
+            </div>
             <!-- <a class="project-list__button button" href="{{ project.url}}">Detail Page</a> -->
           </div>
         </li>
