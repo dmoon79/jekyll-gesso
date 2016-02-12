@@ -19,8 +19,7 @@
     // console.log(typeof skillValue);
     
     $('.flexslider').flexslider({
-      animation: "slide",
-      mousewheel: true
+      animation: "slide"
     });
 
     $('.job__content').hide();
