@@ -7,6 +7,29 @@
   }
 }
 
+.resume__top-region {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  section {
+    flex: 1 400px;
+    margin-right: 1em;
+  }
+}
+.resume__bottom-region {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  .resume__work {
+    flex: 2 1 auto;
+    margin-right: 1em;
+  }
+  .resume__skills {
+    flex: 1 auto;
+    // min-width: 30vw;
+  }
+}
+
 .header-icon {
   svg {
     height: 50px;
