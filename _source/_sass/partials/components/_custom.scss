@@ -15,10 +15,10 @@
   }
 }
 
-.site-header {
-  background-color: rgba($green, .8);
-  border-bottom: 2px solid $dark-grey;
+.three-col-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  .col { 
+  }
 }
-
-
-

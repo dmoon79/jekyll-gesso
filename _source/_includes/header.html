@@ -1,11 +1,12 @@
 <header class="site-header">
-  <div class="site-header__wrapper">
+  <div class="three-col-flex site-header__wrapper layout-constrain">
 
     {% if site.logo %}
-        <div class="site-logo">Logo</div>
+      <div class="col site-logo">Logo</div>
     {% endif %}
 
-    <nav id="mainNav" class="nav--main">{% include nav.html %}</nav>
+    <nav id="mainNav" class="col site-header__nav nav--main">{% include nav.html %}<span></span></nav>
+    <div class="col site-header__social">{% include social.html %}</div>
     
   </div>
 </header>

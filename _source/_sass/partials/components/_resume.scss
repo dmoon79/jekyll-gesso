@@ -21,19 +21,19 @@
   justify-content: center;
   flex-flow: row wrap;
   .resume__work {
-    flex: 2 1 auto;
+    flex: 2;
     margin-right: 1em;
   }
   .resume__skills {
-    flex: 1 auto;
+    flex: 1;
     // min-width: 30vw;
   }
 }
 
 .header-icon {
   svg {
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
   }
 }
 

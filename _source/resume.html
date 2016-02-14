@@ -1,6 +1,6 @@
---- 
-layout: default 
-permalink: /resume/ 
+---
+layout: default
+permalink: /resume/
 ---
 
 <div class="resume layout-constrain">
@@ -32,6 +32,7 @@ permalink: /resume/
           </div>
           {% assign jobsOrdered = site.jobs | sort: 'order' %} {% for job in jobsOrdered %}
           <div class="job">
+
               <div class="row job__header">
                   <div class="cell job__title">{{ job.title }}</div>
                   <div class="cell job__tenure">{{ job.tenure }}</div>
@@ -40,9 +41,7 @@ permalink: /resume/
                   <div class="cell job__company">{{ job.company }}</div>
                   <div class="cell job__company-location">{{ job.location }}</div>
               </div>
-              <div class="row">
-                  <div class="cell job__expand">+</div>
-              </div>
+              <div class="button job__expand">Show Details +</div>
               <div class="row job__content">
                   <div class="cell job__description">{{ job.description }}</div>
                   <div class="cell job__bullets">{{job.content}}</div>
