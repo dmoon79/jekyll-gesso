@@ -36,7 +36,11 @@
       animation: "slide"
     });
 
-    // $('.job__content').hide();
+    $('.job__content').hide();
+
+    $('.job__expand').click(function(){
+      $(this).next('.job__content').toggle(function(){});
+    });
 
     $('.skillbar').skillBars({
       from: 0,
