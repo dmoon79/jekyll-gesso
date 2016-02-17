@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title: Child Study Lab at Georgia Tech
+title: Georgia Tech // Child Study Lab
 year: 2013
 link: "http://www.childstudylab.gatech.edu/"
 image: gt-child.jpg

@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title: Global Innovation Exchange longform content builder
+title: Global Innovation Exchange // Longform Content Builder
 year: 2015
 link: "https://www.globalinnovationexchange.org/beyond-cash"
 image: dai-longform.jpg

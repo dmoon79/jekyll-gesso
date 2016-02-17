@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title: Online Masters Degree Program - Georgia Tech College of Computing
+title: Georgia Tech // Online Masters Degree Program
 year: 2013
 link: "http://www.omscs.gatech.edu/"
 image: omscs.jpg
