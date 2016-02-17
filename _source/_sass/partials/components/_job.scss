@@ -46,6 +46,15 @@
 .job__expand {
   @extend h6;
   text-transform: uppercase;
+  width: 200px;
+  background-color: $dark-blue;
+  border: none;
+  color: $dark-grey;
+  &:hover, 
+  &:focus {
+    background-color: $white;
+    border: none;
+  }
 }
 
 .job__company-meta {
