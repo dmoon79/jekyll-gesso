@@ -39,7 +39,11 @@
     $('.job__content').hide();
 
     $('.job__expand').click(function(){
-      $(this).next('.job__content').toggle(function(){});
+      $(this).text($(this).text() == 'Show Details +' ? 'Hide Details -' : 'Show Details +');
+
+      $(this).next('.job__content').toggle("slow", function(){
+        $(this).prev('.job__expand').css( "background-color", "red" );
+      });
     });
 
     $('.skillbar').skillBars({
