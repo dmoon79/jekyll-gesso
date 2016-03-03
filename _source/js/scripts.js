@@ -38,12 +38,12 @@
 
     $('.job__content').hide();
 
-    $('.job__expand').click(function(){
+    $('.job__expand').on( 'click' , function(){
       $(this).text($(this).text() == 'Show Details +' ? 'Hide Details -' : 'Show Details +');
-
       $(this).next('.job__content').toggle("slow", function(){
-        $(this).prev('.job__expand').css( "background-color", "red" );
+        $(this).prev('.button').css("background-color", "#FF4733");
       });
+      
     });
 
     $('.skillbar').skillBars({

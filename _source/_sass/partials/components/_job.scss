@@ -2,7 +2,7 @@
   // @extend h5;
   display: flex;
   flex-flow: column;
-  margin-bottom: 1em;
+  margin-bottom: 3em;
   padding: 0 .25em; 
 }
 
@@ -21,6 +21,7 @@
   flex-flow: row wrap;
   justify-content: flex-start;
   align-items: center;
+  margin-bottom: 2em;
   div {
     padding-right: 1em;
   }
@@ -47,7 +48,7 @@
   @extend h6;
   text-transform: uppercase;
   width: 200px;
-  background-color: $dark-blue;
+  background-color: $blue;
   border: none;
   color: $dark-grey;
   &:hover, 

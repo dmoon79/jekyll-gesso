@@ -18,7 +18,9 @@ $v-pad: 10px;
   display: flex;
   flex-flow: row wrap;
   padding-bottom: 1em;
-  .col-1{}
+  .col-1{
+    flex: 1 150px;
+  }
   .col-2{}
   .col-3{}
   .col {
@@ -32,7 +34,7 @@ $v-pad: 10px;
     }
   }
 }
-.edu__degree{
+.edu__degree {
   @extend h6;
   // text-transform: uppercase;
   padding-bottom: 5px;
@@ -43,6 +45,7 @@ $v-pad: 10px;
 .edu__major{
   @extend h3;
   font-weight: 700;
+  line-height: 1.5em;
   // text-transform: uppercase;
 }
 .edu__school{
