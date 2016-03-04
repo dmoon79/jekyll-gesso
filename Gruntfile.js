@@ -75,7 +75,7 @@ module.exports = function (grunt) {
                 livereload: true,
             },
             html: {
-                files: [paths.html, paths.md, paths.myData, paths.js],
+                files: [paths.html, paths.md, paths.myData, paths.js, paths.images],
                 tasks: ['shell:jekyllBuild'],
             },
             sass: {
@@ -99,7 +99,8 @@ module.exports = function (grunt) {
     
     // Register the grunt serve task
     grunt.registerTask('serve', [
-        'shell:clearPublic',
+        // 'shell:clearPublic',
+        'sass',
         'concurrent:serve',
         'postcss:dist'
     ]);
