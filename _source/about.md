@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: 2-col-content
 title: About
 permalink: /about/
+image: head.png
 ---
 
 Thanks for taking the time to get to know a little more about me! 

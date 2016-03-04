@@ -25,3 +25,17 @@
     justify-content: flex-start;
   }
 }
+
+.two-col {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap-reverse;
+  .col {}
+  .col-1 {
+    flex: 2 450px;
+    padding-right: 2em;
+  }
+  .col-2 {
+    flex: 1 250px;
+  }
+}
