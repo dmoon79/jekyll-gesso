@@ -21,4 +21,7 @@
   flex-flow: row wrap;
   .col { 
   }
+  @include desktop {
+    justify-content: flex-start;
+  }
 }
