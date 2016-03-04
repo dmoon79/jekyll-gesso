@@ -28,6 +28,9 @@ module.exports = function (grunt) {
             },
             jekyllServe: {
                 command: 'bundle exec jekyll serve'
+            },
+            clearPublic: {
+                command: 'rm -rf _public'
             }
         },
         
@@ -80,7 +83,7 @@ module.exports = function (grunt) {
                 tasks: ['sass'],
             },
         },
-        
+
         // run tasks in parallel
         concurrent: {
             serve: [
@@ -96,12 +99,14 @@ module.exports = function (grunt) {
     
     // Register the grunt serve task
     grunt.registerTask('serve', [
+        'shell:clearPublic',
         'concurrent:serve',
         'postcss:dist'
     ]);
     
     // Register the grunt build task
     grunt.registerTask('build', [
+        'shell:clearPublic',
         'sass',
         'shell:jekyllBuild',
         'postcss:dist'

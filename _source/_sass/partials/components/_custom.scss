@@ -4,11 +4,11 @@
   flex-flow: row wrap-reverse;
   .main-col1 {
     padding: 1em;
-    background-color: rgba($blue, .8);
+    background-color: rgba($white, .9);
     min-height: 600px;
   }
   .main-col2 {
-    background-color: rgba($light-grey, .8);
+    background-color: rgba($light-grey, .9);
     @include desktop {
       border-left: 2px dotted $dark-grey;
     }

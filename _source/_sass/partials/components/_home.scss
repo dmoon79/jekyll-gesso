@@ -10,9 +10,9 @@
 .intro {
   padding: 2em;
   text-align: center;
-  @include desktop {
-    text-align: initial;
-  }
+  // @include desktop {
+  //   text-align: initial;
+  // }
 }
 .intro__title {
   font-size: 3em;
