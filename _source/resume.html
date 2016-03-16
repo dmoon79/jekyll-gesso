@@ -60,7 +60,8 @@ permalink: /resume/
               <h1 class="skill-header__title">Technical Skills</h1>
           </div>
           <div class="skill__list">
-              {% for skill in site.data.skills %}
+              {% assign sorted_skills = (site.data.skills | sort: 'level' ) %}
+              {% for skill in sorted_skills reversed %}
               <!-- <div class="skill__item">
             <span class="label">{{ skill.skill }}</span>
             <span class="level">{{ skill.level }}</span>
