@@ -988,6 +988,10 @@ ul ul {
   margin: 0;
 }
 
+.flex-control-nav {
+  bottom: -3em;
+}
+
 .post {
   background-color: rgba(96, 170, 247, 0.9);
   min-height: 100vh;
