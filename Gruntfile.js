@@ -12,15 +12,15 @@ var paths = {
 };
 
 module.exports = function (grunt) {
-    
+
     // Show elapsed time after tasks run to visualize performance
     require('time-grunt')(grunt);
     // Load all Grunt tasks that are listed in package.json automagically
     require('load-grunt-tasks')(grunt);
-    
+
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-        
+
         // shell commands for use in Grunt tasks
         shell: {
             jekyllBuild: {
@@ -31,9 +31,14 @@ module.exports = function (grunt) {
             },
             clearPublic: {
                 command: 'rm -rf _public'
+            },
+            options: {
+              execOptions: {
+                  maxBuffer: Infinity
+              }
             }
         },
-        
+
         // sass (libsass) config
        sass: {
            options: {
@@ -94,9 +99,9 @@ module.exports = function (grunt) {
                 logConcurrentOutput: true
             }
         },
-        
+
     });
-    
+
     // Register the grunt serve task
     grunt.registerTask('serve', [
         // 'shell:clearPublic',
@@ -104,7 +109,7 @@ module.exports = function (grunt) {
         'concurrent:serve',
         'postcss:dist'
     ]);
-    
+
     // Register the grunt build task
     grunt.registerTask('build', [
         'shell:clearPublic',
@@ -112,8 +117,8 @@ module.exports = function (grunt) {
         'shell:jekyllBuild',
         'postcss:dist'
     ]);
-    
+
     // Register build as the default task fallback
     grunt.registerTask('default', 'serve');
-    
+
 };

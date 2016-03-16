@@ -21,7 +21,7 @@
     //       $(this).html('Test');
     //       console.log(i + " Lower than 60");
     //       break;
-    //     case (skillValue > 60): 
+    //     case (skillValue > 60):
     //       $(this).html("High");
     //       console.log(i + " Lower than 60");
     //       break;
@@ -31,7 +31,7 @@
     //       break;
     //   }
     // });
-    
+
     $('.flexslider').flexslider({
       animation: "slide"
     });
@@ -41,19 +41,18 @@
     $('.job__expand').on( 'click' , function(){
       $(this).text($(this).text() == 'Show Details +' ? 'Hide Details -' : 'Show Details +');
       $(this).next('.job__content').toggle("slow", function(){
-        $(this).prev('.button').css("background-color", "#FF4733");
+        $(this).prev('.button').css("background-color", "#C31010");
       });
-      
     });
 
     $('.skillbar').skillBars({
       from: 0,
     });
-     
+
   });
 
 
-  
+
 
   // Generic function that runs on window resize.
   function resizeStuff() {
