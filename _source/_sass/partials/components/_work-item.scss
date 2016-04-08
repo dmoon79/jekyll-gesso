@@ -1,0 +1,56 @@
+//@file
+//Work Page
+
+.work-item__wrapper {
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:center;
+}
+
+.work-item {
+  flex: 1 0 300px;
+  margin: 1em;
+  box-shadow: 5px 3px 3px #CCC;
+  max-width: 400px;
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.work-item__image {
+}
+
+.work-item__meta {
+  display: block;
+  background-color: $blue;
+}
+
+.work-item__title {
+}
+
+.wrapper {
+}
+
+.wrapper-col1 {
+}
+
+.wrapper-col1 > p {
+}
+
+.work-item__year {
+}
+
+.work-item__caption {
+}
+
+.flex-caption {
+}
+
+.wrapper-col2 {
+}
+
+.button {
+}
+
+.work-item__link {
+}
