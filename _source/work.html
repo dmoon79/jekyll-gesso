@@ -1,0 +1,33 @@
+---
+layout: portfolio
+permalink: /work/
+---
+
+<div class="project-list layout-constrain">
+  <div class="flexslider">
+    <ul class="slides">
+      {% for project in site.projects %}
+        <li class="project-list__slide">
+          <div class="project-list__image">
+            <img src="/images/websites/{{ project.image }}" alt="">
+          </div>
+          <div class="project-list__meta">
+            <h1 class="project-list__title">{{ project.title }}</h1>
+            <div class="wrapper">
+              <div class="wrapper-col1">
+                <p class="project-list__year">Completed in {{ project.year }}.</p>
+                <p class="project-list__caption flex-caption">{{ project.description }}</p>
+                <p>I served as the {{ project.role }} for this project.</p>
+                <p>This site was built using {{ project.tags }}.</p>
+              </div>
+              <div class="wrapper-col2">
+                <a class="button project-list__link" target="_blank" href="{{ project.link }}">View Project</a>
+              </div>
+            </div>
+            <!-- <a class="project-list__button button" href="{{ project.url}}">Detail Page</a> -->
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
