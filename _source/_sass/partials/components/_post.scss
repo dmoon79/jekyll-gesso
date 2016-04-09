@@ -20,7 +20,8 @@
 }
 .post__content{
   color: $primary-text-color;
-  img {
+  .about-page & .col-2 img {
+    max-width: 250px;
     border-radius: 50%;
   }
 }

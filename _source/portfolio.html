@@ -3,7 +3,7 @@ layout: portfolio
 permalink: /portfolio/
 ---
 
-<div class="project-list layout-constrain">
+<div class="project-list">
   <div class="flexslider">
     <ul class="slides">
       {% for project in site.projects %}
@@ -24,7 +24,6 @@ permalink: /portfolio/
                 <a class="button project-list__link" target="_blank" href="{{ project.link }}">View Project</a>
               </div>
             </div>
-            <!-- <a class="project-list__button button" href="{{ project.url}}">Detail Page</a> -->
           </div>
         </li>
       {% endfor %}
