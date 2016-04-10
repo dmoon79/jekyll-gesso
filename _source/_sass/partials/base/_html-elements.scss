@@ -135,6 +135,7 @@ form {
 %hN {
   color: $heading-text-color;
   font-family: $header-font-family;
+  font-weight: 700;
   // @include hyphens(none);
   line-height: 1.1;
   // text-rendering: optimizeLegibility;
@@ -300,6 +301,8 @@ option {}
 output {}
 
 p {
+  font-size: $font-size-md;
+  font-weight: 300;
   margin: 0 0 rhythm(1);
 }
 

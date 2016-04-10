@@ -19,24 +19,36 @@
 }
 .work-item:hover > .work-item__meta,
 .work-item:focus > .work-item__meta  {
-  background-color: rgba($green, .9);
+  background-color: rgba($green, .95);
   position: absolute;
-  top: -300px;
-  transform: translate3d(0px, 300px, 0px);
+  top: 300px;
+  transform: translate3d(0px, -300px, 0px);
 }
 
 .work-item__image {
 }
 
 .work-item__meta {
+  transition: all .8s ease-in-out;
   padding: 1em;
   min-height: 300px;
   width: 100%;
-  transition: transform .6s ease-in-out;
+  a {
+    color: $white;
+    &:hover {
+      color: $green;
+    }
+  }
+  .button {
+    &:hover {
+      background-color: $white;
+    }
+  }
 }
 
 .work-item__title {
   color: $white ;
+  line-height: 1.25em;
 }
 
 .wrapper {
@@ -46,6 +58,7 @@
 }
 
 .wrapper-col1 > p {
+  color: $tan;
 }
 
 .work-item__year {
