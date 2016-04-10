@@ -5,7 +5,7 @@ permalink: /work/
 
 <div class="work-item__wrapper">
   {% for project in site.projects %}
-    <div class="work-item">
+    <div class="work-item"
       <!-- image -->
       <div class="work-item__image">
         <img src="/images/websites/{{ project.image }}" alt="">
@@ -15,13 +15,14 @@ permalink: /work/
         <h1 class="work-item__title">{{ project.title }}</h1>
         <div class="wrapper">
           <div class="wrapper-col1">
-            <!-- <p class="work-item__year">Completed in {{ project.year }}.</p>
-            <p class="work-item__caption flex-caption">{{ project.description }}</p>
+            <!-- <p class="work-item__caption flex-caption">{{ project.description }}</p>
             <p>I served as the {{ project.role }} for this project.</p> -->
             <p>This site was built using {{ project.tags }}.</p>
           </div>
           <div class="wrapper-col2">
-            <a class="button work-item__link" target="_blank" href="{{ project.link }}">View Project</a>
+            <a class="button work-item__link" target="_blank" href="{{ project.url }}">View Details</a>
+            <!-- <a class="button work-item__link" target="_blank" href="{{ project.link }}">View Project</a> -->
+            <!-- <h6 class="work-item__year">{{ project.year }}</h6> -->
           </div>
         </div>
       </div>

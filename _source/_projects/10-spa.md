@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: work-single
 title: Science Philanthropy Alliance
 year: 2016
 link: "http://sciencephilanthropyalliance.org"
