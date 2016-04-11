@@ -7,5 +7,5 @@ image: gt-coc.jpg
 tags: "Drupal&nbsp7"
 description: 
 role:  Front-End Developer
-published: false
+published: true
 ---

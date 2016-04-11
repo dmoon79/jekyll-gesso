@@ -7,5 +7,5 @@ image: smdep.jpg
 tags: Wordpress
 description: 
 role:  Front-End Developer
-published: false
+published: true
 ---

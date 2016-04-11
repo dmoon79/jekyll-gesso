@@ -7,5 +7,5 @@ image: schus-main.jpg
 tags: "Drupal 7"
 description: 
 role:  Front-End Developer
-published: false
+published: true
 ---
