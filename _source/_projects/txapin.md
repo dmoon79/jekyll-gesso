@@ -6,6 +6,6 @@ link: "http://texasapin.org/"
 image: texas-apin.jpg
 tags: Wordpress
 description: 
-role:  Front-End Devleoper
+role:  Front-End Developer
 published: false
 ---

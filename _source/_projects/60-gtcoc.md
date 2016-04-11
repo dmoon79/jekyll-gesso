@@ -6,6 +6,6 @@ link: "http://www.cc.gatech.edu/"
 image: gt-coc.jpg
 tags: "Drupal&nbsp7"
 description: 
-role:  Front-End Devleoper
+role:  Front-End Developer
 published: false
 ---

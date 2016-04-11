@@ -6,6 +6,6 @@ link: "http://smdep.org/"
 image: smdep.jpg
 tags: Wordpress
 description: 
-role:  Front-End Devleoper
+role:  Front-End Developer
 published: false
 ---

@@ -6,6 +6,6 @@ link: "http://www.childstudylab.gatech.edu/"
 image: gt-child.jpg
 tags: "Drupal 7"
 description: 
-role:  Front-End Devleoper
+role:  Front-End Developer
 published: false
 ---

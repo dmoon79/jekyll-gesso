@@ -6,6 +6,6 @@ link: "http://www.apartmentguide.com/"
 image: apartment-guide.jpg
 tags: "Ruby on Rails, Javascript"
 description: 
-role: Devleoper
+role: Developer
 published: false
 ---

@@ -6,6 +6,6 @@ link: "http://www.omscs.gatech.edu/"
 image: omscs.jpg
 tags: Wordpress
 description: 
-role:  Front-End Devleoper
+role:  Front-End Developer
 published: false
 ---

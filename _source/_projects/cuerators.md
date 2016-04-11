@@ -6,6 +6,6 @@ link: "http://cuerators.com"
 image: cuerators.jpg
 tags: "Drupal 7"
 description: 
-role:  Front-End Devleoper
+role:  Front-End Developer
 published: false
 ---

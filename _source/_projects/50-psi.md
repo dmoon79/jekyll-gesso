@@ -6,6 +6,6 @@ link: "http://psi.org"
 image: psi.jpg
 tags: Wordpress
 description: 
-role: Front-End Devleoper
+role: Front-End Developer
 published: false
 ---

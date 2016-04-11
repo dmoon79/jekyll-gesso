@@ -6,6 +6,6 @@ link: "http://languagelinkcv.com"
 image: ll.jpg
 tags: Wordpress
 description: 
-role:  Front-End Devleoper
+role:  Front-End Developer
 published: false
 ---

@@ -6,6 +6,6 @@ link: "http://forumone.com"
 image: forum-one.jpg
 tags: Wordpress
 description: 
-role:  Front-End Devleoper
+role:  Front-End Developer
 published: false
 ---
