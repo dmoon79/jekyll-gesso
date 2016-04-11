@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: work-single
 title: Global Innovation Exchange // Longform Content Builder
 year: 2015
 link: "https://www.globalinnovationexchange.org/beyond-cash"

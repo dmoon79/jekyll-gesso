@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: work-single
 title: Schusterman
 year: 2015
 link: "https://www.schusterman.org"

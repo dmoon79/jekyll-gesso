@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: work-single
 title: Georgia Tech // Online Masters Degree Program
 year: 2013
 link: "http://www.omscs.gatech.edu/"

@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: work-single
 title: Georgia Tech // Child Study Lab
 year: 2013
 link: "http://www.childstudylab.gatech.edu/"

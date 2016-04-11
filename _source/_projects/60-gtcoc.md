@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: work-single
 title: Georgia Tech // College of Computing
 year: 2012
 link: "http://www.cc.gatech.edu/"

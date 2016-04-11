@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: work-single
 title: Cuerators.com
 year: 2013
 link: "http://cuerators.com"

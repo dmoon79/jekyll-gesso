@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: work-single
 title: Texas Academic Progression in Nursing 
 year: 2015
 link: "http://texasapin.org/"

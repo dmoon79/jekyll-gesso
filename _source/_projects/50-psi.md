@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: work-single
 title: Population Services International
 year: 2015
 link: "http://psi.org"

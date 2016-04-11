@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: work-single
 title: Forum One
 year: 2014
 link: "http://forumone.com"

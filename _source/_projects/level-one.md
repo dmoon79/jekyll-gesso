@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: work-single
 title: Level One Project
 year: 2016
 link: "https://leveloneproject.org"
