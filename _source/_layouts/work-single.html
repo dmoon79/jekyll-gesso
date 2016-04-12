@@ -4,27 +4,32 @@ layout: default
 <div class="work-single__container">
 
     <div class="work-single">
-      <pre>{{site.data.pages}}</pre>
-
-
-      <!-- image -->
-      <div class="work-single__image">
-        <img src="/images/websites/{{ page.image }}" alt="">
-      </div>
       <!-- meta-data -->
-      <div class="">
+      <div class="work-single__header">
         <h1 class="work-single__title">{{ page.title }}</h1>
-        <div class="wrapper">
-          <div class="wrapper-col1">
-            <p class="">{{ page.description }}</p>
-            <p>I served as the {{ page.role }} for this project.</p>
-            <p>This site was built using {{ page.tags }}.</p>
-          </div>
-          <div class="wrapper-col2">
-            <a class="button work-single__link" target="_blank" href="{{ page.link }}">View Project</a>
-          </div>
+      </div>
+      <div class="work-single__description">
+        <div class="col1">
+          <p>{{content}}</p>
+        </div>
+        <div class="col2">
+          <p class="">{{ page.description }}</p>
+          <p>I served as the {{ page.role }} for this project.</p>
+          <p>This site was built using {{ page.tags }}.</p>
+          <a class="button work-single__link" target="_blank" href="{{ page.link }}">View Project</a>
         </div>
       </div>
+      <!-- image -->
+      <div class="work-single__image-section">
+        <img src="/images/websites/{{ page.image }}" alt="">
+      </div>
+      <!-- Back to Work -->
+      <div class="work-single__footer">
+        <div class="work-single__return-link">
+          <a class="button work-single__link" target="_self" href="/work">See All Projects </a>
+        </div>
+      </div>
+
     </div>
 
 </div>
