@@ -8,7 +8,7 @@
 }
 
 .work-single__header {
-  background-color: $light-grey;
+  background-color: $white;
   padding: 1em;
   width: 100%;
 }
@@ -19,8 +19,8 @@
 
 .work-single__description {
   // background: linear-gradient(0deg, $dark-grey, $light-grey);
-  background-color: $dark-grey;
-  color: $white;
+  // background-color: $dark-grey;
+  // color: $white;
   padding: 1em;
   text-align: center;
   display: flex;
@@ -45,9 +45,9 @@
 
 .work-single__link {
   // @include button();
-  border: 1px solid $white;
-  color: $white;
-  box-shadow: 3px 1px 1px $dark-grey;
+  border: 1px solid $light-grey;
+  color: $black;
+  box-shadow: 1px 3px 3px $dark-grey;
 
   &:hover {
     background-color: $red;
@@ -64,6 +64,8 @@
 }
 
 .work-single__footer {
+  text-align: center;
+  padding: 2em;
 }
 
 .work-single__return-link {
