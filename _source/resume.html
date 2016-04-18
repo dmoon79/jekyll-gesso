@@ -30,7 +30,8 @@ permalink: /resume/
                   <h1>Work Experience</h1>
               </div>
           </div>
-          {% assign jobsOrdered = site.jobs | sort: 'order' %} {% for job in jobsOrdered %}
+          {% assign jobsOrdered = site.jobs | sort: 'order' %}
+          {% for job in jobsOrdered %}
           <div class="job">
 
               <div class="row job__header">
@@ -41,7 +42,7 @@ permalink: /resume/
                   <div class="cell job__company">{{ job.company }}</div>
                   <div class="cell job__company-location">{{ job.location }}</div>
               </div>
-              <div class="button job__expand">Show Details +</div>
+              <!-- <div class="button job__expand">Show Details +</div> -->
               <div class="row job__content">
                   <div class="cell job__description">{{ job.description }}</div>
                   <div class="cell job__bullets">{{job.content}}</div>
