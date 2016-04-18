@@ -36,14 +36,14 @@
       animation: "slide"
     });
 
-    $('.job__content').hide();
+    // $('.job__content').hide();
 
-    $('.job__expand').on( 'click' , function(){
-      $(this).text($(this).text() == 'Show Details +' ? 'Hide Details -' : 'Show Details +');
-      $(this).next('.job__content').toggle("slow", function(){
-        $(this).prev('.button').css("background-color", "#C31010");
-      });
-    });
+    // $('.job__expand').on( 'click' , function(){
+    //   $(this).text($(this).text() == 'Show Details +' ? 'Hide Details -' : 'Show Details +');
+    //   $(this).next('.job__content').toggle("slow", function(){
+    //     $(this).prev('.button').css("background-color", "#C31010");
+    //   });
+    // });
 
     $('.skillbar').skillBars({
       from: 0,

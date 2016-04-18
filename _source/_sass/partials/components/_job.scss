@@ -3,7 +3,7 @@
   display: flex;
   flex-flow: column;
   margin-bottom: 3em;
-  padding: 0 .25em; 
+  padding: 0 .25em;
 }
 
 .cell {
@@ -45,17 +45,17 @@
 }
 
 .job__expand {
-  @extend h6;
-  text-transform: uppercase;
-  width: 200px;
-  background-color: $blue;
-  border: none;
-  color: $dark-grey;
-  &:hover, 
-  &:focus {
-    background-color: $white;
-    border: none;
-  }
+  // @extend h6;
+  // text-transform: uppercase;
+  // width: 200px;
+  // background-color: $blue;
+  // border: none;
+  // color: $dark-grey;
+  // &:hover,
+  // &:focus {
+  //   background-color: $white;
+  //   border: none;
+  // }
 }
 
 .job__company-meta {
@@ -82,15 +82,16 @@
 }
 
 .job__content{
-  
+
   .job__description {
+    @extend p;
   }
   .job__bullets {
     ul {
       li{
-
+        @extend p;
       }
     }
   }
-  
+
 }
