@@ -8,10 +8,11 @@ description: "Developed and themed a diverse set of websites for some of the nat
 order: 10
 ---
 
-* Developed large scale Content Management System (CMS) projects using Drupal and Wordpress
+Developed large scale Content Management System (CMS) projects using Drupal and Wordpress
 
-* Notable Projects
-* [Science Philanthropy Alliance](http://sciencephilanthropyalliance.org){:target="_blank"}
+Notable Projects
+
+<!-- * [Science Philanthropy Alliance](http://sciencephilanthropyalliance.org){:target="_blank"}
 * [Schusterman Foundation](https://www.schusterman.org){:target="_blank"}
 * [Schusterman Opportunities](https://www.schusterman.org/opportunities){:target="_blank"}
 * [Gates Grand Challenges](http://http://grandchallenges.org/){:target="_blank"}
@@ -20,5 +21,4 @@ order: 10
 * [Forum One company website](http://forumone.com){:target="_blank"}
 * [Population Services International](http://psi.org){:target="_blank"}
 * [Summer Medical and Dental Education Program](http://smdep.org/){:target="_blank"}
-* [Texas Academic Progression in Nursing](http://texasapin.org/){:target="_blank"}
-
+* [Texas Academic Progression in Nursing](http://texasapin.org/){:target="_blank"} -->

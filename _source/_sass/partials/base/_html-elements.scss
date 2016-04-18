@@ -67,7 +67,7 @@ blockquote {
 
 body {
   background: url('../images/bg/45degreee_fabric.png');
-  background-color: $body-color;
+  background-color: $light-grey;
   color: $primary-text-color;
   margin: 0;
   padding: 0;
@@ -304,7 +304,7 @@ output {}
 p {
   font-size: $font-size-md;
   font-weight: 300;
-  margin: 0 0 rhythm(1);
+  margin: 0 0 1em;
 }
 
 param {}
