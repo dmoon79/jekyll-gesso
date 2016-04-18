@@ -4,7 +4,13 @@ $v-pad: 10px;
 
 
 .edu-header {
-
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  div {
+    padding-right: 1em;
+  }
 }
 
 .edu {
