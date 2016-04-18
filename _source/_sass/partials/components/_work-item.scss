@@ -19,7 +19,7 @@
 }
 .work-item:hover > .work-item__meta,
 .work-item:focus > .work-item__meta  {
-  background-color: rgba($dark-grey, .75);
+  background-color: rgba($dark-grey, .9);
   position: absolute;
   top: 300px;
   transform: translate3d(0px, -300px, 0px);

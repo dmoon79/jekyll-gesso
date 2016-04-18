@@ -8,7 +8,8 @@
 }
 
 .work-single__header {
-  background-color: $white;
+  background-color: transparent;
+  padding: 1em;
   width: 100%;
 }
 
@@ -28,12 +29,7 @@
   }
   .col1 {
     flex: 2 1 350px;
-    p {
-      margin: 0;
-    }
-    a {
-      margin-top: 2em;
-    }
+
   }
   .col2 {
     // border-left: 1px $black dotted;
@@ -46,11 +42,11 @@
 .work-single__link {
   // @include button();
   border: 1px solid $light-grey;
-  color: $black;
+  background-color: $white;
   box-shadow: 1px 3px 3px $dark-grey;
-
+  color: $dark-grey;
   &:hover {
-    background-color: $red;
+    background-color: $dark-grey;
     color:$white;
   }
 }
