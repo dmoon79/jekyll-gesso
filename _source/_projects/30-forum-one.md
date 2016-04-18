@@ -3,9 +3,9 @@ layout: work-single
 title: Forum One
 year: 2014
 link: "http://forumone.com"
-image: forum-one.jpg
+image: forumone.png
 tags: Wordpress
-description: 
+description:
 role:  Front-End Developer
 published: true
 ---

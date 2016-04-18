@@ -9,7 +9,7 @@
 }
 
 .work-item {
-  box-shadow: 5px 3px 3px #666;
+  box-shadow: 5px 3px 3px $light-grey;
   flex: 1 0 300px;
   height: 300px;
   margin: 1em;
@@ -19,7 +19,7 @@
 }
 .work-item:hover > .work-item__meta,
 .work-item:focus > .work-item__meta  {
-  background-color: rgba($green, .95);
+  background-color: rgba($dark-grey, .75);
   position: absolute;
   top: 300px;
   transform: translate3d(0px, -300px, 0px);
@@ -36,7 +36,7 @@
   a {
     color: $white;
     &:hover {
-      color: $green;
+      color: $dark-grey;
     }
   }
   .button {

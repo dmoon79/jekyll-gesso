@@ -3,9 +3,9 @@ layout: work-single
 title: Schusterman
 year: 2015
 link: "https://www.schusterman.org"
-image: schus-main.jpg
+image: schus-main.png
 tags: "Drupal 7"
-description: 
+description:
 role:  Front-End Developer
 published: true
 ---

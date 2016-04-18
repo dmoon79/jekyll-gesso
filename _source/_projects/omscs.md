@@ -3,9 +3,9 @@ layout: work-single
 title: Georgia Tech // Online Masters Degree Program
 year: 2013
 link: "http://www.omscs.gatech.edu/"
-image: omscs.jpg
+image: omscs.png
 tags: Wordpress
-description: 
+description:
 role:  Front-End Developer
 published: true
 ---

@@ -3,9 +3,9 @@ layout: work-single
 title: Summer Medical and Dental Education Program
 year: 2014
 link: "http://smdep.org/"
-image: smdep.jpg
+image: smdep.png
 tags: Wordpress
-description: 
+description:
 role:  Front-End Developer
 published: true
 ---
