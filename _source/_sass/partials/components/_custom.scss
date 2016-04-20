@@ -9,6 +9,7 @@
   }
   .main-col2 {
     background-color: rgba($white, .5);
+    box-shadow: 3px 3px 3px $light-grey;
     @include desktop {
       // border-left: 2px dotted $dark-grey;
     }

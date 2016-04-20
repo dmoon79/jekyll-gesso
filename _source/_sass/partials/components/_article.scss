@@ -1,6 +1,11 @@
 //Article
 .article {
-  padding-bottom: 2em;
+  // padding-bottom: 2em;
+  background-color: rgba($white, .5);
+  border: 1px $light-grey solid;
+  box-shadow: 3px 3px 3px $light-grey;
+  padding: 1em;
+  margin-bottom: 1em;
 }
 .article__header {
   a {

@@ -14,22 +14,39 @@ $v-pad: 10px;
 }
 
 .edu {
-
+  @extend p;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 2em;
+  .col {
+    padding: 1em 1em 0 0;
+    @include large {
+    }
+  }
+  .col-2 {
+    min-width: 210px;
+  }
+  .col-1 {
+    min-width: 60px;
+  }
 }
-.edu__degree {
 
+.edu__degree {
+  font-weight: 700;
 }
 .edu__gpa {
 }
-.edu__major{
+.edu__major {
 
 }
-.edu__school{
-
+.edu__school {
+  font-weight: 700;
 }
 .edu__city{
 
 }
-.edu__degree-year{
-
+.edu__degree-year {
+  font-size: 1.4em;
 }

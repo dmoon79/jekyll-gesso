@@ -1,0 +1,42 @@
+.site-footer {
+  background-color: $dark-grey;
+  border-top: 4px solid $light-grey;
+  margin-top: 1em;
+}
+
+.site-footer__inner {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.site-footer__social {
+  .social {
+    padding: 1em 0;
+  }
+  .social__link {
+    padding-right: 1em;
+  }
+  path{
+    fill: $white;
+  }
+
+}
+
+.site-footer__nav {
+  .nav {
+    display: inline-block;
+    margin: 0;
+  }
+  .nav__item {
+    float:left;
+    margin-right: 1em !important;
+  }
+}
+
+.site-footer__caption {
+  @extend p;
+  color: $white;
+  margin: 0;
+}
