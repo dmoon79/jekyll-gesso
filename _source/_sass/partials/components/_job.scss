@@ -3,7 +3,9 @@
   display: flex;
   flex-flow: column;
   margin-bottom: 3em;
-  padding: 0 .25em;
+  padding: 1em;
+  background: rgba($white, .7);
+  box-shadow: 3px 3px 10px;
 }
 
 .cell {
