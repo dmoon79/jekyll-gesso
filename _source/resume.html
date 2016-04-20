@@ -7,9 +7,9 @@ permalink: /resume/
     <!-- Objective -->
     <div class="resume__top-region">
       <section class="resume__summary">
-          <h1>Derek Moon</h1>
-          <p>Seattle based Front-End Developer.
-              <br>Learn more <a href="/about">about me</a>.</p>
+        <h1>Derek Moon</h1>
+        {% capture my-include %}{% include about.md %}{% endcapture %}
+        {{ my-include | markdownify }}
       </section>
       <!-- Education -->
       <section class="resume__education">

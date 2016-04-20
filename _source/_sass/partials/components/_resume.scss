@@ -31,10 +31,7 @@
     flex: 1 250px;
     // min-width: 30vw;
     .skill__list {
-      background: white;
-      box-shadow: 3px 3px 3px #ccc;
-      border: 1px #ccc solid;
-      padding: 1em;
+      @include shadowbox;
     }
   }
 }
