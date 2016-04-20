@@ -1,11 +1,10 @@
 .job {
   // @extend h5;
+  @include shadowbox;
   display: flex;
   flex-flow: column;
   margin-bottom: 3em;
-  padding: 1em;
-  background: rgba($white, .7);
-  box-shadow: 3px 3px 10px;
+
 }
 
 .cell {
@@ -23,7 +22,6 @@
   flex-flow: row wrap;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: 2em;
   div {
     padding-right: 1em;
   }
@@ -79,21 +77,16 @@
   }
   .job__company-location{
     @extend h6;
-    // text-transform: uppercase;
+    font-weight: 100;
   }
 }
 
 .job__content{
-
+  @extend p;
   .job__description {
-    @extend p;
   }
   .job__bullets {
-    ul {
-      li{
-        @extend p;
-      }
-    }
   }
-
+  .job__skills {
+  }
 }

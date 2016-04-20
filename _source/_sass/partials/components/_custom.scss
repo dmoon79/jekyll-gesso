@@ -3,15 +3,17 @@
   justify-content: flex-start;
   flex-flow: row wrap-reverse;
   .main-col1 {
-    padding: 1em;
+    padding: 1em 0;
     // background-color: rgba($white, .5);
     min-height: 600px;
+    @include desktop {
+      padding: 0 1em;
+    }
   }
   .main-col2 {
-    background-color: rgba($white, .5);
-    box-shadow: 3px 3px 3px $light-grey;
+    @include shadowbox;
     @include desktop {
-      // border-left: 2px dotted $dark-grey;
+      margin-top: 1em;
     }
   }
 }

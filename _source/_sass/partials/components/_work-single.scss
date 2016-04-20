@@ -25,6 +25,11 @@
   flex-flow: row wrap;
   justify-content: center;
   width: 100%;
+  p {
+    @include shadowbox;
+    max-width: 65%;
+    margin: 0 auto 2em auto;
+  }
   .col {
   }
   .col1 {
@@ -41,9 +46,7 @@
 
 .work-single__link {
   // @include button();
-  border: 1px solid $light-grey;
-  background-color: $white;
-  box-shadow: 1px 3px 3px $dark-grey;
+  @include shadowbox;
   color: $dark-grey;
   &:hover {
     background-color: $dark-grey;

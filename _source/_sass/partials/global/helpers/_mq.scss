@@ -18,3 +18,10 @@ $desktop-width: 960px;
     @content;
   }
 }
+
+@mixin shadowbox {
+  background: rgba($white, .8);
+  box-shadow: 3px 3px 3px $light-grey;
+  border: 1px $light-grey solid;
+  padding: 1em;
+}

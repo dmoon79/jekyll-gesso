@@ -15,11 +15,13 @@ $v-pad: 10px;
 
 .edu {
   @extend p;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
+  // display: flex;
+  // flex-flow: row wrap;
+  // justify-content: flex-start;
+  // align-items: flex-start;
+  @include shadowbox;
   margin-bottom: 2em;
+
   .col {
     padding: 1em 1em 0 0;
     @include large {
@@ -39,14 +41,19 @@ $v-pad: 10px;
 .edu__gpa {
 }
 .edu__major {
-
+  font-weight: 100;
 }
 .edu__school {
-  font-weight: 700;
+  font-size: .8em;
+  font-weight: normal;
+  text-transform: uppercase;
 }
-.edu__city{
-
+.edu__city {
+  font-weight: 100;
 }
 .edu__degree-year {
+  float: left;
   font-size: 1.4em;
+  padding-right: 1em;
+  min-height: 3em;
 }

@@ -17,7 +17,6 @@
   }
   .resume__education {
     flex: 3 400px;
-    margin-right: 1em;
   }
 }
 .resume__bottom-region {
@@ -31,6 +30,12 @@
   .resume__skills {
     flex: 1 250px;
     // min-width: 30vw;
+    .skill__list {
+      background: white;
+      box-shadow: 3px 3px 3px #ccc;
+      border: 1px #ccc solid;
+      padding: 1em;
+    }
   }
 }
 
