@@ -12,7 +12,7 @@ layout: default
         <div class="col col1">
           <p>I served as the {{ page.role }} for this project.</br>
           This site was built using {{ page.tags }}.</p>
-          <a class="button work-single__link" target="_blank" href="{{ page.link }}">View Project</a>
+
         </div>
 
         {% assign my_content = page.content | strip_newlines %}
@@ -24,6 +24,7 @@ layout: default
         </div>
         {% endif %}
       </div>
+        <a class="button work-single__link" target="_blank" href="{{ page.link }}">View Project</a>
       <!-- image -->
       <div class="work-single__image-section">
         <img src="/images/websites/framed/{{ page.image }}" alt="">

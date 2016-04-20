@@ -20,28 +20,10 @@
 }
 
 .work-single__description {
+  @include shadowbox;
+  margin: 0 auto 2em auto;
+  max-width: 65%;
   text-align: center;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  width: 100%;
-  p {
-    @include shadowbox;
-    max-width: 65%;
-    margin: 0 auto 2em auto;
-  }
-  .col {
-  }
-  .col1 {
-    flex: 2 1 350px;
-
-  }
-  .col2 {
-    // border-left: 1px $black dotted;
-    flex: 1 1 350px;
-    text-align: right;
-    margin-left: 2em;
-  }
 }
 
 .work-single__link {

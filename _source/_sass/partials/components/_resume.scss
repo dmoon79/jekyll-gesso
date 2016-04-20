@@ -12,11 +12,14 @@
   justify-content: center;
   flex-flow: row wrap;
   .resume__summary {
-    flex: 1 0 100px;
+    flex: 3 0 50%;
     margin-right: 1em;
+    .resume__summary__content {
+      @include shadowbox;
+    }
   }
   .resume__education {
-    flex: 3 400px;
+    flex: 1 0 auto;
   }
 }
 .resume__bottom-region {

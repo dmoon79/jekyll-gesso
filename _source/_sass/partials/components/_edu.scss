@@ -15,13 +15,8 @@ $v-pad: 10px;
 
 .edu {
   @extend p;
-  // display: flex;
-  // flex-flow: row wrap;
-  // justify-content: flex-start;
-  // align-items: flex-start;
   @include shadowbox;
   margin-bottom: 2em;
-
   .col {
     padding: 1em 1em 0 0;
     @include large {

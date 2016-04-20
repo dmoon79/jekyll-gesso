@@ -8,8 +8,8 @@ permalink: /resume/
     <div class="resume__top-region">
       <section class="resume__summary">
         <h1>Derek Moon</h1>
-        {% capture my-include %}{% include about.md %}{% endcapture %}
-        {{ my-include | markdownify }}
+        <div class="resume__summary__content">{% capture my-include %}{% include about.md %}{% endcapture %}
+        {{ my-include | markdownify }}</div>
       </section>
       <!-- Education -->
       <section class="resume__education">
