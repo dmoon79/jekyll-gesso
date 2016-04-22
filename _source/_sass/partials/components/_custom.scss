@@ -6,13 +6,13 @@
     padding: 1em 0;
     // background-color: rgba($white, .5);
     min-height: 600px;
-    @include desktop {
-      padding: 0 1em;
+    @include large {
+      padding: 1em;
     }
   }
   .main-col2 {
     @include shadowbox;
-    @include desktop {
+    @include large {
       margin-top: 1em;
     }
   }

@@ -1,7 +1,7 @@
 //Post Style
 .post {
-  // background-color: rgba($blue, .9);
-  min-height: 100vh;
+  @include shadowbox;
+  margin: 2em 0;
   padding: 2em;
 }
 .post__header{}
