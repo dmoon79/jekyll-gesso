@@ -20,7 +20,7 @@
   level: 20
   group: JS
 - skill: Project Management
-  level: 80
+  level: 90
   group: Skill
 - skill: HTML5
   level: 95
@@ -38,8 +38,14 @@
   level: 60
   group: Dev Tools
 - skill: Grunt
-  level: 80
+  level: 90
   group: Dev Tools
 - skill: Gulp
-  level: 70
+  level: 80
   group: Dev Tools
+- skill: Jekyll
+  level: 90
+  group: Framework
+- skill: Ruby
+  level: 20
+  group: Language
