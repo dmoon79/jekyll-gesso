@@ -1,4 +1,4 @@
-// Homepage 
+// Homepage
 .background-sea {
   // @include image-overlay($red, .7);
   background: url('/images/skyline-opt.jpg') no-repeat no-repeat;
@@ -8,11 +8,18 @@
 
 //Intro Content Styling
 .intro {
-  padding: 2em;
+  padding: 1em;
   text-align: center;
   // @include desktop {
   //   text-align: initial;
   // }
+}
+.intro__image {
+  @include shadowbox;
+  border-radius: 50%;
+  padding: 0;
+  margin-bottom: 1em;
+  max-width: 150px;
 }
 .intro__title {
   font-size: 3em;
