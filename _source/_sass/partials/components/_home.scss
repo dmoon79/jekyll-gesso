@@ -10,9 +10,6 @@
 .intro {
   padding: 1em;
   text-align: center;
-  // @include desktop {
-  //   text-align: initial;
-  // }
 }
 .intro__image {
   @include shadowbox;
