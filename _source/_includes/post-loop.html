@@ -8,8 +8,8 @@
       </div><!--/.article-head-->
 
       <div class="article__content">
-      {{ post.excerpt | truncatewords: 25, ' [...]' }}
-      <a href="{{ post.url }}/" class="article__link full-post-link js-pjax">Read more</a> 
+      {{ post.excerpt | truncatewords: 100, ' [...]' }}
+      <a href="{{ post.url }}/" class="article__link full-post-link js-pjax">Read more</a>
       </div><!--/.article-content-->
 
     </article>

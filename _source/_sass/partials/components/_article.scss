@@ -15,11 +15,11 @@
 .article__date,
 .post__date {
   @extend h6;
-  margin: 0;
+  margin: 1em 0;
 }
 .article__link {
   @extend h6;
-  color: $red;
+  color: $blue;
   display: block;
   text-decoration: none;
   padding-top: 1em;

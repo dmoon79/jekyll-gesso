@@ -16,6 +16,7 @@
 
 .work-single__title {
   @include shadowbox;
+  background: linear-gradient(0deg, $white, transparent);
   color: $dark-grey;
   text-align: center;
   margin: 0.5em auto 0 auto;
@@ -45,6 +46,9 @@
     background-color: $tan;
     border: 1px solid $dark-grey;
     color:$dark-grey;
+  }
+  &:hover {
+    transform: scale(1.1);
   }
 }
 

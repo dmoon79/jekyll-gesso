@@ -12,11 +12,8 @@
   text-align: center;
 }
 .intro__image {
-  @include shadowbox;
-  border-radius: 50%;
   padding: 0;
   margin-bottom: 1em;
-  max-width: 150px;
 }
 .intro__title {
   font-size: 3em;
@@ -26,6 +23,20 @@
 .intro__subtitle {
   padding: 1em 0;
   margin: 0;
+  line-height: 1.5em;
+  &:after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid $dark-grey;
+    width: 30%;
+    padding: 1em;
+    margin: 0 auto 1em auto;
+    text-align: center;
+  }
+  .smaller {
+    font-size: .9em;
+    font-weight: 100;
+  }
 }
 .intro__copy {
   margin: 0;
