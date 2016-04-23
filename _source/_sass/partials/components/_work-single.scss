@@ -10,14 +10,16 @@
 
 .work-single__header {
   background-color: transparent;
-  padding: 1em;
+  padding: 1em 0 0;
   width: 100%;
 }
 
 .work-single__title {
+  @include shadowbox;
   color: $dark-grey;
   text-align: center;
-  margin: 1em 0;
+  margin: 0.5em auto 0 auto;
+  max-width: 65%;
 }
 
 .work-single__description {
@@ -33,12 +35,16 @@
 .work-single__link {
   // @include button();
   @include shadowbox;
-  border: 3px solid $blue;
-  color: $blue;
-  &:hover {
-    background-color: $dark-grey;
-    border: 3px solid $dark-grey;
-    color:$tan;
+  background-color: $white;
+  border: 1px solid $dark-grey;
+  color: $dark-grey;
+  padding: .5em;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $tan;
+    border: 1px solid $dark-grey;
+    color:$dark-grey;
   }
 }
 

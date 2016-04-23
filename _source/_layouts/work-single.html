@@ -8,32 +8,33 @@ layout: default
       <div class="work-single__header">
         <h1 class="work-single__title">{{ page.title }}</h1>
       </div>
+      <!-- image -->
+      <div class="work-single__image-section">
+        <img src="/images/websites/framed/{{ page.image }}" alt="">
+      </div>
+      <!-- description -->
       <div class="work-single__description">
         <div class="col col1">
           <p>I served as the {{ page.role }} for this project.</br>
           This site was built using {{ page.tags }}.</p>
-
         </div>
 
         {% assign my_content = page.content | strip_newlines %}
         {% if  my_content == "" %}
-
         {% else %}
         <div class="col col2">
           <p>{{content}}</p>
         </div>
         {% endif %}
       </div>
-        <a class="button work-single__link" target="_blank" href="{{ page.link }}">View Project</a>
-      <!-- image -->
-      <div class="work-single__image-section">
-        <img src="/images/websites/framed/{{ page.image }}" alt="">
-      </div>
+
       <!-- Back to Work -->
       <div class="work-single__footer">
         <div class="work-single__return-link">
-          <a class="button work-single__link" target="_self" href="/work">See All Projects </a>
+          <a class="button work-single__link" target="_self" href="/work">Back to Portfolio</a>
+          <a class="button work-single__link" target="_blank" href="{{ page.link }}">Visit Website</a>
         </div>
+
       </div>
 
     </div>

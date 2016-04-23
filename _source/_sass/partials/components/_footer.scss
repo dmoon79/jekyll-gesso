@@ -2,6 +2,7 @@
   background-color: $dark-grey;
   border-top: 4px solid $light-grey;
   margin-top: 1em;
+  min-height: 100px;
 }
 
 .site-footer__inner {
@@ -20,6 +21,10 @@
   }
   path{
     fill: $white;
+  }
+  svg {
+    width: 16px;
+    height: 16px;
   }
 
 }
