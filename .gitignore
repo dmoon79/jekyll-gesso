@@ -1,5 +1,6 @@
 .sass-cache
 _public/
+_live/
 Gemfile.lock
 node_modules
 bower_components

@@ -14,17 +14,16 @@ layout: default
       </div>
       <!-- description -->
       <div class="work-single__description">
-        <div class="col col1">
-          <p>This site was built using {{ page.tags }}.</p>
-        </div>
-
         {% assign my_content = page.content | strip_newlines %}
         {% if  my_content == "" %}
         {% else %}
-        <div class="col col2">
+        <div class="col col1">
           <p>{{content}}</p>
         </div>
         {% endif %}
+        <div class="col col2">
+          <p>This site was built using {{ page.tags }}.</p>
+        </div>
       </div>
 
       <!-- Back to Work -->

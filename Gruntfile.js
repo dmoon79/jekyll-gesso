@@ -29,6 +29,12 @@ module.exports = function (grunt) {
             jekyllServe: {
                 command: 'bundle exec jekyll serve'
             },
+            jekyllDeploy: {
+              command: 'rsync -av /sites/portfolio/_live/ bh:www/dmoon/'
+            },
+            buildLive: {
+              command: 'rm -rf _live && bundle exec jekyll build --config _config.yml,_config_live.yml && cp -r _public/css/ _live/css/'
+            },
             clearPublic: {
                 command: 'rm -rf _public'
             },
@@ -117,7 +123,10 @@ module.exports = function (grunt) {
         'shell:jekyllBuild',
         'postcss:dist'
     ]);
-
+    grunt.registerTask('deploy', [
+        'shell:buildLive',
+        'shell:jekyllDeploy'
+    ]);
     // Register build as the default task fallback
     grunt.registerTask('default', 'serve');
 
