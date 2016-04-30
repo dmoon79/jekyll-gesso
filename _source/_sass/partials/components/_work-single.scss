@@ -16,7 +16,7 @@
 
 .work-single__title {
   @include shadowbox;
-  background: linear-gradient(0deg, $white, transparent);
+  // background: rgba($white, .8);
   color: $dark-grey;
   text-align: center;
   margin: 0.5em auto 0 auto;
@@ -37,14 +37,13 @@
   // @include button();
   @include shadowbox;
   background-color: $white;
-  border: 1px solid $dark-grey;
+  // border: 1px solid $dark-grey;
   color: $dark-grey;
   padding: .5em;
   &:hover,
   &:focus,
   &:active {
     background-color: $tan;
-    border: 1px solid $dark-grey;
     color:$dark-grey;
   }
   &:hover {
