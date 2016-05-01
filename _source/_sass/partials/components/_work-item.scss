@@ -24,9 +24,14 @@
   background-color: rgba($dark-grey, .9);
   position: absolute;
   top: 300px;
-  transform: translate3d(0px, -300px, 0px);
+  width: 100%;
+  transform: translate3d(0, -300px, 0);
 }
 
+/*
+Tried to apply these properties to certain elements to prevent
+jitter on Webkit browsers. No luck --- May 1, 2016
+*/
 .no-flick {
   // -webkit-transform: translateZ(0);
   -webkit-backface-visibility: hidden;
@@ -40,7 +45,8 @@
 }
 
 .work-item__meta {
-  transition: all .8s ease-in-out;
+  transition: all .7s ease-in-out;
+  // -webkit-transition: unset;
   padding: 1em;
   min-height: 300px;
   width: 100%;
