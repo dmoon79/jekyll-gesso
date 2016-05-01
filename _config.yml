@@ -1,7 +1,7 @@
 # Site settings
 title: DEV - Derek Moon
 email: dmoon79@gmail.com
-description: "Seattle based web developer and soultuions architect specializing in content management system development (Wordpress, Drupal), Javascript (Angular, JQuery) "
+description: "The web design portfolio of Derek Moon, a Seattle based web developer and soultuions architect. Specializing in Wordpress, HTML5 and custom Javascript app solutions"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
 
