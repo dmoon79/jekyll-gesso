@@ -4,20 +4,14 @@
 - skill: Drupal
   level: 60
   group: CMS
-- skill: Javascript
-  level: 70
+- skill: Javascript / jQuery
+  level: 80
   group: Language
 - skill: PHP
   level: 70
   group: Language
-- skill: jQuery
-  level: 80
-  group: JS
-- skill: Angular
-  level: 40
-  group: JS
-- skill: React
-  level: 20
+- skill: Angular.js
+  level: 50
   group: JS
 - skill: Project Management
   level: 90
@@ -26,26 +20,5 @@
   level: 95
   group: Language
 - skill: SASS / SCSS
-  level: 90
+  level: 95
   group: CSS
-- skill: Node
-  level: 50
-  group: JS
-- skill: Git
-  level: 90
-  group: Dev Tools
-- skill: Vagrant
-  level: 60
-  group: Dev Tools
-- skill: Grunt
-  level: 90
-  group: Dev Tools
-- skill: Gulp
-  level: 80
-  group: Dev Tools
-- skill: Jekyll
-  level: 90
-  group: Framework
-- skill: Ruby
-  level: 20
-  group: Language
