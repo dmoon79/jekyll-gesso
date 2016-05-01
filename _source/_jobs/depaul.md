@@ -18,3 +18,8 @@ order: 50
 - Gathered and documented functional requirements for software in development from department stakeholders.
 - Designed database for use with our leased asset management program to control the management of leased assets dispersed across the university.
 - Maintained and administered multiple departmental webpages including our salvaged asset store, along with all online procurement forms, and online queries.
+
+Skills Summary
+
+- Purchasing - 75%
+- Web Development - 25%

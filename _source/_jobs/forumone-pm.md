@@ -15,3 +15,8 @@ order: 20
 - Facilitated client meetings, trainings.
 - Created reports & technical documentation.
 - Administered the Forum One support help desk
+
+Skills Summary
+
+- Project Management - 75%
+- Web Development - 25%

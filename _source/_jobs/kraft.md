@@ -12,4 +12,9 @@ order: 60
 - Acted as deployment team leader for 3-5 member team responsible for deployment of new machines, operating system upgrades, and leased asset replacements.
 - Allocated human resources to complete scheduled deployments.
 - Acted as systems administrator responsible for the maintenance of LAN IDs, password resets, granting Internet access, and assigning software.
-- Provided technical support for all workstation support and deployment issues. 
+- Provided technical support for all workstation support and deployment issues.
+
+Skills Summary
+
+- Tech Support / Help Desk - 75%
+- Project Management - 25%

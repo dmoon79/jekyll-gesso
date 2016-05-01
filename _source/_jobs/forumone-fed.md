@@ -20,10 +20,13 @@ order: 10
 
 Skills Summary
 
+- Web development - 100%
+
+---
+
 - HTML5 / CSS3 (SASS / SCSS)
-- Javascript,  JQuery,  Angular.js
+- PHP, Javascript,  JQuery,  Angular.js
 - Wordpress, Drupal, Jekyll
-- Define functional requirements, create project estimations, write technical documentation
 
 <!-- Notable Projects
 
