@@ -27,6 +27,13 @@
   transform: translate3d(0px, -300px, 0px);
 }
 
+.no-flick {
+  // -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  -webkit-transform:translate3d(0,0,0);
+  -webkit-transform-style: preserve-3d;
+}
+
 .work-item:hover > .work-item__image,
 .work-item:focus > .work-item__image {
   transform: scale(1.1);
