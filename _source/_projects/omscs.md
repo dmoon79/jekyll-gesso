@@ -1,6 +1,7 @@
 ---
 layout: work-single
 title: Georgia Tech // Online Masters Degree Program
+slug: gtcomputing-omscs
 year: 2013
 link: "http://www.omscs.gatech.edu/"
 image: omscs.png

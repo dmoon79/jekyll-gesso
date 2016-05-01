@@ -1,6 +1,7 @@
 ---
 layout: work-single
 title: Georgia Tech // Child Study Lab
+slug: gtchild-study-lab
 year: 2013
 link: "http://www.childstudylab.gatech.edu/"
 image: gt-child.png

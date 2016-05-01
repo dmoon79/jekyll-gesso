@@ -1,6 +1,7 @@
 ---
 layout: work-single
 title: Schusterman Opportunities
+slug: schusterman-opps
 year: 2015
 link: "https://www.schusterman.org/opportunities"
 image: schus-opportunities.png

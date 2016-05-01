@@ -1,6 +1,7 @@
 ---
 layout: work-single
 title: Cuerators.com
+slug: cuerators
 year: 2013
 link: "http://cuerators.com"
 image: cuerators.png

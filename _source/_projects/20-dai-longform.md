@@ -1,6 +1,7 @@
 ---
 layout: work-single
 title: Global Innovation Exchange
+slug: giex
 year: 2015
 link: "https://www.globalinnovationexchange.org/beyond-cash"
 image: dai-longform.png
