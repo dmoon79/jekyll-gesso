@@ -7,7 +7,9 @@ permalink: /resume/
     <!-- Objective -->
     <div class="resume__top-region">
       <section class="resume__summary">
-        <h1>Derek Moon</h1>
+        <div class="header summary-header">
+          <h1>Derek Moon</h1>
+        </div>
         <div class="resume__summary__content">{% capture my-include %}{% include summary.md %}{% endcapture %}
         {{ my-include | markdownify }}</div>
       </section>
@@ -20,7 +22,7 @@ permalink: /resume/
     <!-- Work Experience -->
     <div class="resume__bottom-region">
       <section class="resume__work">
-          <div class="job-header">
+          <div class="header job-header">
               <div class="header-icon job-header__icon">
                   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
                       <path d="M5 3c0-1.657 1.343-3 3-3s3 1.343 3 3c0 1.657-1.343 3-3 3s-3-1.343-3-3zM12.001 7h-0.553l-3.111 6.316 1.163-5.816-1.5-1.5-1.5 1.5 1.163 5.816-3.111-6.316h-0.554c-1.999 0-1.999 1.344-1.999 3v5h12v-5c0-1.656 0-3-1.999-3z"></path>
@@ -52,7 +54,7 @@ permalink: /resume/
           {% endfor %}
       </section>
       <section class="resume__skills">
-          <div class="skill-header">
+          <div class="header skill-header">
               <div class="header-icon skill-header__icon">
                   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
                       <path d="M15.781 12.953l-4.712-4.712c-0.292-0.292-0.769-0.292-1.061 0l-0.354 0.354-2.875-2.875 4.72-4.72h-5l-2.22 2.22-0.22-0.22h-1.061v1.061l0.22 0.22-3.22 3.22 2.5 2.5 3.22-3.22 2.875 2.875-0.354 0.354c-0.292 0.292-0.292 0.769 0 1.061l4.712 4.712c0.292 0.292 0.769 0.292 1.061 0l1.768-1.768c0.292-0.292 0.292-0.769 0-1.061z"></path>

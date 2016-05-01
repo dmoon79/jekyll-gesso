@@ -4,6 +4,15 @@
     padding-bottom: 2em;
   }
 }
+.resume .header {
+  h1 {
+    color: white;
+    text-shadow: 3px 3px 3px $dark-grey;
+  }
+  svg {
+    fill: $blue;
+  }
+}
 
 .resume__top-region {
   display: flex;

@@ -1,7 +1,8 @@
-I'm a web developer and technology enthusiast, with an affinity for open source technology. Results-driven & highly motivated professional with over 12 years of experience in a variety of business domains.
+I'm a Seattle based web developer and technology enthusiast, with an affinity for open source technology. 
 
-- Web Development (Javascript, PHP, HTML, SASS/CSS),
-- Open Source content management systems (CMS...Wordpress, Drupal)
-- Project Management  
+Highlights
+
+- Web Development (Javascript, PHP, HTML, SASS/CSS)
+- Deep experience with content management systems like Wordpress, Drupal
+- Experienced Project Manager  
 - Audio/Video Production
-- Instructional Design
