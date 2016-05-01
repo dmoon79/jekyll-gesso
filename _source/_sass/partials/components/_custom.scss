@@ -2,16 +2,16 @@
 .main {
   justify-content: flex-start;
   flex-flow: row wrap-reverse;
+  align-items: center;
   .main-col1 {
     padding: 1em 0;
-    // background-color: rgba($white, .5);
-    min-height: 600px;
     @include large {
       padding: 1em;
     }
   }
   .main-col2 {
     @include shadowbox;
+
     @include large {
       margin-top: 1em;
     }

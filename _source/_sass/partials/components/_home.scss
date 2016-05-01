@@ -5,11 +5,21 @@
   background-size: cover;
   min-height: 100vh;
 }
+.background-texture {
+  background: url('/images/bg/swirl_pattern.png') !important;
+}
 
 //Intro Content Styling
 .intro {
-  padding: 1em;
+  display: table;
   text-align: center;
+  width: 100%;
+}
+.intro__inner {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 1em;
+  background-color: $white;
 }
 .intro__image {
   padding: 0;
@@ -24,7 +34,14 @@
   padding: 1em 0;
   margin: 0;
   line-height: 1.5em;
-  &:after {
+  .smaller {
+    font-size: .9em;
+    font-weight: 100;
+  }
+}
+.intro__copy {
+  margin: 0;
+  &:before {
     content: "";
     display: block;
     border-bottom: 1px solid $dark-grey;
@@ -33,13 +50,6 @@
     margin: 0 auto 1em auto;
     text-align: center;
   }
-  .smaller {
-    font-size: .9em;
-    font-weight: 100;
-  }
-}
-.intro__copy {
-  margin: 0;
 }
 
 .homepage-frame {
