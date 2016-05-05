@@ -1,4 +1,8 @@
-I'm a Seattle based web developer and technology enthusiast, with an affinity for open source technology. 
+Front-end web developer with over 12 years of work experience, which includes experience with JavaScript, HTML, CSS/SASS, and PHP-based content management systems. I’ve also accumulated project management experience, and have run my own consulting company for several years.
+
+Most recently coming from the agency side of the development spectrum, I love seeking out and implementing efficient, and reusuable systems. When possible I try to refactor code for team reusuability and templating purposes. I contribute mos tof my non-billable time to the development of our team’s base theme for our various development platforms.
+
+Some of my personal development projects include a music suggestion engine and blog, a Wordpress plugin updater that encapsulates each update in it’s own git commit, and a Wordpress base theme that adheres to SMACSS best practices and provides tons of Grunt-based task automation. 
 
 Highlights
 
