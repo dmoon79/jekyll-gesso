@@ -2,10 +2,10 @@
   level: 90
   group: CMS
 - skill: Drupal
-  level: 60
+  level: 75
   group: CMS
 - skill: Javascript / jQuery
-  level: 80
+  level: 75
   group: Language
 - skill: PHP
   level: 70
@@ -14,7 +14,7 @@
   level: 50
   group: JS
 - skill: Project Management
-  level: 90
+  level: 80
   group: Skill
 - skill: HTML5
   level: 95
