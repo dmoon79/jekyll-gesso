@@ -1,0 +1,4 @@
+//@file
+@mixin sitebg($image) {
+  background-image: url("/images/bg/" + $image + ".png");
+}

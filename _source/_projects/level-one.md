@@ -1,7 +1,7 @@
 ---
 layout: work-single
 title: Level One Project
-slug: gates-level-one
+slug: level-one
 year: 2016
 link: "https://leveloneproject.org"
 image: level-one.png

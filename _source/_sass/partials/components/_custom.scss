@@ -12,8 +12,9 @@
   .main-col2 {
     @include shadowbox;
 
+    margin-top: 1em;
+
     @include large {
-      margin-top: 1em;
     }
   }
 }
