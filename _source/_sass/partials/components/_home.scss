@@ -6,7 +6,8 @@
   // min-height: 100vh;
 }
 .background-texture {
-  background: url('/images/bg/swirl_pattern.png') !important;
+  background: url('/images/bg/45degreee_fabric.png') !important;
+  // background: url('/images/bg/swirl_pattern.png') !important;
 }
 
 //Intro Content Styling
@@ -16,14 +17,15 @@
   width: 100%;
 }
 .intro__inner {
-  display: table-cell;
-  vertical-align: middle;
-  padding: 1em;
   background-color: $white;
+  border: 1px solid darken(#e2e2e2, 10%);
+  display: table-cell;
+  padding: 1em;
+  vertical-align: middle;
 }
 .intro__image {
-  padding: 0;
   margin-bottom: 1em;
+  padding: 0;
 }
 .intro__title {
   font-size: 3em;
@@ -31,9 +33,9 @@
   margin: 0;
 }
 .intro__subtitle {
-  padding: 1em 0;
-  margin: 0;
   line-height: 1.5em;
+  margin: 0;
+  padding: 1em 0;
   .smaller {
     font-size: .9em;
     font-weight: 100;
@@ -42,20 +44,20 @@
 .intro__copy {
   margin: 0;
   &:before {
+    border-bottom: 1px solid $dark-grey;
     content: "";
     display: block;
-    border-bottom: 1px solid $dark-grey;
-    width: 30%;
-    padding: 1em;
     margin: 0 auto 1em auto;
+    padding: 1em;
     text-align: center;
+    width: 30%;
   }
 }
 
 .homepage-frame {
   display: block;
-  text-align: center;
   margin: 2em 0;
+  text-align: center;
 }
 .homepage-frame__image {
   box-shadow: 3px 3px 3px #333;

@@ -10,11 +10,13 @@
     }
   }
   .main-col2 {
-    @include shadowbox;
 
+    @include shadowbox;
+    border: 1px solid darken(#e2e2e2, 10%);
     margin-top: 1em;
 
     @include large {
+      background-color: #e2e2e2;
     }
   }
 }

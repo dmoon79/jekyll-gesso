@@ -5,16 +5,16 @@
   level: 75
   group: CMS
 - skill: Javascript / jQuery
-  level: 75
+  level: 80
   group: Language
 - skill: PHP
   level: 70
   group: Language
 - skill: Angular.js
-  level: 50
+  level: 45
   group: JS
 - skill: Project Management
-  level: 80
+  level: 85
   group: Skill
 - skill: HTML5
   level: 95
@@ -22,3 +22,9 @@
 - skill: SASS / SCSS
   level: 95
   group: CSS
+- skill: React.js
+  level: 40
+  group: JS
+- skill: Ruby
+  level: 30
+  group: Language
