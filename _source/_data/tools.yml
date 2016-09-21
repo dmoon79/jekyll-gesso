@@ -1,12 +1,85 @@
-- tool: Git
-  category: Dev Tool
-- tool: SVN
-  category: Dev Tool
-- tool: 
-  category:
-- tool:
-  category:
-- tool:
-  category:
-- tool:
-  category:
+---
+-
+  category: "Dev Tool"
+  tool: Git
+-
+  category: "Dev Tool"
+  tool: SVN
+-
+  category: "Dev Tool"
+  tool: Grunt
+-
+  category: "Dev Tool"
+  tool: Gulp
+-
+  category: "Dev Tool"
+  tool: Webpack
+-
+  category: "Dev Tool"
+  tool: Twig
+-
+  category: "Front End"
+  tool: Libsass
+-
+  category: "Front End"
+  tool: Compass
+-
+  category: ~
+  tool: Breakpoint
+-
+  category: ~
+  tool: Bower
+-
+  category: SMACSS
+  tool: Singularity
+-
+  category: ~
+  tool: SVG
+-
+  category: ~
+  tool: "Adobe Photoshop"
+-
+  category: ~
+  tool: "Adobe Illustrator"
+-
+  category: ~
+  tool: Yeoman
+-
+  category: ~
+  tool: Apache
+-
+  category: ~
+  tool: Nginx
+-
+  category: ~
+  tool: Bash
+-
+  category: ~
+  tool: Vagrant
+-
+  category: ~
+  tool: "MAMP/LAMP stack"
+-
+  category: ~
+  tool: "Continous Integration"
+-
+  category: ~
+  tool: Jenkins
+-
+  category: ~
+  tool: Capistrano
+-
+  category: ~
+  tool: MySQL
+-
+  category: ~
+  tool: MongoDB
+-
+  category: ~
+  tool: Postgres
+-
+  category: ~
+  tool: "Graph DBs"
+-
+  category: ~
+  tool: Jekyll
