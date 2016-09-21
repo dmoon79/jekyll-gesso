@@ -9,29 +9,29 @@
   background: url('/images/bg/45degreee_fabric.png') !important;
 }
 
-//Intro Content Styling
-.intro {
+//intro-card Content Styling
+.intro-card {
   display: table;
   text-align: center;
   width: 100%;
 }
-.intro__inner {
+.intro-card__inner {
   background-color: $white;
   border: 1px solid darken(#e2e2e2, 10%);
   display: table-cell;
   padding: 1em;
   vertical-align: middle;
 }
-.intro__image {
+.intro-card__image {
   margin-bottom: 1em;
   padding: 0;
 }
-.intro__title {
+.intro-card__title {
   font-size: 3em;
   line-height: 1em;
   margin: 0;
 }
-.intro__subtitle {
+.intro-card__subtitle {
   line-height: 1.5em;
   margin: 0;
   padding: 1em 0;
@@ -40,7 +40,7 @@
     font-weight: 100;
   }
 }
-.intro__copy {
+.intro-card__copy {
   margin: 0;
   &:before {
     border-bottom: 1px solid $dark-grey;

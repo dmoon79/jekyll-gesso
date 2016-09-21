@@ -17,6 +17,14 @@ permalink: /resume/
       <section class="resume__education">
           {% include edu.html %}
       </section>
+      <div class="">
+        {% assign tools = (site.data.tools | sort: 'category') %}
+        {% for tool in tools %}
+        <span>
+          {{tool.tool | append: ', '}}
+        </span>
+        {% endfor %}
+      </div>
     </div>
 
     <!-- Work Experience -->
