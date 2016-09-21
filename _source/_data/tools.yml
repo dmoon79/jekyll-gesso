@@ -24,62 +24,62 @@
   category: "Front End"
   tool: Compass
 -
-  category: ~
+  category: "Front End"
   tool: Breakpoint
 -
-  category: ~
+  category: "Front End"
   tool: Bower
 -
-  category: SMACSS
+  category: "Front End"
   tool: Singularity
 -
-  category: ~
+  category: "Front End"
   tool: SVG
 -
-  category: ~
+  category: "Graphics"
   tool: "Adobe Photoshop"
 -
-  category: ~
+  category: "Graphics"
   tool: "Adobe Illustrator"
 -
-  category: ~
+  category: "Back End"
   tool: Yeoman
 -
-  category: ~
+  category: "Back End"
   tool: Apache
 -
-  category: ~
+  category: "Back End"
   tool: Nginx
 -
-  category: ~
+  category: "Back End"
   tool: Bash
 -
-  category: ~
+  category: "Back End"
   tool: Vagrant
 -
-  category: ~
+  category: "Back End"
   tool: "MAMP/LAMP stack"
 -
-  category: ~
+  category: "Back End"
   tool: "Continous Integration"
 -
-  category: ~
+  category: "Back End"
   tool: Jenkins
 -
-  category: ~
+  category: "Back End"
   tool: Capistrano
 -
-  category: ~
+  category: "Database"
   tool: MySQL
 -
-  category: ~
+  category: "Database"
   tool: MongoDB
 -
-  category: ~
+  category: "Database"
   tool: Postgres
 -
-  category: ~
+  category: "Database"
   tool: "Graph DBs"
 -
-  category: ~
+  category: "Build Tool"
   tool: Jekyll
