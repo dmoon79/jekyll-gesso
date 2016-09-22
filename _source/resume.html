@@ -17,16 +17,6 @@ permalink: /resume/
       <section class="resume__education">
           {% include edu.html %}
       </section>
-      <div class="">
-
-        <p>{% assign tools = (site.data.tools | sort: 'category' ) %}
-        {% for tool in tools %}
-          <span>{{tool.tool | append: ', ' }}</span>
-          {% if forloop.last == true %}
-            <span> {{tool.tool}}</span>
-          {% endif %}
-        {% endfor %}</p>
-      </div>
     </div>
 
     <!-- Work Experience -->
@@ -76,16 +66,26 @@ permalink: /resume/
           <div class="skill__list">
               {% assign sorted_skills = (site.data.skills | sort: 'level' ) %}
               {% for skill in sorted_skills reversed %}
-              <!-- <div class="skill__item">
-            <span class="label">{{ skill.skill }}</span>
-            <span class="level">{{ skill.level }}</span>
-          </div> -->
               <div class="skillbar" data-percent="{{ skill.level }}">
                   <span class="skillbar-title">{{ skill.skill }}</span>
                   <p class="skillbar-bar"></p>
                   <span class="skill-bar-percent"></span>
               </div>
               {% endfor %}
+
+              <div class="tools">
+                <h3>Dev Tools</h3>
+                <p>
+                {% assign tools = (site.data.tools | sort: 'category' | reverse ) %}
+                {% for tool in tools %}
+                  {% if forloop.last == true %}
+                    <span>{{tool.tool}}</span>
+                    {% else %}
+                    <span>{{tool.tool | append: ', ' }}</span>
+                  {% endif %}
+                {% endfor %}
+                </p>
+              </div>
           </div>
       </section>
     </div>
