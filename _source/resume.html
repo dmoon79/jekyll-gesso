@@ -18,12 +18,14 @@ permalink: /resume/
           {% include edu.html %}
       </section>
       <div class="">
-        {% assign tools = (site.data.tools | sort: 'category') %}
+
+        <p>{% assign tools = (site.data.tools | sort: 'category' ) %}
         {% for tool in tools %}
-        <span>
-          {{tool.tool | append: ', '}}
-        </span>
-        {% endfor %}
+          <span>{{tool.tool | append: ', ' }}</span>
+          {% if forloop.last == true %}
+            <span> {{tool.tool}}</span>
+          {% endif %}
+        {% endfor %}</p>
       </div>
     </div>
 
