@@ -1,30 +1,45 @@
-- skill: Wordpress
+---
+-
+  group: CMS
   level: 90
+  skill: Wordpress
+-
   group: CMS
-- skill: Drupal
   level: 75
-  group: CMS
-- skill: Javascript / jQuery
+  skill: Drupal
+-
+  group: Language
   level: 80
+  skill: "Javascript / jQuery"
+-
   group: Language
-- skill: PHP
   level: 70
-  group: Language
-- skill: Angular.js
+  skill: PHP
+-
+  group: JS
   level: 45
-  group: JS
-- skill: Project Management
-  level: 85
+  skill: Angular.js
+-
   group: Skill
-- skill: HTML5
-  level: 95
+  level: 85
+  skill: "Project Management"
+-
   group: Language
-- skill: SASS / SCSS
   level: 95
+  skill: HTML5
+-
   group: CSS
-- skill: React.js
-  level: 40
+  level: 95
+  skill: "SASS / SCSS"
+-
   group: JS
-- skill: Ruby
-  level: 30
+  level: 40
+  skill: React.js
+-
   group: Language
+  level: 30
+  skill: Ruby
+-
+  group: "Site Builder"
+  level: 90
+  skill: Jekyll
