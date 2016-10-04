@@ -6,14 +6,15 @@
   // min-height: 100vh;
 }
 .background-texture {
-  background: url('/images/bg/45degreee_fabric.png') !important;
+  background: url('/images/bg/purty_wood.png') !important;
 }
 
 //intro-card Content Styling
 .intro-card {
+  @include shadowbox;
   display: table;
   text-align: center;
-  width: 100%;
+  // width: 100%;
 }
 .intro-card__inner {
   background-color: $white;

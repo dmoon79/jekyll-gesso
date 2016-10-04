@@ -31,10 +31,10 @@
   tool: Bower
 -
   category: "Front End"
-  tool: Singularity
+  tool: "Singularity GS"
 -
   category: "Front End"
-  tool: SVG
+  tool: SVGs
 -
   category: "Graphics"
   tool: "Adobe Photoshop"

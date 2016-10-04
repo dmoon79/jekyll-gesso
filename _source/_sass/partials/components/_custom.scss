@@ -1,22 +1,19 @@
 //Index Page Layout
 .main {
   justify-content: flex-start;
-  flex-flow: row wrap-reverse;
+  flex-flow: row wrap;
   align-items: center;
   .main-col1 {
+    margin: 0 auto;
     padding: 1em 0;
     @include large {
       padding: 1em;
     }
   }
   .main-col2 {
-
-    @include shadowbox;
-    border: 1px solid darken(#e2e2e2, 10%);
-    margin-top: 1em;
-
+    margin: 0 auto;
     @include large {
-      background-color: #e2e2e2;
+
     }
   }
 }
