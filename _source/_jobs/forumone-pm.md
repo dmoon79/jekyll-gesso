@@ -10,8 +10,8 @@ order: 20
 - Introduced technical processes and workflows that opened up efficiencies that resulted in Forum One's support services to achieve profitability 20% above targeted levels, and the acquisition of two of the largest support clients acquired by our organization.
 - Provided strategic advising and recommendations to our clients in order to help them realize their goals and maximize their impact.
 - Performed development tasks, and provided technical support for client inquiries.
-- Establishing ongoing project plans with our clients, creating accurate estimates, and acceptance criteria.
-- Coordinating and resourcing our support team members and contract staff to client projects.
+- Established ongoing project plans with our clients, creating accurate estimates, and acceptance criteria.
+- Coordinated and resourced our support team members and contract staff to client projects.
 - Facilitated client meetings, trainings.
 - Created reports & technical documentation.
 - Administered the Forum One support help desk
