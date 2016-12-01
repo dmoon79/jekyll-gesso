@@ -1,7 +1,7 @@
 // Homepage
 .background-sea {
   // @include image-overlay($red, .7);
-  background: url('/images/skyline-opt.jpg') no-repeat no-repeat;
+  background: url('/images/bg/alki-bg.png') no-repeat no-repeat;
   background-size: cover;
 }
 .background-texture {
@@ -10,47 +10,28 @@
 
 //intro-card Content Styling
 .intro-card {
-  @include shadowbox;
-  display: table;
-  text-align: center;
-  // width: 100%;
+
 }
 .intro-card__inner {
-  background-color: $white;
-  border: 1px solid darken(#e2e2e2, 10%);
-  display: table-cell;
-  padding: 1em;
-  vertical-align: middle;
+
 }
 .intro-card__image {
-  margin-bottom: 1em;
-  padding: 0;
+  // margin-bottom: 1em;
+  // padding: 0;
 }
 .intro-card__title {
-  font-size: 3em;
-  line-height: 1em;
-  margin: 0;
+  // font-size: 3em;
+  // line-height: 1em;
+  // margin: 0;
 }
 .intro-card__subtitle {
-  line-height: 1.5em;
-  margin: 0;
-  padding: 1em 0;
+
   .smaller {
-    font-size: .9em;
-    font-weight: 100;
+
   }
 }
 .intro-card__copy {
-  margin: 0;
-  &:before {
-    border-bottom: 1px solid $dark-grey;
-    content: "";
-    display: block;
-    margin: 0 auto 1em auto;
-    padding: 1em;
-    text-align: center;
-    width: 30%;
-  }
+
 }
 
 .homepage-frame {
