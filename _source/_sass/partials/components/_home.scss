@@ -10,25 +10,25 @@
 
 //intro-card Content Styling
 .intro-card {
-
+  color: #FFF;
+  @include large {
+    padding-right: 5em;
+  }
 }
 .intro-card__inner {
 
 }
 .intro-card__image {
-  // margin-bottom: 1em;
-  // padding: 0;
 }
 .intro-card__title {
-  // font-size: 3em;
-  // line-height: 1em;
-  // margin: 0;
+  border-bottom: 2px white solid;
+  color: #FFF;
+  text-shadow: 3px 3px 3px $dark-grey;
+
 }
 .intro-card__subtitle {
-
-  .smaller {
-
-  }
+  font-size: em(24px);
+  text-shadow: 3px 3px 3px $dark-grey;
 }
 .intro-card__copy {
 

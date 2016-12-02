@@ -1,8 +1,9 @@
 //Index Page Layout
 .main {
-  justify-content: flex-start;
-  flex-flow: row wrap;
   align-items: center;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  min-height: 50vh;
   .main-col1 {
     margin: 0 auto;
     padding: 1em 0;
