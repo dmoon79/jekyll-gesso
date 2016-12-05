@@ -11,7 +11,9 @@
 //intro-card Content Styling
 .intro-card {
   color: #FFF;
+  text-align: left;
   @include large {
+    text-align: center;
     padding-right: 5em;
   }
 }
