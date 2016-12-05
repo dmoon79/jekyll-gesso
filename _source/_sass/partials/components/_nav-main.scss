@@ -10,11 +10,20 @@
     align-self: flex-start;
     padding: 1em 0;
     margin: 0 auto;
+    min-width: 50px;
+    text-align: center;
     @include large {
       margin: 0 4em 0 0;
     }
+    &:hover,
+    &:focus {
+
+      background-color: #FFF;
+      a {
+        color: #666;
+      }
+    }
     a {
-      @extend h3;
       color: $white;
       display: block;
       text-decoration: none;
