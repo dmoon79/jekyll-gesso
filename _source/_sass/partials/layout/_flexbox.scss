@@ -1,0 +1,18 @@
+//@file
+// Wordpress Content Block Layouts
+
+.layout-2col-66-33-flex {
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+  .layout-2col-66-33-flex__col1 {
+    @include large {
+      flex: 1;
+    }
+  }
+  .layout-2col-66-33-flex__col2 {
+    @include large {
+      flex: 1;
+    }
+  }
+}

@@ -1,0 +1,85 @@
+---
+-
+  category: "Dev Tool"
+  tool: Git
+-
+  category: "Dev Tool"
+  tool: SVN
+-
+  category: "Dev Tool"
+  tool: Grunt
+-
+  category: "Dev Tool"
+  tool: Gulp
+-
+  category: "Dev Tool"
+  tool: Webpack
+-
+  category: "Dev Tool"
+  tool: Twig
+-
+  category: "Front End"
+  tool: Libsass
+-
+  category: "Front End"
+  tool: Compass
+-
+  category: "Front End"
+  tool: Breakpoint
+-
+  category: "Front End"
+  tool: Bower
+-
+  category: "Front End"
+  tool: "Singularity GS"
+-
+  category: "Front End"
+  tool: SVGs
+-
+  category: "Graphics"
+  tool: "Adobe Photoshop"
+-
+  category: "Graphics"
+  tool: "Adobe Illustrator"
+-
+  category: "Back End"
+  tool: Yeoman
+-
+  category: "Back End"
+  tool: Apache
+-
+  category: "Back End"
+  tool: Nginx
+-
+  category: "Back End"
+  tool: Bash
+-
+  category: "Back End"
+  tool: Vagrant
+-
+  category: "Back End"
+  tool: "MAMP/LAMP stack"
+-
+  category: "Back End"
+  tool: "Continous Integration"
+-
+  category: "Back End"
+  tool: Jenkins
+-
+  category: "Back End"
+  tool: Capistrano
+-
+  category: "Database"
+  tool: MySQL
+-
+  category: "Database"
+  tool: MongoDB
+-
+  category: "Database"
+  tool: Postgres
+-
+  category: "Database"
+  tool: "Graph DBs"
+-
+  category: "Build Tool"
+  tool: Jekyll

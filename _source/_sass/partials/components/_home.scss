@@ -1,0 +1,46 @@
+// Homepage
+.background-sea {
+  // @include image-overlay($red, .7);
+  background: url('/images/bg/alki-bg.png') no-repeat no-repeat;
+  background-size: cover;
+}
+.background-texture {
+  background: url('/images/bg/nasty_fabric.png') !important;
+}
+
+//intro-card Content Styling
+.intro-card {
+  color: #FFF;
+  text-align: left;
+  @include large {
+    text-align: center;
+    padding-right: 5em;
+  }
+}
+.intro-card__inner {
+
+}
+.intro-card__image {
+}
+.intro-card__title {
+  border-bottom: 2px white solid;
+  color: #FFF;
+  text-shadow: 3px 3px 3px $dark-grey;
+
+}
+.intro-card__subtitle {
+  font-size: em(24px);
+  text-shadow: 3px 3px 3px $dark-grey;
+}
+.intro-card__copy {
+
+}
+
+.homepage-frame {
+  display: block;
+  margin: 2em 0;
+  text-align: center;
+}
+.homepage-frame__image {
+  box-shadow: 3px 3px 3px #333;
+}

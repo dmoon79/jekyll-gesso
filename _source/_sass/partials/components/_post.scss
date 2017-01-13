@@ -1,0 +1,27 @@
+//Post Style
+.post {
+  @include shadowbox;
+  margin: 2em 0;
+  padding: 2em;
+}
+.post__header{}
+.post__meta{
+  margin: 0;
+}
+.post__title {
+  // color: $white;
+  padding: 0 0 1em 0;
+  margin: 0;
+  text-align: center;
+  @include large {
+    margin: 0 auto;
+    text-align: initial;
+  }
+}
+.post__content{
+  color: $primary-text-color;
+  .about-page & .col-2 img {
+    max-width: 250px;
+    border-radius: 50%;
+  }
+}

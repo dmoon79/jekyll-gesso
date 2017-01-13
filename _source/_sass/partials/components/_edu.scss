@@ -1,0 +1,54 @@
+//@file
+//Edu Resume Block
+$v-pad: 10px;
+
+
+.edu-header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  div {
+    padding-right: 1em;
+  }
+}
+
+.edu {
+  @extend p;
+  @include shadowbox;
+  margin-bottom: 2em;
+  .col {
+    padding: 1em 1em 0 0;
+    @include large {
+    }
+  }
+  .col-2 {
+    min-width: 210px;
+  }
+  .col-1 {
+    min-width: 60px;
+  }
+}
+
+.edu__degree {
+  font-weight: 700;
+}
+.edu__gpa {
+}
+.edu__major {
+  font-weight: 100;
+}
+.edu__school {
+  font-size: .8em;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.edu__city {
+  font-weight: 100;
+}
+.edu__degree-year {
+  float: left;
+  font-size: 1.4em;
+  padding-right: 1em;
+  min-height: 3em;
+}

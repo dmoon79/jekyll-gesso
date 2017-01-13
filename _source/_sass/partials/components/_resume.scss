@@ -1,0 +1,94 @@
+//Resume
+.resume {
+  section {
+    padding-bottom: 2em;
+  }
+}
+.resume .header {
+  h1 {
+    color: white;
+    text-shadow: 3px 3px 3px $dark-grey;
+  }
+  h2 {
+    color: white;
+    text-shadow: 3px 3px 3px #333;
+  }
+  svg {
+    fill: #FFF;
+    text-shadow: 3px 3px 3px #333;
+  }
+}
+
+.resume__top-region {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  .resume__summary {
+    flex: 3 0 50%;
+    margin-right: 0;
+    @include large {
+      margin-right: 1em;
+    }
+    .resume__summary__content {
+      @include shadowbox;
+      ul {
+        font-size: em(21px);
+        font-weight: 100;
+        line-height: 1.3;
+      }
+    }
+  }
+  .resume__education {
+    flex: 2 0 auto;
+    // width: 100%;
+    @include large {
+      flex: 2 0 auto;
+    }
+  }
+}
+.resume__bottom-region {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  .resume__work {
+    flex: 2 500px;
+    margin-right: 0;
+    @include large {
+      margin-right: 1em;
+    }
+  }
+  .resume__skills {
+    flex: 1 250px;
+    // min-width: 30vw;
+    .skill__list {
+      @include shadowbox;
+    }
+  }
+}
+
+.header-icon {
+  svg {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.resume__skills {
+  .skill-header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    div {
+      padding-left: 1em;
+    }
+  }
+
+  .skill__item {
+    .label {
+      @extend h5;
+      padding-right: 1em;
+    }
+    .level {}
+  }
+}

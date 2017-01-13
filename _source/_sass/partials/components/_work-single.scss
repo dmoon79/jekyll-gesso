@@ -1,0 +1,67 @@
+//@file
+// Project Single page
+
+.project-single__container {
+}
+
+.project-single {
+  text-align: center;
+}
+
+.project-single__header {
+  background-color: transparent;
+  padding: 1em 0 0;
+  width: 100%;
+}
+
+.project-single__title {
+  @include shadowbox;
+  // background: rgba($white, .8);
+  color: $dark-grey;
+  text-align: center;
+  margin: 0.5em auto 0 auto;
+  max-width: 65%;
+}
+
+.project-single__description {
+  @include shadowbox;
+  margin: 0 auto 2em auto;
+  max-width: 65%;
+  text-align: left;
+  p {
+    margin: 2em 0;
+  }
+}
+
+.project-single__link {
+  // @include button();
+  @include shadowbox;
+  background-color: $white;
+  // border: 1px solid $dark-grey;
+  color: $dark-grey;
+  padding: .5em;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $tan;
+    color:$dark-grey;
+  }
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.project-single__image-section {
+  text-align: center;
+}
+
+.project-single__image-section > img {
+}
+
+.project-single__footer {
+  text-align: center;
+  padding: 0 0 2em 0;
+}
+
+.project-single__return-link {
+}

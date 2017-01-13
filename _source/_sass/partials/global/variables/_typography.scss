@@ -2,19 +2,23 @@
 // Typography variables
 // http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#variables_
 
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$header-font-family: $base-font-family;
-$monospace-font-family: Consolas, "Lucida Console", "Liberation Mono", "Courier New", monospace, sans-serif;
-$base-font-size: 16px;
-$base-line-height: 21px;
-$font-size-xxl: 26px;
-$font-size-xl: 22px;
-$font-size-lg: 19px;
-$font-size-normal: $base-font-size;
-$font-size-md: 14px;
-$font-size-sm: 12px;
-$font-size-xs: 10px;
+$v-pad: 10px;
+$smaller: .75em;
+$bigger: 1.25em;
 
+$base-font-family: 'Josefin Sans', sans-serif;
+$header-font-family: 'Lusitana', serif;
+$monospace-font-family: Consolas, "Lucida Console", "Liberation Mono", "Courier New", monospace, sans-serif;
+$base-font-size: 20px;
+$base-line-height: 24px;
+$font-size-xxl: 28px;
+$font-size-xl: 24px;
+$font-size-lg: 21px;
+$font-size-normal: $base-font-size;
+$font-size-md: 16px;
+$font-size-sm: 14px;
+$font-size-xs: 12px;
+$line-height: 1.25em;
 // Buttons
 $button-font-family: $base-font-family;
 

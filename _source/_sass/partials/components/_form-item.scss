@@ -21,7 +21,7 @@
 }
 
 .form-item__description {
-  @include adjust-font-size-to($font-size-md);
+  // @include adjust-font-size-to($font-size-md);
   color: $secondary-text-color;
 }
 

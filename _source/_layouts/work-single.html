@@ -1,0 +1,40 @@
+---
+layout: portfolio
+---
+<div class="project-single__container">
+
+    <div class="project-single">
+      <!-- meta-data -->
+      <div class="project-single__header">
+        <h2 class="project-single__title">{{ page.title }}</h2>
+      </div>
+      <!-- image -->
+      <div class="project-single__image-section">
+        <img src="/images/websites/framed/{{ page.image }}" alt="">
+      </div>
+      <!-- description -->
+      <div class="project-single__description">
+        {% assign my_content = page.content | strip_newlines %}
+        {% if  my_content == "" %}
+        {% else %}
+        <div class="col col1">
+          <p>{{content}}</p>
+        </div>
+        {% endif %}
+        <div class="col col2">
+          <p>This site was built using {{ page.tags }}.</p>
+        </div>
+      </div>
+
+      <!-- Back to project -->
+      <div class="project-single__footer">
+        <div class="project-single__return-link">
+          <a class="button project-single__link" target="_self" href="/projects">All Projects</a>
+          <a class="button project-single__link" target="_blank" href="{{ page.link }}">Visit Website</a>
+        </div>
+
+      </div>
+
+    </div>
+
+</div>

@@ -7,4 +7,29 @@
 // to ensure load order. Sub-directories will need to be manually imported
 // from a partial in the 'components' directory. See _nav.scss for an example.
 
-@import 'components/*.*';
+
+@import 'components/breadcrumb';
+@import 'components/button';
+@import 'components/fieldset';
+@import 'components/form-item';
+@import 'components/nav';
+@import 'components/pager';
+@import 'components/throbber';
+
+// Added by me
+@import 'components/article';
+@import 'components/edu';
+@import 'components/job';
+@import 'components/home';
+@import 'components/flexslider';
+@import 'components/footer';
+@import 'components/post';
+@import 'components/project-list';
+@import 'components/social';
+@import 'components/site-header';
+@import 'components/nav-main';
+@import 'components/resume';
+@import 'components/skillbar';
+@import 'components/work-item';
+@import 'components/work-single';
+@import 'components/custom';

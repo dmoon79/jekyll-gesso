@@ -2,7 +2,19 @@
 // Color variables
 // http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#variables_
 
-$primary-text-color: #333;
+// Custom Colors
+$light-grey: #CCC;
+$dark-grey: #333;
+$blue: #2946DE;
+$purple: #EB5BDA;
+$green: #54AB0E;
+$tan: #F2C770;
+$red: #E34610;
+$white: #FFF;
+$black: #000;
+
+// Base Color
+$primary-text-color: $dark-grey;
 $secondary-text-color: #555;
 $heading-text-color: #333;
 $body-color: #fff;

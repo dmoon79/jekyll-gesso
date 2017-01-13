@@ -1,0 +1,32 @@
+.site-header {
+  background-color: rgba($green, .8);
+  border-bottom: 2px solid $dark-grey;
+  .social {
+    flex-flow: row nowrap;
+    border-top: none;
+    border-bottom: none;
+    justify-content: space-around;
+  }
+  svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.site-header__social {
+  flex: 1 150px;
+  display: none;
+  justify-content: center;
+  @include large {
+    display: flex;
+  }
+  .social__svg {
+    fill: white;
+  }
+}
+
+.site-header__nav {
+  flex: 2 500px;
+}
+
+.site-header__wrapper {}

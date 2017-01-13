@@ -1,0 +1,26 @@
+$tablet-width: 700px;
+$desktop-width: 960px;
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin shadowbox {
+  background: rgba($white, .9);
+  box-shadow: 3px 3px 3px #333;
+  padding: 1em;
+}

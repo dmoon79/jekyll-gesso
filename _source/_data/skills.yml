@@ -1,0 +1,45 @@
+---
+-
+  group: CMS
+  level: 90
+  skill: Wordpress
+-
+  group: CMS
+  level: 75
+  skill: Drupal
+-
+  group: Language
+  level: 80
+  skill: "Javascript / jQuery"
+-
+  group: Language
+  level: 70
+  skill: PHP
+-
+  group: JS
+  level: 45
+  skill: Angular.js
+-
+  group: Skill
+  level: 85
+  skill: "Technical PM"
+-
+  group: Language
+  level: 95
+  skill: HTML5
+-
+  group: CSS
+  level: 95
+  skill: "SASS / SCSS"
+-
+  group: JS
+  level: 40
+  skill: React.js
+-
+  group: Language
+  level: 30
+  skill: Ruby
+-
+  group: "Site Builder"
+  level: 90
+  skill: Jekyll

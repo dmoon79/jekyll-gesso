@@ -1,0 +1,92 @@
+---
+layout: default
+permalink: /resume/
+---
+
+<div class="resume layout-constrain">
+    <!-- Objective -->
+    <div class="resume__top-region">
+      <section class="resume__summary">
+        <div class="header summary-header">
+          <h1>Derek Moon</h1>
+        </div>
+        <div class="resume__summary__content">{% capture my-include %}{% include summary.md %}{% endcapture %}
+        {{ my-include | markdownify }}</div>
+      </section>
+      <!-- Education -->
+      <section class="resume__education">
+          {% include edu.html %}
+      </section>
+    </div>
+
+    <!-- Work Experience -->
+    <div class="resume__bottom-region">
+      <section class="resume__work  wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
+          <div class="header job-header">
+            <div class="job-header__title">
+                <h2>Work Experience</h2>
+            </div>
+              <div class="header-icon job-header__icon">
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+                      <path d="M5 3c0-1.657 1.343-3 3-3s3 1.343 3 3c0 1.657-1.343 3-3 3s-3-1.343-3-3zM12.001 7h-0.553l-3.111 6.316 1.163-5.816-1.5-1.5-1.5 1.5 1.163 5.816-3.111-6.316h-0.554c-1.999 0-1.999 1.344-1.999 3v5h12v-5c0-1.656 0-3-1.999-3z"></path>
+                  </svg>
+              </div>
+
+          </div>
+          {% assign jobsOrdered = site.jobs | sort: 'order' %}
+          {% for job in jobsOrdered %}
+          <div class="job">
+
+              <div class="row job__header">
+                  <div class="cell job__title">{{ job.title }}</div>
+                  <div class="cell job__tenure">{{ job.tenure }}</div>
+              </div>
+              <div class="row job__company-meta">
+                  <div class="cell job__company">{{ job.company }}</div>
+                  <div class="cell job__company-location">{{ job.location }}</div>
+              </div>
+              <!-- <div class="button job__expand">Show Details +</div> -->
+              <div class="row job__content">
+                  <div class="cell job__description">{{ job.description }}</div>
+                  <div class="cell job__bullets">{{job.content}}</div>
+                  <div class="cell job__skills">{{job.skills}}</div>
+              </div>
+          </div>
+          {% endfor %}
+      </section>
+      <section class="resume__skills wow fadeIn" data-wow-duration="1s" data-wow-delay="2s">
+          <div class="header skill-header">
+              <h2 class="skill-header__title">Tech Skills</h2>
+              <div class="header-icon skill-header__icon">
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+                      <path d="M15.781 12.953l-4.712-4.712c-0.292-0.292-0.769-0.292-1.061 0l-0.354 0.354-2.875-2.875 4.72-4.72h-5l-2.22 2.22-0.22-0.22h-1.061v1.061l0.22 0.22-3.22 3.22 2.5 2.5 3.22-3.22 2.875 2.875-0.354 0.354c-0.292 0.292-0.292 0.769 0 1.061l4.712 4.712c0.292 0.292 0.769 0.292 1.061 0l1.768-1.768c0.292-0.292 0.292-0.769 0-1.061z"></path>
+                  </svg>
+              </div>
+          </div>
+          <div class="skill__list">
+              {% assign sorted_skills = (site.data.skills | sort: 'level' ) %}
+              {% for skill in sorted_skills reversed %}
+              <div class="skillbar" data-percent="{{ skill.level }}">
+                  <span class="skillbar-title">{{ skill.skill }}</span>
+                  <p class="skillbar-bar"></p>
+                  <span class="skill-bar-percent"></span>
+              </div>
+              {% endfor %}
+
+              <div class="tools">
+                <h3>Dev Tools</h3>
+                <p>
+                {% assign tools = (site.data.tools | sort: 'category' | reverse ) %}
+                {% for tool in tools %}
+                  {% if forloop.last == true %}
+                    <span>{{tool.tool}}</span>
+                    {% else %}
+                    <span>{{tool.tool | append: ', ' }}</span>
+                  {% endif %}
+                {% endfor %}
+                </p>
+              </div>
+          </div>
+      </section>
+    </div>
+</div>

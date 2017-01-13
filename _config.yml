@@ -1,12 +1,9 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: DEV - Derek Moon
+email: dmoon79@gmail.com
+description: "The web design portfolio of Derek Moon, a Seattle based web developer and soultuions architect. Specializing in Wordpress, HTML5 and custom Javascript app solutions"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
@@ -18,8 +15,17 @@ destination: _public
 sass_dir: _sass
 highlighter: rouge
 gems:
-- jekyll-compass
+  - octopress-debugger
 
 #Exclude Folders
-exclude: ['config.rb']
+exclude: ['node_modules','css', '_sass', 'Gruntfile.js', 'package.json']
+keep_files: ['_public/css']
 
+#Collection defined
+collections:
+  jobs:
+    output: false
+    permalink: /jobs/:path/
+  projects:
+    output: true
+    permalink: /projects/:slug/
