@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /work/
+permalink: /projects/
 ---
 
 <div class="work-item__wrapper">
@@ -12,17 +12,13 @@ permalink: /work/
       </div>
       <!-- meta-data -->
       <div class="work-item__meta">
-        <h1 class="work-item__title">{{ project.title }}</h1>
+        <h3 class="work-item__title">{{ project.title }}</h3>
         <div class="wrapper">
           <div class="wrapper-col1">
-            <!-- <p class="work-item__caption flex-caption">{{ project.description }}</p>
-            <p>I served as the {{ project.role }} for this project.</p> -->
             <p>This site was built using {{ project.tags }}.</p>
           </div>
           <div class="wrapper-col2">
             <a class="button work-item__link" target="_self" href="{{ project.url }}">View Details</a>
-            <!-- <a class="button work-item__link" target="_blank" href="{{ project.link }}">View Project</a> -->
-            <!-- <h6 class="work-item__year">{{ project.year }}</h6> -->
           </div>
         </div>
       </div>

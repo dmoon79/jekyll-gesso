@@ -1,19 +1,19 @@
 ---
 layout: portfolio
 ---
-<div class="work-single__container">
+<div class="project-single__container">
 
-    <div class="work-single">
+    <div class="project-single">
       <!-- meta-data -->
-      <div class="work-single__header">
-        <h1 class="work-single__title">{{ page.title }}</h1>
+      <div class="project-single__header">
+        <h2 class="project-single__title">{{ page.title }}</h2>
       </div>
       <!-- image -->
-      <div class="work-single__image-section">
+      <div class="project-single__image-section">
         <img src="/images/websites/framed/{{ page.image }}" alt="">
       </div>
       <!-- description -->
-      <div class="work-single__description">
+      <div class="project-single__description">
         {% assign my_content = page.content | strip_newlines %}
         {% if  my_content == "" %}
         {% else %}
@@ -26,11 +26,11 @@ layout: portfolio
         </div>
       </div>
 
-      <!-- Back to Work -->
-      <div class="work-single__footer">
-        <div class="work-single__return-link">
-          <a class="button work-single__link" target="_self" href="/work">See Other Work</a>
-          <a class="button work-single__link" target="_blank" href="{{ page.link }}">Visit Website</a>
+      <!-- Back to project -->
+      <div class="project-single__footer">
+        <div class="project-single__return-link">
+          <a class="button project-single__link" target="_self" href="/projects">All Projects</a>
+          <a class="button project-single__link" target="_blank" href="{{ page.link }}">Visit Website</a>
         </div>
 
       </div>

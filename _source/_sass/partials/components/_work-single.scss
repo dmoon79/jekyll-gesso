@@ -1,20 +1,20 @@
 //@file
-//Work Single page
+// Project Single page
 
-.work-single__container {
+.project-single__container {
 }
 
-.work-single {
+.project-single {
   text-align: center;
 }
 
-.work-single__header {
+.project-single__header {
   background-color: transparent;
   padding: 1em 0 0;
   width: 100%;
 }
 
-.work-single__title {
+.project-single__title {
   @include shadowbox;
   // background: rgba($white, .8);
   color: $dark-grey;
@@ -23,17 +23,17 @@
   max-width: 65%;
 }
 
-.work-single__description {
+.project-single__description {
   @include shadowbox;
   margin: 0 auto 2em auto;
   max-width: 65%;
-  text-align: center;
+  text-align: left;
   p {
     margin: 2em 0;
   }
 }
 
-.work-single__link {
+.project-single__link {
   // @include button();
   @include shadowbox;
   background-color: $white;
@@ -51,17 +51,17 @@
   }
 }
 
-.work-single__image-section {
+.project-single__image-section {
   text-align: center;
 }
 
-.work-single__image-section > img {
+.project-single__image-section > img {
 }
 
-.work-single__footer {
+.project-single__footer {
   text-align: center;
   padding: 0 0 2em 0;
 }
 
-.work-single__return-link {
+.project-single__return-link {
 }
