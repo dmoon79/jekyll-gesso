@@ -12,6 +12,7 @@
 //intro-card Content Styling
 .intro-card {
   background-color: rgba(255, 255, 255, 0.6);
+  border: 2px #ccc solid;
   color: #666;
   display: table-cell;
   padding: 2rem;
@@ -20,7 +21,6 @@
   vertical-align: middle;
   @include large {
     border-radius: 50%;
-    border: 2px #ccc solid;
     background-color: rgba(255, 255, 255, 0.6);
     height: 400px;
     margin: 2em 4em;
