@@ -1,46 +1,64 @@
 // Homepage
+
 .background-sea {
   // @include image-overlay($red, .7);
-  background: url('/images/bg/alki-bg.png') no-repeat no-repeat;
+  background: url('/images/bg/moon-water.jpg') no-repeat no-repeat;
   background-size: cover;
 }
+
 .background-texture {
   background: url('/images/bg/nasty_fabric.png') !important;
 }
-
 //intro-card Content Styling
 .intro-card {
-  color: #FFF;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #666;
+  display: table-cell;
+  padding: 2rem;
+  position: relative;
   text-align: left;
+  vertical-align: middle;
   @include large {
+    border-radius: 50%;
+    border: 2px #ccc solid;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 400px;
+    margin: 2em 4em;
     text-align: center;
-    padding-right: 5em;
+    top: 50px;
+    width: 400px;
+    // padding-right: 5em;
   }
 }
-.intro-card__inner {
 
-}
-.intro-card__image {
-}
+.intro-card__inner {}
+
+.intro-card__image {}
+
 .intro-card__title {
-  border-bottom: 2px white solid;
-  color: #FFF;
-  text-shadow: 3px 3px 3px $dark-grey;
-
+  // border-bottom: 2px $dark-grey solid;
+  color: #666;
+  margin-bottom: 5px;
+  font-size: 2rem;
+  @include large {
+    font-size: 2.5rem;
+  }
+  // text-shadow: 3px 3px 3px $dark-grey;
 }
+
 .intro-card__subtitle {
-  font-size: em(24px);
-  text-shadow: 3px 3px 3px $dark-grey;
+  font-size: rem(20px);
+  // text-shadow: 3px 3px 3px $dark-grey;
 }
-.intro-card__copy {
 
-}
+.intro-card__copy {}
 
 .homepage-frame {
   display: block;
   margin: 2em 0;
   text-align: center;
 }
+
 .homepage-frame__image {
   box-shadow: 3px 3px 3px #333;
 }
