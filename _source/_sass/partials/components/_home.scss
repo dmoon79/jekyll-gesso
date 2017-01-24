@@ -7,7 +7,7 @@
 }
 
 .background-texture {
-  background: url('/images/bg/nasty_fabric.png') !important;
+  background: url('/images/bg/purty_wood.png') !important;
 }
 //intro-card Content Styling
 .intro-card {
@@ -36,19 +36,16 @@
 .intro-card__image {}
 
 .intro-card__title {
-  // border-bottom: 2px $dark-grey solid;
   color: #666;
   margin-bottom: 5px;
   font-size: 2rem;
   @include large {
     font-size: 2.5rem;
   }
-  // text-shadow: 3px 3px 3px $dark-grey;
 }
 
 .intro-card__subtitle {
   font-size: rem(20px);
-  // text-shadow: 3px 3px 3px $dark-grey;
 }
 
 .intro-card__copy {}
