@@ -6,16 +6,16 @@
 }
 .resume .header {
   h1 {
-    color: white;
-    text-shadow: 3px 3px 3px $dark-grey;
+    color: $primary-text-color;
+    // text-shadow: 3px 3px 3px $dark-grey;
   }
   h2 {
-    color: white;
-    text-shadow: 3px 3px 3px #333;
+    color: $primary-text-color;
+    // text-shadow: 3px 3px 3px #333;
   }
   svg {
-    fill: #FFF;
-    text-shadow: 3px 3px 3px #333;
+    fill: $primary-text-color;
+    // text-shadow: 3px 3px 3px #333;
   }
 }
 
@@ -30,7 +30,8 @@
       margin-right: 1em;
     }
     .resume__summary__content {
-      @include shadowbox;
+      // border: 1px $light-grey solid;
+      padding-right: 1em;
       ul {
         font-size: em(21px);
         font-weight: 100;
@@ -61,7 +62,8 @@
     flex: 1 250px;
     // min-width: 30vw;
     .skill__list {
-      @include shadowbox;
+      border: 1px solid $light-grey;
+      padding: 1em;
     }
   }
 }

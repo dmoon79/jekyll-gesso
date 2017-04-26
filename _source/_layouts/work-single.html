@@ -4,16 +4,16 @@ layout: portfolio
 <div class="project-single__container">
 
     <div class="project-single">
-      <!-- meta-data -->
-      <div class="project-single__header">
-        <h2 class="project-single__title">{{ page.title }}</h2>
-      </div>
+
       <!-- image -->
       <div class="project-single__image-section">
         <img src="/images/websites/framed/{{ page.image }}" alt="">
       </div>
       <!-- description -->
+      <h2 class="project-single__title">{{ page.title }}</h2>
       <div class="project-single__description">
+        <!-- meta-data -->
+
         {% assign my_content = page.content | strip_newlines %}
         {% if  my_content == "" %}
         {% else %}

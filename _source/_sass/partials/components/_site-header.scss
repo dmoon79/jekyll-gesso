@@ -1,6 +1,7 @@
 .site-header {
-  background-color: rgba($green, .8);
-  border-bottom: 2px solid $dark-grey;
+  background-color: #fff;
+  color: $dark-grey;
+  border-bottom: 1px solid $dark-grey;
   .social {
     flex-flow: row nowrap;
     border-top: none;
@@ -21,7 +22,7 @@
     display: flex;
   }
   .social__svg {
-    fill: white;
+    fill: $dark-grey;
   }
 }
 

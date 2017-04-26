@@ -1,6 +1,6 @@
 .site-footer {
-  background-color: $dark-grey;
-  border-top: 4px solid $light-grey;
+  background-color: #fff;
+  border-top: 1px solid $dark-grey;
   margin-top: 1em;
   min-height: 100px;
 }
@@ -20,7 +20,7 @@
     padding-right: 1em;
   }
   path{
-    fill: $white;
+    fill: $dark-grey;
   }
   svg {
     width: 16px;
