@@ -19,6 +19,12 @@
   }
 }
 
+.resume__title {
+  border-bottom: 5px solid $green;
+  margin-bottom: 2rem;
+  // text-align: right;
+  // background-color: $green;
+}
 .resume__top-region {
   display: flex;
   justify-content: center;
