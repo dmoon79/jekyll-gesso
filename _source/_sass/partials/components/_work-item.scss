@@ -9,8 +9,7 @@
 }
 
 .work-item {
-  @include shadowbox;
-  // box-shadow: 5px 3px 3px $light-grey;
+  // @include shadowbox;
   padding: 0;
   flex: 1 0 300px;
   height: 300px;
