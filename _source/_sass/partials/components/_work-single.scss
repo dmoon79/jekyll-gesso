@@ -15,16 +15,17 @@
 }
 
 .project-single__title {
-  @include shadowbox;
-  // background: rgba($white, .8);
+  border-bottom: 5px solid $green;
   color: $dark-grey;
-  text-align: center;
-  margin: 0.5em auto 0 auto;
+  margin: 0 auto;
   max-width: 65%;
+  padding: 1em 0;
+  text-align: left;
+  text-transform: uppercase;
 }
 
 .project-single__description {
-  @include shadowbox;
+  // border: 1px solid $light-grey;
   margin: 0 auto 2em auto;
   max-width: 65%;
   text-align: left;
@@ -34,12 +35,10 @@
 }
 
 .project-single__link {
-  // @include button();
-  @include shadowbox;
   background-color: $white;
-  // border: 1px solid $dark-grey;
+  border: 1px solid $light-grey;
   color: $dark-grey;
-  padding: .5em;
+  padding: 1em;
   &:hover,
   &:focus,
   &:active {
@@ -56,6 +55,7 @@
 }
 
 .project-single__image-section > img {
+  max-height: 75vh;
 }
 
 .project-single__footer {

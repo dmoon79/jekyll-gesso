@@ -1,9 +1,11 @@
 .job {
   // @extend h5;
-  @include shadowbox;
+  border: 1px solid $light-grey;
+  padding: 1em;
   display: flex;
   flex-flow: column;
   margin-bottom: 3em;
+
 }
 
 .cell {

@@ -1,15 +1,9 @@
 //@file
 //Work Page
 
-.work-item__wrapper {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content:center;
-  text-align: center;
-}
-
 .work-item {
   // @include shadowbox;
+  border: 1px solid #ccc;
   padding: 0;
   flex: 1 0 300px;
   height: 300px;
@@ -20,7 +14,7 @@
 }
 .work-item:hover > .work-item__meta,
 .work-item:focus > .work-item__meta  {
-  background-color: rgba($dark-grey, .9);
+  background-color: rgba($dark-grey, .95);
   position: absolute;
   top: 300px;
   width: 100%;
