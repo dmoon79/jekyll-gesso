@@ -14,3 +14,14 @@
   width: 100%;
   padding: 1em 2em;
 }
+
+.social__link {
+  &:hover {
+    .social__svg {
+      fill: $dark-grey;
+      &:hover {
+        fill: $light-grey;
+      }
+    }
+  }
+}

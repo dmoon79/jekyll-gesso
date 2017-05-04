@@ -14,7 +14,7 @@
 }
 .work-item:hover > .work-item__meta,
 .work-item:focus > .work-item__meta  {
-  background-color: rgba($dark-grey, .95);
+  background-color: rgba(#fff, .98);
   position: absolute;
   top: 300px;
   width: 100%;
@@ -44,20 +44,22 @@ jitter on Webkit browsers. No luck --- May 1, 2016
   min-height: 300px;
   width: 100%;
   a {
-    color: $white;
+    border: 1px solid $dark-grey;
+    color: $dark-grey;
     &:hover {
-      color: $dark-grey;
+      color: $white;
     }
   }
   .button {
     &:hover {
-      background-color: $white;
+      background-color: $green;
+      color: $dark-grey;
     }
   }
 }
 
 .work-item__title {
-  color: $white ;
+  color: $dark-grey;
   line-height: 1.25em;
 }
 
@@ -68,7 +70,7 @@ jitter on Webkit browsers. No luck --- May 1, 2016
 }
 
 .wrapper-col1 > p {
-  color: $tan;
+  color: $green;
 }
 
 .work-item__year {
