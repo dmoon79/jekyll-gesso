@@ -4,19 +4,19 @@ title: Front-End Developer
 location: Seattle, Washington
 company: Forum One
 tenure: June 2015 - Present
-description: "In my capacity as Front End Developer at Forum One, I work with our project teams to actualize interactive, responsive websites that reflect the designs produced by our award winning creative team.  Forum One specializes in the implementation of highly customized content management systems using Drupal and WordPress as well as numerous other web technologies."
+description: "As a Front-End Developer at Forum One, I work with our project teams to build interactive, responsive websites and implement the award-winning designs produced by our creative team.  Forum One specializes in the implementation of highly customized content management system solutions using open source platforms such as Drupal and WordPress.
+"
 order: 10
 ---
-- Specialize in the development of software solutions to satisfy a wide variety of front-end requirements and use cases.
-- Highly-proficient front-end engineer, specializing in development using Javascript, PHP, HTML, and CSS.
-- Served as Technical Architect for a number of Wordpress projects. Coordinating the development team, and actively completing development tasks.
-- Created reusable templates and front-end logic for Wordpress, Drupal, and Jekyll websites to meet Section 508 compliance.
-- Worked closely with our award-winning design team to transfer designs into responsive code and templates.
-- Contributed to the development of our organization's code standards documentation, base themes, standard development tools, and developer operations processes.
-- Worked in both Agile and Waterfall settings. Participated in projects in all stages of the product life cycle.
-- Provided post-build technical support to our clients
-- Tested front-end code in multiple browsers to ensure cross-browser compatibility.
-- Created HTML email templates and newsletters for e-mail marketing campaigns.
+- Act as lead developer for WordPress projects, forming our client’s technical requirements into a formal project plan.  Coordinate additional technical team members for the duration of the project while actively completing development tasks.
+- Deeply committed to the creation of front-end dev ops tools, to maximize the efficacy of our team to handle the amount of work that can accumulate.
+- Contribute to the development of our organization's open source Wordpress, Drupal and Jekyll base themes.
+- Create HTML email templates and newsletters for e-mail marketing campaigns.
+- Worked closely with our award-winning design team to transfer their designs into responsive code and templates.
+- Work in both agile and waterfall settings. Participated in all stages of the product life cycle.
+- Provide post-build technical support for our clients.
+- Test front-end code in multiple browsers to ensure cross-browser compatibility, using industry standard unit, acceptance, and visual regression testing methodologies.
+
 
 Skills Summary
 

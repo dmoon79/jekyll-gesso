@@ -4,17 +4,18 @@ title: Technical Project Manager
 location: Seattle, Washington
 company: Forum One
 tenure: August 2013 - June 2015
-description: "Technical Project Manager (TPM) is the first of its kind position at Forum One, created specifically to satiate the need for the organization to have a client-facing, project-managing, web developer.  As the TPM I actively manage all aspects of the ongoing engagement with our portfolio of support clients.  My typical day is spent working directly with our stakeholders to ensure a high level of responsiveness, and timely resolution of any technical needs."
+description: "The Technical Project Manager (TPM) was the first of its kind position at Forum One, created specifically to satisfy the need for a client-facing, project-managing, web developer.  As TPM I actively managed all aspects of the ongoing engagement with our portfolio of support clients.  My typical day was spent working directly with our stakeholders to ensure a high level of responsiveness, and timely resolution of any technical needs."
 order: 20
 ---
-- Introduced technical processes and workflows that opened up efficiencies that resulted in Forum One's support services to achieve profitability 20% above targeted levels, and the acquisition of two of the largest support clients acquired by our organization.
-- Provided strategic advising and recommendations to our clients in order to help them realize their goals and maximize their impact.
+- Introduced technical processes that resulted in a profitability level of nearly 30% for Forum One's support services, as well as the acquisition of two of the largest post-build support clients ever acquired by our organization. During my first 2 years on the job, our 3-person team generated over 13% of the total revenue for the entire company.
+- Provided strategic advising and recommendations to our clients to help them realize their goals and maximize their impact.
 - Performed development tasks, and provided technical support for client inquiries.
 - Established ongoing project plans with our clients, creating accurate estimates, and acceptance criteria.
-- Coordinated and resourced our support team members and contract staff to client projects.
-- Facilitated client meetings, trainings.
-- Created reports & technical documentation.
-- Administered the Forum One support help desk
+- Coordinating and resourcing our support team members and contract staff to client projects.
+- Facilitated client meetings, training, created reports & technical documentation.
+- Coordinated a remote team of contractor developers.
+- Administered the Forum One support Help Desk,
+
 
 Skills Summary
 
