@@ -15,9 +15,7 @@ $v-pad: 10px;
 
 .edu {
   @extend p;
-  border: 1px solid $light-grey;
   margin-bottom: 2em;
-  padding: 1rem;
   .col {
     padding: 1em 1em 0 0;
     @include large {

@@ -1,6 +1,6 @@
 ---
 layout: work-single
-title: Georgia Tech // Online Masters Degree Program
+title: Georgia Tech (OMSCS)
 slug: gtomscs
 year: 2013
 link: "http://www.omscs.gatech.edu/"

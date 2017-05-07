@@ -1,6 +1,6 @@
 ---
 layout: work-single
-title: Georgia Tech // Child Study Lab
+title: Georgia Tech Child Study Lab
 slug: gtchild
 year: 2013
 link: "http://www.childstudylab.gatech.edu/"

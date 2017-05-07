@@ -1,6 +1,6 @@
 ---
 layout: work-single
-title: Schusterman
+title: Schusterman Foundation
 slug: schusterman
 year: 2015
 link: "https://www.schusterman.org"

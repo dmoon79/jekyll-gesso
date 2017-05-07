@@ -1,6 +1,6 @@
 ---
 layout: work-single
-title: Level One Project
+title: Bill & Melinda Gates Foundation Level One Project
 slug: level-one
 year: 2016
 link: "https://leveloneproject.org"
