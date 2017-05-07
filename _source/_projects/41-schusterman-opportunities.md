@@ -1,6 +1,6 @@
 ---
 layout: work-single
-title: Schusterman Opportunities
+title: Schusterman Foundation Opportunities
 slug: schusterman-opps
 year: 2015
 link: "https://www.schusterman.org/opportunities"
