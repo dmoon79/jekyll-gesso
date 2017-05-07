@@ -6,44 +6,44 @@
   'use strict';
   $(document).ready(function() {
 
-    var divCount = $('.skillbar').length;
-    var skillBox = $('.skillbar');
-    var skillValue = $('.skillbar').attr('data-percent');
+    // var divCount = $('.skillbar').length;
+    // // console.log(divCount);
+    // var skillBox = $('.skillbar');
+    // var skillValue = $('.skillbar').attr('data-percent');
     // var skillValue = parseInt(skillValue);
-    console.log(skillBox);
-
-
-    // Rewrite
-    skillBox.each(function(index){
-      var score = $(this).attr('data-percent');
-      // convert var score to INT
-      score = parseInt(score, 10);
-
-    // console.log(score);
-    // console.log(typeof(score));
-      switch (score) {
-        case (score < 59):
-          $(this).html("lower");
-          console.log( " Lower than 60");
-          break;
-        case (score > 60):
-          $(this).html("medium");
-          console.log(" More than 60");
-          break;
-        default:
-          $(this).html("score not known");
-          break;
-        }
-    });
-
-    var i = 0;
+    // var i = 0;
     $('.skillbar')
       .find('.skill-bar-percent')
       .css( "color", "green" );
+    // {
+    //   switch (x) {
+    //     case (skillValue < 59):
+    //       $(this).html('Test');
+    //       console.log(i + " Lower than 60");
+    //       break;
+    //     case (skillValue > 60):
+    //       $(this).html("High");
+    //       console.log(i + " Lower than 60");
+    //       break;
+    //     default:
+    //       $(this).html("Cant Find it");
+    //       console.log("is this working");
+    //       break;
+    //   }
+    // });
 
     $('.flexslider').flexslider({
       animation: "slide"
     });
+
+    // $('.job__content').hide();
+
+    // $('.job__expand').on( 'click' , function(){
+    //   $(this).text($(this).text() == 'Show Details +' ? 'Hide Details -' : 'Show Details +');
+    //   $(this).next('.job__content').toggle("slow", function(){
+    //     $(this).prev('.button').css("background-color", "#C31010");
+    //   });
+    // });
 
     $('.skillbar').skillBars({
       from: 0,
