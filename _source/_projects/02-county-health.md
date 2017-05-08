@@ -5,7 +5,7 @@ slug: chr
 year: 2016
 link: "http://www.countyhealthrankings.org/"
 image:
-tags: "Drupal 7"
+tags: "Drupal&nbsp7"
 description:
 role:  Front-End Developer
 published: false

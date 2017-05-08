@@ -4,8 +4,10 @@ permalink: /projects/
 ---
 
 <div class="page--portfolio">
-  {% for project in site.projects %}
-    <div class="work-item wow pulse" data-wow-duration="1s" data-wow-delay="1s">
+  {% assign sortedProjects = site.projects | sort: 'year' | reverse %}
+
+  {% for project in sortedProjects %}
+    <div class="work-item wow pulse" data-wow-duration=".25s" data-wow-delay="1s">
       <!-- image -->
       <div class="work-item__image">
         <img src="/images/websites/{{ project.image }}" alt="">

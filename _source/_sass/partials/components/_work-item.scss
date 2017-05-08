@@ -34,7 +34,7 @@ jitter on Webkit browsers. No luck --- May 1, 2016
 
 .work-item:hover > .work-item__image,
 .work-item:focus > .work-item__image {
-  transform: scale(1.1);
+  // transform: scale(1.1);
 }
 
 .work-item__meta {

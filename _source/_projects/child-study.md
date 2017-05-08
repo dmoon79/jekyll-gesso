@@ -5,7 +5,7 @@ slug: gtchild
 year: 2013
 link: "http://www.childstudylab.gatech.edu/"
 image: gt-child.png
-tags: "Drupal 7"
+tags: "Drupal&nbsp7"
 description:
 role:  Front-End Developer
 published: true

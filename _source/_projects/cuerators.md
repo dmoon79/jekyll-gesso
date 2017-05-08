@@ -5,7 +5,7 @@ slug: cuerators
 year: 2013
 link: "http://cuerators.com"
 image: cuerators.png
-tags: "Drupal 7"
+tags: "Drupal&nbsp7"
 description:
 role:  Front-End Developer
 published: true
