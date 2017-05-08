@@ -52,8 +52,7 @@ jitter on Webkit browsers. No luck --- May 1, 2016
   }
   .button {
     &:hover {
-      background-color: $tan;
-      color: $white;
+      transform: scale(1.1);
     }
   }
 }

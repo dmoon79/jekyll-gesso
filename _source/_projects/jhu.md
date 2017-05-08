@@ -5,8 +5,8 @@ slug: jhu-hip
 year: 2017
 link: ""
 image: jhu-hip.png
-tags:
+tags: [Wordpress]
 description:
 role:  Front-End Developer
-published: true
+published: false
 ---
