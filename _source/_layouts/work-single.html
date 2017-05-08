@@ -30,7 +30,10 @@ layout: portfolio
       <div class="project-single__footer">
         <div class="project-single__return-link">
           <a class="button project-single__link" target="_self" href="/projects">All Projects</a>
-          <a class="button project-single__link" target="_blank" href="{{ page.link }}">Visit Website</a>
+
+          {% if page.link %}
+            <a class="button project-single__link" target="_blank" href="{{ page.link }}">Visit Website</a>
+          {% endif %}
         </div>
 
       </div>
