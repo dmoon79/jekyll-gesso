@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: work-single
 title: Center for Strategic and International Studies (CSIS) - Longform Project
 slug: csis
 year: 2016

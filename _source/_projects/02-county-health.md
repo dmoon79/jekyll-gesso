@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: work-single
 title: County Health Rankings
 slug: chr
 year: 2016
