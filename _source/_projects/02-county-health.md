@@ -5,8 +5,12 @@ slug: chr
 year: 2016
 link: "http://www.countyhealthrankings.org/"
 image:
-tags: "Drupal&nbsp7"
+tags:
+  - Drupal 7
+  - HTML5/CSS3
+  - SASS  
 description:
-role:  Front-End Developer
+role:  
+  - Front-End Developer
 published: false
 ---

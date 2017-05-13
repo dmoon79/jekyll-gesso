@@ -5,9 +5,15 @@ slug: spa
 year: 2015
 link: "http://sciencephilanthropyalliance.org"
 image: spa.png
-tags: Wordpress
+tags:
+  - Wordpress
+  - Custom Wordpress Theme
+  - JQuery
+  - HTML5/CSS3
+  - SASS
 description:  
-role:  Technical Architect & Front-End Developer
+role:  
+  - Technical Lead
 published: true
 ---
 The Science Philanthropy Alliance is a community of funders who work together to inspire new, emerging and current philanthropists to dedicate a portion of their philanthropy to basic science.

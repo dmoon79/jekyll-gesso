@@ -5,7 +5,13 @@ slug: gtcomputing
 year: 2012
 link: "http://www.cc.gatech.edu/"
 image: gt-coc.png
-tags: "Drupal&nbsp7"
+tags:
+  - Drupal 6
+  - Custom Drupal Theme
+  - Longform Content Builder
+  - JQuery
+  - HTML5/CSS3
+  - SASS
 description:
 role:  Front-End Developer
 published: true

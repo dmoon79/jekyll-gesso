@@ -12,6 +12,8 @@ tags:
   - HTML5/CSS3
   - SASS
 description:
-role:  Front-End Developer
+role:
+  - Technical Lead
+  - Front-End Developer
 published: true
 ---

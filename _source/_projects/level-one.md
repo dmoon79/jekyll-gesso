@@ -5,7 +5,12 @@ slug: level-one
 year: 2016
 link: "https://leveloneproject.org"
 image: level-one.png
-tags: Wordpress
+tags:
+  - Wordpress
+  - Custom Wordpress Theme
+  - JQuery
+  - HTML5/CSS3
+  - SASS
 description: Gates Foundation initiative
 role:  Front-End Developer
 published: true

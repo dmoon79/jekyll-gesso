@@ -5,7 +5,9 @@ slug: forumone
 year: 2014
 link: "http://forumone.com"
 image: forumone.png
-tags: Wordpress
+- Wordpress
+- HTML5/CSS3
+- SASS
 description:
 role:  Front-End Developer
 published: true
