@@ -137,20 +137,20 @@ form {
   font-family: $header-font-family;
   font-weight: 700;
   // @include hyphens(none);
-  line-height: 1.1;
+  line-height: 1.25;
   // text-rendering: optimizeLegibility;
 }
 
 h1 {
   @extend %hN;
-  font-size: rem(40px);
+  font-size: rem($font-size-xxxl);
   font-weight: 800;
   margin: 20px 0;
 }
 
 h2 {
   @extend %hN;
-  font-size: em($font-size-xl);
+  font-size: em($font-size-xxl);
   margin: 0 0 rhythm(1, $font-size-xl);
 }
 
@@ -302,7 +302,7 @@ option {}
 output {}
 
 p {
-  font-size: $font-size-md;
+  font-size: $font-size-normal;
   font-weight: 100;
   line-height: 1.5;
   margin: 0 0 1em;

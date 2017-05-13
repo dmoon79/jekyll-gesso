@@ -4,27 +4,32 @@
 <!--[if IE 7]>         <html class="ie7 lt-ie9 lt-ie8 no-js"> <![endif]-->
 <!--[if IE 8]>         <html class="ie8 lt-ie9 no-js"> <![endif]-->
 <!--[if IE 9]>         <html class="ie9 no-js"> <![endif]-->
-<!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]-->
-  {% include head.html %}
+<!--[if gt IE 9]><!-->
+<html class="no-js">
+<!--<![endif]-->
+{% include head.html %}
 
-  <body class="layout--default background-sea">
-    <section class="section-meta">
-      <div class="skiplinks breadcrumbs">
-        <a href="#main" class="skiplinks__link element-focusable">Skip to main content</a>
+<body class="layout--homepage background-sea">
+  <section class="section-meta">
+    <div class="skiplinks breadcrumbs">
+      <a href="#main" class="skiplinks__link element-focusable">Skip to main content</a>
+    </div>
+  </section>
+
+  <section class="section-header">
+    {% include header.html %}
+  </section>
+
+  <section class="section-content">
+      <div class="layout-constrain">
+        {{ content }}
       </div>
-    </section>
+  </section>
 
-    <section class="section-header">
-      {% include header.html %}
-    </section>
+  <section class="section-footer">
+    {% include footer.html %}
+  </section>
 
-    <section class="section-content layout-constrain">
-      {{ content }}
-    </section>
+</body>
 
-    <section class="section-footer">
-      {% include footer.html %}
-    </section>
-
-  </body>
 </html>
