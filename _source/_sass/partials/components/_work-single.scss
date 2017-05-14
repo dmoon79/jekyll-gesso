@@ -1,8 +1,7 @@
 //@file
 // Project Single page
 
-.project-single__container {
-}
+.project-single__container {}
 
 .project-single {
   text-align: center;
@@ -15,7 +14,7 @@
 }
 
 .project-single__title {
-  border-bottom: 5px solid $green;
+  border-bottom: 5px solid $med-grey;
   color: $dark-grey;
   margin: 0 auto;
   max-width: 65%;
@@ -25,13 +24,10 @@
 }
 
 .project-single__description {
-  // border: 1px solid $light-grey;
-  margin: 0 auto 2em auto;
+  padding: 2rem 0;
   max-width: 65%;
   text-align: left;
-  p {
-    margin: 2em 0;
-  }
+  margin: 0 auto;
 }
 
 .project-single__link {
@@ -39,12 +35,14 @@
   border: 1px solid $light-grey;
   color: $dark-grey;
   padding: 1em;
-  &:hover,
+
+  &:active,
   &:focus,
-  &:active {
+  &:hover {
     background-color: $green;
     color: $white;
   }
+
   &:hover {
     transform: scale(1.1);
   }
@@ -60,8 +58,15 @@
 
 .project-single__footer {
   text-align: center;
-  padding: 0 0 2em 0;
+  padding: 0 0 2em;
 }
 
-.project-single__return-link {
+.project-single__return-link {}
+
+.project-single__tag {
+  background-color: $red;
+  color: $white;
+  padding: 5px;
+  margin-right: 3px;
+  line-height: 45px;
 }

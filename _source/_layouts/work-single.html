@@ -22,8 +22,9 @@ layout: portfolio
         </div>
         {% endif %}
         <div class="col col2">
-          <p>{{ page.description }}</p>
-          <p>Platform: {{ page.tags }}.</p>
+          {% for tag in page.tags %}
+            <span class="project-single__tag">{{tag}}</span>
+          {% endfor %}
         </div>
       </div>
 

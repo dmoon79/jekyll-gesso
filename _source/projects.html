@@ -4,28 +4,45 @@ permalink: /projects/
 ---
 
 <div class="page--portfolio">
-  {% assign sortedProjects = site.projects | sort: 'year' | reverse %}
+  <p>
+    Throughout my career, I've had the opportunity to create and support websites for some of the most influential
+    organizations in the world. Including but not limited to the following:
+  </p>
+  {% assign sortedProjects = site.projects | sort: 'title' %}
 
+<div class="page__links">
   {% for project in sortedProjects %}
-    <div class="work-item wow pulse" data-wow-duration=".25s" data-wow-delay="1s">
-      <!-- image -->
-      <div class="work-item__image">
+
+    <!-- <a class="button work-item__link" target="_self" href="{{ project.url }}"><h3>{{ project.title }}</h3></a> -->
+    {% if project.tags contains 'Wordpress' %}
+        <a href="{{ project.url }}" class="page__link link--wordpress">{{ project.title }}</a>
+      {% elsif project.tags contains 'Drupal 7' or project.tags contains 'Drupal 6' or project.tags contains 'Drupal 8' %}
+        <a href="{{ project.url }}" class="page__link link--drupal">{{ project.title }}</a>
+      {% else %}
+        <a href="{{ project.url }}" class="page__link">{{ project.title }}</a>
+    {% endif %}
+    {% if project.mission %}
+      <p class="page__mission">{{ project.mission }}</p>
+    {% endif %}
+
+    <!-- <div class="work-item wow pulse" data-wow-duration=".25s" data-wow-delay="1s">
+      <!--image-->
+      <!-- <div class="work-item__image">
         <img src="/images/websites/{{ project.image }}" alt="">
-      </div>
+      </div> -->
       <!-- meta-data -->
-      <div class="work-item__meta">
+      <!-- <div class="work-item__meta">
         <h3 class="work-item__title">{{ project.title }}</h3>
         <div class="wrapper">
           <div class="wrapper-col1">
-            {% for x in project.tags %}
-              <span>{{ x }}, </span>
-            {% endfor %}
+
           </div>
           <div class="wrapper-col2">
             <a class="button work-item__link" target="_self" href="{{ project.url }}">View Details</a>
           </div>
         </div>
-      </div>
-    </div>
+      </div> -->
+    <!--</div> -->
   {% endfor %}
+  </div>
 </div>

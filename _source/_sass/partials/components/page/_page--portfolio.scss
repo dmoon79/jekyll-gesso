@@ -1,6 +1,17 @@
 .page--portfolio {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content:center;
-  text-align: center;
+  // display: flex;
+  // flex-flow: row wrap;
+  // justify-content:center;
+  // text-align: center;
+  .page__links {
+    // columns: 2;
+  }
+  .page__link {
+    color: $blue;
+    display: block;
+    text-decoration: none;
+  }
+  .page__mission {
+    font-size: .8rem;
+  }
 }

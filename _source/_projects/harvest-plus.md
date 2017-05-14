@@ -13,6 +13,8 @@ tags:
   - HTML5/CSS3
   - SASS
 description:
+mission: |
+  To develop and scale up the delivery of biofortified nutritious crops around the world, so that every child, woman, and man who needs them can have access.
 role:  Front-End Developer
 published: true
 ---
