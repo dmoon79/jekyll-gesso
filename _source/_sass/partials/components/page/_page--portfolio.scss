@@ -14,7 +14,10 @@
   .page__item-list {
     columns: 1;
     margin: 2rem 0;
-    @include large {
+    @include tablet {
+      columns: 2;
+    }
+    @include desktop {
       columns: 3;
     }
   }
