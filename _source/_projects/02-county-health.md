@@ -10,6 +10,8 @@ tags:
   - HTML5/CSS3
   - SASS  
 description:
+mission: |
+  Building awareness of the multiple factors that influence health. Providing a reliable, sustainable source of local data and evidence to communities to help them identify opportunities to improve their health
 role:  
   - Front-End Developer
 published: false

@@ -1,0 +1,19 @@
+.layout--50 {
+
+  // flex-flow: row wrap;
+  .layout__col {
+
+  }
+  @include large {
+    display: flex;
+
+
+    .layout__col--left {
+      flex: 2;
+      padding-right: 1em;
+    }
+    .layout__col--right {
+      flex: 1;
+    }
+  }
+}

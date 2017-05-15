@@ -1,6 +1,62 @@
 .page--portfolio {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content:center;
-  text-align: center;
+  .page__intro {
+    padding: 2em 0;
+    background: url('/images/bg/lanterns.png') no-repeat no-repeat;
+    background-size: cover;
+    .intro {
+      width: 100%;
+      @include large {
+        width: 50%;
+      }
+    }
+  }
+
+  .page__item-list {
+    columns: 1;
+    margin: 2rem 0;
+    @include large {
+      columns: 2;
+    }
+  }
+
+  .page__item {
+    margin-bottom: 2rem;
+    break-inside: avoid;
+    border: 1px solid $white;
+  }
+
+  .page__meta {
+    background-color: $light-grey;
+    overflow: hidden;
+  }
+
+  .page__year {
+    background-color: $blue;
+    color: $white;
+    float: left;
+    padding: 5px;
+  }
+
+  .page__tags {
+    padding: 5px;
+    float: left;
+  }
+
+  .page__link {
+    color: $blue;
+    font-size: $font-size-xxl;
+    display: block;
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      color: $red;
+    }
+  }
+
+  .page__mission {
+    font-size: 0.9rem;
+    margin: 0;
+    padding: 5px 0;
+  }
 }

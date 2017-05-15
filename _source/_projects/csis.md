@@ -1,6 +1,6 @@
 ---
 layout: work-single
-title: Center for Strategic and International Studies (CSIS) - Longform Project
+title: Center for Strategic and International Studies
 slug: csis
 year: 2016
 link: "http://csis.org/"

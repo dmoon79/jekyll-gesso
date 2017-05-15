@@ -11,30 +11,46 @@ layout: portfolio
       </div>
       <!-- description -->
       <h2 class="project-single__title">{{ page.title }}</h2>
-      <div class="project-single__description">
-        <!-- meta-data -->
 
-        {% assign my_content = page.content | strip_newlines %}
-        {% if  my_content == "" %}
-        {% else %}
-        <div class="col col1">
-          <p>{{content}}</p>
-        </div>
-        {% endif %}
-        <div class="col col2">
-          <p>{{ page.description }}</p>
-          <p>Platform: {{ page.tags }}.</p>
+      <div class="project-single__description">
+        <div class="layout--50">
+          {% if page.mission %}
+          <div class="layout__col layout__col--left">
+            <div class="project-single__content">
+              <p>{{ page.mission }}</p>
+              <p>{{content}}</p>
+            </div>
+          </div>
+          {% endif %}
+          <div class="layout__col layout__col--right">
+            <div class="project-single__tags">
+              <!-- <span class="project-single__tag-intro">Project features: </span> -->
+              {% for tag in page.tags %}
+                <span class="project-single__tag">{{tag}}</span>
+              {% endfor %}
+            </div>
+          </div>
         </div>
       </div>
 
       <!-- Back to project -->
       <div class="project-single__footer">
         <div class="project-single__return-link">
+          {% if page.previous.url %}
+          <a class="button" target="_self" href="{{ page.previous.url }}">Previous</a>
+          {% endif %}
+
           <a class="button project-single__link" target="_self" href="/projects">All Projects</a>
 
           {% if page.link %}
-            <a class="button project-single__link" target="_blank" href="{{ page.link }}">Visit Website</a>
+            <a class="button project-single__link" target="_blank" href="{{ page.link }}">Visit Project Website</a>
           {% endif %}
+
+          {% if page.next.url %}
+          <a class="button" target="_self" href="{{ page.next.url }}">Next</a>
+          {% endif %}
+
+
         </div>
 
       </div>

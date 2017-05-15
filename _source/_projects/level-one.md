@@ -12,6 +12,8 @@ tags:
   - HTML5/CSS3
   - SASS
 description: Gates Foundation initiative
+mission: |
+  Initiative to help level the playing field by working across public, private and nonprofit sectors to create inclusive, interconnected digital economies in every country around the world.
 role:  Front-End Developer
 published: true
 ---

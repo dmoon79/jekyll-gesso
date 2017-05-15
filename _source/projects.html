@@ -2,30 +2,46 @@
 layout: default
 permalink: /projects/
 ---
-
 <div class="page--portfolio">
-  {% assign sortedProjects = site.projects | sort: 'year' | reverse %}
-
-  {% for project in sortedProjects %}
-    <div class="work-item wow pulse" data-wow-duration=".25s" data-wow-delay="1s">
-      <!-- image -->
-      <div class="work-item__image">
-        <img src="/images/websites/{{ project.image }}" alt="">
-      </div>
-      <!-- meta-data -->
-      <div class="work-item__meta">
-        <h3 class="work-item__title">{{ project.title }}</h3>
-        <div class="wrapper">
-          <div class="wrapper-col1">
-            {% for x in project.tags %}
-              <span>{{ x }}, </span>
-            {% endfor %}
-          </div>
-          <div class="wrapper-col2">
-            <a class="button work-item__link" target="_self" href="{{ project.url }}">View Details</a>
-          </div>
+  <div class="page__intro">
+    <div class="layout-constrain">
+      <div class="intro">
+        <div class="intro__card">
+          <h1 class="intro__card-title">The work I've done</h1>
+          <p class="intro__card-subtitle">Throughout my career, I've had the opportunity to create and enhance websites for some of the most influential
+          organizations in the world.</p>
         </div>
+        <!-- <div class="intro__buttons">
+          <a href="#"><button type="button" class="button" name="button">I need a Website</button></a>
+          <a href="#"><button type="button" class="button button--help" name="button">Hire Me</button></a>
+        </div> -->
       </div>
     </div>
-  {% endfor %}
+  </div>
+
+
+  <div class="layout-constrain">
+  {% assign sortedProjects = site.projects | sort: 'title' %}
+
+    <div class="page__item-list">
+      {% for project in sortedProjects %}
+        <div class="page__item page__item--{{ project.tags | first | slugify }}">
+        {% if project.tags contains 'Wordpress' %}
+            <a href="{{ project.url }}" class="page__link link--wordpress">{{ project.title }}</a>
+          {% elsif project.tags contains 'Drupal 7' or project.tags contains 'Drupal 6' or project.tags contains 'Drupal 8' %}
+            <a href="{{ project.url }}" class="page__link link--drupal">{{ project.title }}</a>
+          {% else %}
+            <a href="{{ project.url }}" class="page__link">{{ project.title }}</a>
+        {% endif %}
+          <div class="page__meta">
+            <div class="page__year">{{ project.year }}</div>
+            <div class="page__tags">{{ project.tags | first }}</div>
+          </div>
+        {% if project.mission %}
+          <p class="page__mission">{{ project.mission }}</p>
+        {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
 </div>

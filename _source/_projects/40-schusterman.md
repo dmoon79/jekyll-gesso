@@ -13,6 +13,8 @@ tags:
   - HTML5/CSS3
   - SASS
 description:
+mission: >
+  A global organization that seeks to ignite the passion and unleash the power in young people to create positive change.
 role:  Front-End Developer
 published: true
 ---

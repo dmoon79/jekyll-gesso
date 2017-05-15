@@ -2,7 +2,7 @@
 layout: work-single
 title: Georgia Tech College of Computing
 slug: gtcomputing
-year: 2012
+year: 2013
 link: "http://www.cc.gatech.edu/"
 image: gt-coc.png
 tags:
@@ -13,6 +13,7 @@ tags:
   - HTML5/CSS3
   - SASS
 description:
+mission:
 role:  Front-End Developer
 published: true
 ---

@@ -12,6 +12,8 @@ tags:
   - HTML5/CSS3
   - SASS
 description:
+mission: >
+  We make it easier for people in the developing world to lead healthier lives and plan the families they desire.
 role: Front-End Developer
 published: true
 ---
