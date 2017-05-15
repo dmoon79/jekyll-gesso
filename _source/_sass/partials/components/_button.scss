@@ -10,8 +10,8 @@
 }
 
 .button--pdf {
-  color: $blue;
-  border: 1px $blue solid;
+  color: $red;
+  border: 1px $red solid;
   &:before {
     content: url('/images/pdf.png');
     float: left;
