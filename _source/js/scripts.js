@@ -14,7 +14,7 @@
     // var i = 0;
     $('.skillbar')
       .find('.skill-bar-percent')
-      .css( "color", "green" );
+      // .css( "color", "white" );
     // {
     //   switch (x) {
     //     case (skillValue < 59):

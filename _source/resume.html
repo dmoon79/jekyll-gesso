@@ -15,8 +15,9 @@ permalink: /resume/
         <div class="header summary-header">
           <h2>Background</h2>
         </div>
-        <div class="resume__summary__content">{% capture my-include %}{% include summary.md %}{% endcapture %}
-        {{ my-include | markdownify }}</div>
+        <div class="resume__summary__content">
+          {% include summary.html %}
+        </div>
       </section>
 
       <!-- Education -->
@@ -78,7 +79,7 @@ permalink: /resume/
           <div class="skill__list">
               {% assign sorted_skills = (site.data.skills | sort: 'level' ) %}
               {% for skill in sorted_skills reversed %}
-              <div class="skillbar" data-percent="{{ skill.level }}">
+              <div class="skillbar" data-percent="{{ skill.level | integer }}">
                   <span class="skillbar-title">{{ skill.skill }}</span>
                   <p class="skillbar-bar"></p>
                   <span class="skill-bar-percent"></span>

@@ -8,3 +8,13 @@
 .button--large {
   // @extend %button--large;
 }
+
+.button--pdf {
+  color: $blue;
+  border: 1px $blue solid;
+  &:before {
+    content: url('/images/pdf.png');
+    float: left;
+    padding-right: 10px;
+  }
+}
