@@ -1,9 +1,9 @@
 ---
 layout: work-single
-title: Georgia Tech (OMSCS)
+title: Georgia Tech Online Master's Degree in Computer Science
 slug: gtomscs
 year: 2013
-link: "http://www.omscs.gatech.edu/"
+link: ""
 image: omscs.png
 tags:
   - Wordpress
@@ -12,6 +12,7 @@ tags:
   - HTML5/CSS3
   - SASS
 description:
-role:  Front-End Developer
+role:  
+  - Lead Developer
 published: true
 ---

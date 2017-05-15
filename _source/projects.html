@@ -26,13 +26,13 @@ permalink: /projects/
     <div class="page__item-list">
       {% for project in sortedProjects %}
         <div class="page__item page__item--{{ project.tags | first | slugify }}">
-        {% if project.tags contains 'Wordpress' %}
-            <a href="{{ project.url }}" class="page__link link--wordpress">{{ project.title }}</a>
-          {% elsif project.tags contains 'Drupal 7' or project.tags contains 'Drupal 6' or project.tags contains 'Drupal 8' %}
-            <a href="{{ project.url }}" class="page__link link--drupal">{{ project.title }}</a>
-          {% else %}
-            <a href="{{ project.url }}" class="page__link">{{ project.title }}</a>
-        {% endif %}
+          {% if project.tags contains 'Wordpress' %}
+              <a href="{{ project.url }}" class="page__link link--wordpress">{{ project.title }}</a>
+            {% elsif project.tags contains 'Drupal 7' or project.tags contains 'Drupal 6' or project.tags contains 'Drupal 8' %}
+              <a href="{{ project.url }}" class="page__link link--drupal">{{ project.title }}</a>
+            {% else %}
+              <a href="{{ project.url }}" class="page__link">{{ project.title }}</a>
+          {% endif %}
           <div class="page__meta">
             <div class="page__year">{{ project.year }}</div>
             <div class="page__tags">{{ project.role | join:" & "}}</div>

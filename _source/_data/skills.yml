@@ -10,11 +10,15 @@
 -
   group: Language
   level: 80
-  skill: "Javascript / jQuery"
+  skill: Javascript
 -
   group: Language
   level: 70
   skill: PHP
+-
+  group: Language
+  level: 60
+  skill: Python
 -
   group: JS
   level: 45
