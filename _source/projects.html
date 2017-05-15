@@ -35,7 +35,7 @@ permalink: /projects/
         {% endif %}
           <div class="page__meta">
             <div class="page__year">{{ project.year }}</div>
-            <div class="page__tags">{{ project.tags | first }}</div>
+            <div class="page__tags">{{ project.role | join:" & "}}</div>
           </div>
         {% if project.mission %}
           <p class="page__mission">{{ project.mission }}</p>
