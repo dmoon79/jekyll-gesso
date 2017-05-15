@@ -13,7 +13,8 @@ tags:
   - HTML5/CSS3
   - SASS
 description:
-role:  Front-End Developer
+role:
+  - Lead Developer
 published: true
 ---
 Cuerators occupies the void in the internet between music blog and music streaming service. Our selectors specialize in rare, funky, soulful, underground music.

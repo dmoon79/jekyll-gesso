@@ -14,6 +14,8 @@ tags:
   - SASS
 description:
 mission:
-role:  Front-End Developer
+role:
+  - Front-End Developer
+  - Project Manager
 published: true
 ---

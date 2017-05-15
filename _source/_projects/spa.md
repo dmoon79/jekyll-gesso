@@ -13,7 +13,7 @@ tags:
   - SASS
 description:  
 role:  
-  - Technical Lead
+  - Lead Developer
 published: true
 ---
 The Science Philanthropy Alliance is a community of funders who work together to inspire new, emerging and current philanthropists to dedicate a portion of their philanthropy to basic science.

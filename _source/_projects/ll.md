@@ -14,6 +14,6 @@ tags:
 description:
 mission: >
   Delivering high tech language education solutions to the developing world
-role:  Front-End Developer
+role:  Lead Developer
 published: true
 ---

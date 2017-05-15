@@ -13,7 +13,6 @@ tags:
   - SASS
 description:
 role:
-  - Technical Lead
-  - Front-End Developer
+  - Lead Developer
 published: true
 ---
