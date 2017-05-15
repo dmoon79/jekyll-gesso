@@ -1,5 +1,6 @@
 //@file
 // Project Single page
+$project-page-width: 65%;
 
 .project-single__container {}
 
@@ -14,18 +15,18 @@
 }
 
 .project-single__title {
-  border-bottom: 5px solid $med-grey;
+  // border-bottom: 5px solid $med-grey;
   color: $dark-grey;
   margin: 0 auto;
-  max-width: 65%;
+  max-width: $project-page-width;
   padding: 1em 0;
   text-align: left;
   text-transform: uppercase;
 }
 
 .project-single__description {
-  padding: 2rem 0;
-  max-width: 65%;
+  padding-bottom: 2rem;
+  max-width: $project-page-width;
   text-align: left;
   margin: 0 auto;
 }
@@ -35,7 +36,6 @@
   border: 1px solid $light-grey;
   color: $dark-grey;
   padding: 1em;
-
   &:active,
   &:focus,
   &:hover {
@@ -64,9 +64,17 @@
 .project-single__return-link {}
 
 .project-single__tag {
-  background-color: $red;
+  background-color: $blue;
+  break-inside: avoid;
   color: $white;
+  font-size: 14px;
   padding: 5px;
   margin-right: 3px;
   line-height: 45px;
+}
+
+.project-single__footer {
+  .button {
+    color: $med-grey;
+  }
 }

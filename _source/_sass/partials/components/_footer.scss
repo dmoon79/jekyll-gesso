@@ -1,8 +1,10 @@
 .site-footer {
   background-color: #fff;
-  border-top: 1px solid $dark-grey;
+  // border-top: 1px solid $dark-grey;
   margin-top: 1em;
-  min-height: 100px;
+  @include large {
+    // border-bottom: 1px solid $dark-grey;
+  }
 }
 
 .site-footer__inner {

@@ -12,6 +12,8 @@ tags:
   - HTML5/CSS3
   - SASS
 description:
+mission: >
+  Delivering high tech language education solutions to the developing world
 role:  Front-End Developer
 published: true
 ---

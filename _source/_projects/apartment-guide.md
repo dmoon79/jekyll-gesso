@@ -10,6 +10,8 @@ tags:
   - Javascript
 categories: [Ruby on Rails, Javascript]
 description:
+mission: >
+  The most trusted rental resource that connects apartment consumers to their ideal place to live.
 role: Developer
 published: true
 ---

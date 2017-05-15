@@ -14,7 +14,7 @@
 }
 .intro__card {
   background-color: rgba($green, 0.9);
-  color: #fff;
+  color: $white;
   padding: 1rem 2rem;
   position: relative;
   text-align: right;
@@ -22,7 +22,13 @@
     text-align: left;
   }
 }
-
+.intro__link {
+  color: $white;
+  &:hover,
+  &:focus {
+    color: $blue;
+  }
+}
 .intro__card-inner {}
 
 .intro__card-image {}
