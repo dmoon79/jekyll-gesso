@@ -31,22 +31,7 @@ $project-page-width: 65%;
   margin: 0 auto;
 }
 
-.project-single__link {
-  background-color: $white;
-  border: 1px solid $light-grey;
-  color: $dark-grey;
-  padding: 1em;
-  &:active,
-  &:focus,
-  &:hover {
-    background-color: $green;
-    color: $white;
-  }
-
-  &:hover {
-    transform: scale(1.1);
-  }
-}
+.project-single__link {}
 
 .project-single__image-section {
   text-align: center;
@@ -67,7 +52,7 @@ $project-page-width: 65%;
   background-color: $blue;
   break-inside: avoid;
   color: $white;
-  font-size: 14px;
+  font-size: 16px;
   padding: 5px;
   margin-right: 3px;
   line-height: 45px;
@@ -75,6 +60,6 @@ $project-page-width: 65%;
 
 .project-single__footer {
   .button {
-    color: $med-grey;
+
   }
 }

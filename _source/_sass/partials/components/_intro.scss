@@ -11,6 +11,9 @@
   @include large {
     text-align: left;
   }
+  .page--portfolio & {
+    background-color: rgba($blue, 0.9);
+  }
 }
 .intro__link {
   color: $white;
