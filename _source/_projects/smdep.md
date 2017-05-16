@@ -1,5 +1,5 @@
 ---
-layout: work-single
+layout: project-single
 title: Summer Medical and Dental Education Program
 slug: smdep
 year: 2014

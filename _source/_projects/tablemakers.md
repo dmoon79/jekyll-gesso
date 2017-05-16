@@ -1,5 +1,5 @@
 ---
-layout: work-single
+layout: project-single
 title: Schusterman Tablemakers
 slug: tablemakers
 year: 2016

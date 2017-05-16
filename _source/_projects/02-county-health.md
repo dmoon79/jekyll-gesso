@@ -1,5 +1,5 @@
 ---
-layout: work-single
+layout: project-single
 title: County Health Rankings
 slug: chr
 year: 2016

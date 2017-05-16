@@ -1,5 +1,5 @@
 ---
-layout: work-single
+layout: project-single
 title: Cuerators
 slug: cuerators
 year: 2013

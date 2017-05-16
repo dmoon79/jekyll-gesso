@@ -1,5 +1,5 @@
 ---
-layout: work-single
+layout: project-single
 title: Apartment Guide
 slug: apartment-guide
 year: 2012

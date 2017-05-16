@@ -1,5 +1,5 @@
 ---
-layout: work-single
+layout: project-single
 title: Robert Woods Johnson Foundation Texas Academic Progression in Nursing
 slug: texasapin
 year: 2015

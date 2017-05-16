@@ -1,5 +1,5 @@
 ---
-layout: work-single
+layout: project-single
 title: Schusterman Foundation
 slug: schusterman
 year: 2015

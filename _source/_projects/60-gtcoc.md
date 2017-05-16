@@ -1,5 +1,5 @@
 ---
-layout: work-single
+layout: project-single
 title: Georgia Tech College of Computing
 slug: gtcomputing
 year: 2013

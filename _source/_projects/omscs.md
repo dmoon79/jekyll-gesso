@@ -1,5 +1,5 @@
 ---
-layout: work-single
+layout: project-single
 title: Georgia Tech Online Master's Degree in Computer Science
 slug: gtomscs
 year: 2013

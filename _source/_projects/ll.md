@@ -1,5 +1,5 @@
 ---
-layout: work-single
+layout: project-single
 title: Language Link
 slug: language-link
 year: 2014

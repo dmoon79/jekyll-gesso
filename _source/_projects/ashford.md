@@ -1,5 +1,5 @@
 ---
-layout: work-single
+layout: project-single
 title: Ashford University
 slug: ashford
 year: 2016

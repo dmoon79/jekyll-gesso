@@ -1,5 +1,5 @@
 ---
-layout: work-single
+layout: project-single
 title: Science Philanthropy Alliance
 slug: spa
 year: 2015

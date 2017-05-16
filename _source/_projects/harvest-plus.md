@@ -1,5 +1,5 @@
 ---
-layout: work-single
+layout: project-single
 title: HarvestPlus
 slug: harvest-plus
 year: 2016

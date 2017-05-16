@@ -1,5 +1,5 @@
 ---
-layout: work-single
+layout: project-single
 title: Forum One
 slug: forumone
 year: 2014

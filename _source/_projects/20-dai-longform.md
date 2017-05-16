@@ -1,5 +1,5 @@
 ---
-layout: work-single
+layout: project-single
 title: Global Innovation Exchange
 slug: giex
 year: 2015

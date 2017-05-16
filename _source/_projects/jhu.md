@@ -1,5 +1,5 @@
 ---
-layout: work-single
+layout: project-single
 title: Johns Hopkins University - High Impact Practices
 slug: jhu-hip
 year: 2017

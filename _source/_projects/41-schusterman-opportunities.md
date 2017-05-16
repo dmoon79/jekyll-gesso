@@ -1,5 +1,5 @@
 ---
-layout: work-single
+layout: project-single
 title: Schusterman Foundation Opportunities
 slug: schusterman-opps
 year: 2015

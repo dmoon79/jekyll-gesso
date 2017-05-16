@@ -1,5 +1,5 @@
 ---
-layout: work-single
+layout: project-single
 title: National Organization of Research Centers
 slug: norc
 year: 2016

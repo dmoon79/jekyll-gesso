@@ -1,5 +1,5 @@
 ---
-layout: work-single
+layout: project-single
 title: Population Services International
 slug: psi
 year: 2015

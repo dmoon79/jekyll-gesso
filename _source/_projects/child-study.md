@@ -1,5 +1,5 @@
 ---
-layout: work-single
+layout: project-single
 title: Georgia Tech Child Study Lab
 slug: gtchild
 year: 2013

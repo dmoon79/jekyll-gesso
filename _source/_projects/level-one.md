@@ -1,5 +1,5 @@
 ---
-layout: work-single
+layout: project-single
 title: Bill & Melinda Gates Foundation Level One Project
 slug: level-one
 year: 2016

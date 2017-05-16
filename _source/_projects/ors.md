@@ -1,5 +1,5 @@
 ---
-layout: work-single
+layout: project-single
 title: "ORS #NoStereotypes Campaign"
 slug: nostereotypes
 year: 2016

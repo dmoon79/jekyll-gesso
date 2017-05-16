@@ -1,5 +1,5 @@
 ---
-layout: work-single
+layout: project-single
 title: Center for Strategic and International Studies
 slug: csis
 year: 2016
