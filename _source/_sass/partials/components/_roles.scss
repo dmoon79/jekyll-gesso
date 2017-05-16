@@ -1,0 +1,31 @@
+.roles {
+  background-color: $red;
+  color: $white;
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+
+.roles__title {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.roles__content {
+}
+
+.roles__item {
+  padding-bottom: 1rem;
+  font-weight: 100;
+}
+
+.roles__role {
+  // text-decoration: underline;
+  font-weight: 700;
+  &:after {
+    content: " > ";
+    position: relative;
+    top: 0px;
+    margin: 0 5px;
+
+  }
+}

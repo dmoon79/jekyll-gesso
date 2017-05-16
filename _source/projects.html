@@ -21,9 +21,8 @@ permalink: /projects/
 
 
   <div class="layout-constrain">
-  {% assign sortedProjects = site.projects | sort: 'title' %}
-
     <div class="page__item-list">
+      {% assign sortedProjects = site.projects | sort: 'title' %}
       {% for project in sortedProjects %}
         <div class="page__item page__item--{{ project.tags | first | slugify }}">
           {% if project.tags contains 'Wordpress' %}
@@ -42,6 +41,9 @@ permalink: /projects/
         {% endif %}
         </div>
       {% endfor %}
+    </div>
+    <div class="page__item-block">
+      {% include roles.html %}
     </div>
   </div>
 </div>
