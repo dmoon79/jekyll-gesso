@@ -1,6 +1,6 @@
 //intro-card Content Styling
 .intro {
-  margin: 2rem 0;
+  margin: 4rem 0;
 }
 .intro__card {
   background-color: rgba($green, 0.9);
@@ -38,27 +38,5 @@
 
 .intro__buttons {
   padding: 2rem 0;
-  .button {
-    background-color: rgba($white, .9);;
-    border: 2px solid darken($green, 20%);
-    color: darken($green, 20%);
-    text-transform: uppercase;
-    &:hover {
-      background-color: rgba($white, .9);
-      border: 2px solid $white;
-      color: darken($green, 20%);
-    }
-    &:after {
-      bottom: 2px;
-      content: ">";
-      margin-left: 1rem;
-      position: relative;
-    }
-  }
-  .button--help {
-    background-color: $red;
-    border: 2px solid $red;
-    color: $white;
-    margin-left: 2rem;
-  }
+
 }

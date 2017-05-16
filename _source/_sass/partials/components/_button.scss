@@ -9,6 +9,15 @@
   // @extend %button--large;
 }
 
+.button--arrow {
+  &:after {
+    bottom: 2px;
+    content: ">";
+    margin-left: 1rem;
+    position: relative;
+  }
+}
+
 .button--pdf {
   color: $red;
   border: 1px $red solid;
@@ -16,5 +25,30 @@
     content: url('/images/pdf.png');
     float: left;
     padding-right: 10px;
+  }
+}
+
+.button--green {
+  background-color: rgba($white, .9);;
+  border: 1px solid $green;
+  color: darken($green, 10%);
+  text-transform: uppercase;
+  &:hover {
+    background-color: $green;
+    border: 1px solid $green;
+    color: $white;
+  }
+}
+
+.button--help {
+  background-color: $red;
+  border: 1px solid $red;
+  color: $white;
+  margin-left: 2rem;
+  text-transform: uppercase;
+  &:hover {
+    background-color: rgba($white, .9);
+    border: 1px solid $red;
+    color: $red;
   }
 }
