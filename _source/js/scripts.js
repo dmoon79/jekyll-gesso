@@ -2,56 +2,44 @@
 
 
 (function ($) {
-
   'use strict';
   $(document).ready(function() {
 
-    // var divCount = $('.skillbar').length;
-    // // console.log(divCount);
-    // var skillBox = $('.skillbar');
-    // var skillValue = $('.skillbar').attr('data-percent');
-    // var skillValue = parseInt(skillValue);
-    // var i = 0;
-    $('.skillbar')
-      .find('.skill-bar-percent')
-      // .css( "color", "white" );
-    // {
-    //   switch (x) {
-    //     case (skillValue < 59):
-    //       $(this).html('Test');
-    //       console.log(i + " Lower than 60");
-    //       break;
-    //     case (skillValue > 60):
-    //       $(this).html("High");
-    //       console.log(i + " Lower than 60");
-    //       break;
-    //     default:
-    //       $(this).html("Cant Find it");
-    //       console.log("is this working");
-    //       break;
-    //   }
-    // });
+
+
+    var skillValue = $('.skillbar').attr('data-percent');
+
+    $('.skillbar').each(function(){
+      var skillValue = $('.skillbar').attr('data-percent');
+      var myNumber = parseInt(skillValue);
+      if(myNumber > 60){
+        $(this).find('span.skill-bar-percent').text('Greater than 60');
+      } else {
+        $(this).find('span.skill-bar-percent').text('Less than 60');
+      }
+
+
+      // switch (myNumber) {
+      //   case (myNumber > 59):
+      //     $(this).find('.skill-bar-percent').text('Greater than 60');
+      //     break;
+      //   case (myNumber > 60):
+      //     $(this).find('.skill-bar-percent').text("High");
+      //     break;
+      //   default:
+      //     $(this).find('.skill-bar-percent').text("Cant Find it");
+      //     break;
+      // }
+    });
+
 
     $('.flexslider').flexslider({
       animation: "slide"
     });
 
-    // $('.job__content').hide();
 
-    // $('.job__expand').on( 'click' , function(){
-    //   $(this).text($(this).text() == 'Show Details +' ? 'Hide Details -' : 'Show Details +');
-    //   $(this).next('.job__content').toggle("slow", function(){
-    //     $(this).prev('.button').css("background-color", "#C31010");
-    //   });
-    // });
-
-    $('.skillbar').skillBars({
-      from: 0,
-    });
 
   });
-
-
 
 
   // Generic function that runs on window resize.
