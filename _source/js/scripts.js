@@ -5,40 +5,23 @@
   'use strict';
   $(document).ready(function() {
 
-
-
-    var skillValue = $('.skillbar').attr('data-percent');
-
-    $('.skillbar').each(function(){
-      var skillValue = $('.skillbar').attr('data-percent');
-      var myNumber = parseInt(skillValue);
-      if(myNumber > 60){
-        $(this).find('span.skill-bar-percent').text('Greater than 60');
-      } else {
-        $(this).find('span.skill-bar-percent').text('Less than 60');
-      }
-
-
-      // switch (myNumber) {
-      //   case (myNumber > 59):
-      //     $(this).find('.skill-bar-percent').text('Greater than 60');
-      //     break;
-      //   case (myNumber > 60):
-      //     $(this).find('.skill-bar-percent').text("High");
-      //     break;
-      //   default:
-      //     $(this).find('.skill-bar-percent').text("Cant Find it");
-      //     break;
-      // }
-    });
-
+    // $('.skillbar').each(function(){
+    //   var skillValue = $(this).attr('data-percent');
+    //   var myNumber = parseInt(skillValue);
+    //   if(myNumber > 90){
+    //     $(this).find('span.skill-bar-percent').text('Expert');
+    //   } else if (myNumber > 80) {
+    //     $(this).find('span.skill-bar-percent').text('Highly Proficient');
+    //   } else if (myNumber > 51) {
+    //     $(this).find('span.skill-bar-percent').text('Experienced');
+    //   } else if (myNumber < 50) {
+    //     $(this).find('span.skill-bar-percent').text('Knowledgable');
+    //   }
+    // });
 
     $('.flexslider').flexslider({
       animation: "slide"
     });
-
-
-
   });
 
 
