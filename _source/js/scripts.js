@@ -5,24 +5,34 @@
   'use strict';
   $(document).ready(function() {
 
-    // $('.skillbar').each(function(){
-    //   var skillValue = $(this).attr('data-percent');
-    //   var myNumber = parseInt(skillValue);
-    //   if(myNumber > 90){
-    //     $(this).find('span.skill-bar-percent').text('Expert');
-    //   } else if (myNumber > 80) {
-    //     $(this).find('span.skill-bar-percent').text('Highly Proficient');
-    //   } else if (myNumber > 51) {
-    //     $(this).find('span.skill-bar-percent').text('Experienced');
-    //   } else if (myNumber < 50) {
-    //     $(this).find('span.skill-bar-percent').text('Knowledgable');
-    //   }
-    // });
+
+
+
 
     $('.flexslider').flexslider({
       animation: "slide"
     });
+
+    $('.skillbar').skillBars({
+      from: 0,
+    });
+
+
+    $('.skill__list > div').each(function(){
+      var skillValue = $(this).attr('data-percent');
+      var myNumber = parseInt(skillValue);
+      if(myNumber > 90){
+        $(this).find('span.skill-bar-percent').text('Expert');
+      } else if (myNumber > 80) {
+        $(this).find('span.skill-bar-percent').text('Highly Proficient');
+      } else if (myNumber > 51) {
+        $(this).find('span.skill-bar-percent').text('Experienced');
+      } else if (myNumber < 50) {
+        $(this).find('span.skill-bar-percent').text('Knowledgable');
+      }
+    });
   });
+
 
 
   // Generic function that runs on window resize.
