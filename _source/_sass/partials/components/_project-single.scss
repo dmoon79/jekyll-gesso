@@ -46,7 +46,11 @@ $project-page-width: 65%;
   padding: 0 0 2em;
 }
 
-.project-single__return-link {}
+.project-single__return-link {
+  .button {
+    margin: 5px;
+  }
+}
 
 .project-single__tag {
   background-color: $blue;
