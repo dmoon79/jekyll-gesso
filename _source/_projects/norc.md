@@ -12,6 +12,8 @@ tags:
   - HTML5/CSS3
   - SASS
 description:
+mission: >
+  A longform content builder for the University of Chicago's trailblazing research initiatives.
 role:  Front-End Developer
 published: true
 ---

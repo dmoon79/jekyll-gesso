@@ -11,7 +11,7 @@ tags:
 categories: [Ruby on Rails, Javascript]
 description:
 mission: >
-  The most trusted rental resource that connects apartment consumers to their ideal place to live.
+  One of the nation's largest and most visited apartment search websites.
 role: Developer
 published: true
 ---
