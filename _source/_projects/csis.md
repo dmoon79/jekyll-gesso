@@ -12,7 +12,8 @@ tags:
   - JQuery
   - HTML5/CSS3
   - SASS
-description:
+mission: >
+  Longform content builder for one of America's most venerable foriegn policy think tanks.
 role:  Front-End Developer
 published: true
 ---

@@ -13,6 +13,7 @@ tags:
   - HTML5/CSS3
   - SASS
 description:
+mission: 
 role:  Front-End Developer
 published: false
 ---

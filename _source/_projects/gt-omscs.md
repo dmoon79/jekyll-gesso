@@ -12,6 +12,8 @@ tags:
   - HTML5/CSS3
   - SASS
 description:
+mission: >
+  A website introduction the Georgia Tech College of Computing's online master's degree program.
 role:  
   - Lead Developer
 published: true

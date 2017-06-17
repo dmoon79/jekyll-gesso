@@ -13,6 +13,8 @@ tags:
   - HTML5/CSS3
   - SASS
 description:
+mission: >
+  A marketplace of job and volunteering opportunities for foundation members to contribute to the their community. 
 role:  Front-End Developer
 published: true
 ---

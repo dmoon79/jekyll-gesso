@@ -42,4 +42,12 @@
 
 .intro__buttons {
   padding: 2rem 0;
+  .button--help {
+    margin: rem(15px) 0;
+  }
+  @include desktop {
+    .button--help {
+      margin-left: 2rem;
+    }
+  }
 }

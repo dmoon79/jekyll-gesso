@@ -13,7 +13,8 @@ tags:
   - HTML5/CSS3
   - SASS
 description:
-mission:
+mission: >
+  Embedded web developer for one of the nation's top 10 computer science programs.
 role:
   - Front-End Developer
   - Project Manager

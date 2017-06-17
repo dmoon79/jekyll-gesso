@@ -13,6 +13,8 @@ tags:
   - HTML5/CSS3
   - SASS
 description:
+mission: >
+  A collection of eclectic music suggestions for discerning music connoisseurs & audiophiles
 role:
   - Lead Developer
 published: true
