@@ -57,9 +57,10 @@ $project-page-width: 65%;
   break-inside: avoid;
   color: $white;
   font-size: 16px;
-  padding: 5px;
-  margin-right: 3px;
   line-height: 45px;
+  margin-right: 3px;
+  padding: 5px;
+  white-space: nowrap;
 }
 
 .project-single__footer {

@@ -4,14 +4,15 @@ title: Johns Hopkins University - High Impact Practices
 slug: jhu-hip
 year: 2017
 link:
-image: jhu-hip.png
+image: jhu.png
 tags:
   - Wordpress
   - Custom Wordpress Theme
   - JQuery
   - HTML5/CSS3
   - SASS
-description:
+mission: |
+  A repository of evidence-based family planning practices vetted by experts against specific criteria and documented in an easy-to-use, sharable format.
 role:  Front-End Developer
-published: false
+published: true
 ---

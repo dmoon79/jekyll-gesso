@@ -22,7 +22,7 @@ permalink: /projects/
 
   <div class="layout-constrain">
     <div class="page__item-list">
-      {% assign sortedProjects = site.projects | sort: 'title' %}
+      {% assign sortedProjects = site.projects | sort: 'year' | reverse %}
       {% for project in sortedProjects %}
         <div class="page__item page__item--{{ project.tags | first | slugify }}">
           {% if project.tags contains 'Wordpress' %}
