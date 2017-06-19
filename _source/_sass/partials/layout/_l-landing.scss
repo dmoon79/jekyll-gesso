@@ -1,0 +1,21 @@
+.l-landing {
+  display: grid;
+  grid-template-columns: 33.33% 12% 16.66% 33%;
+  grid-template-rows: 200px 100px 100px 1fr 1fr;
+  .item-a {
+    background-color: red;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  .item-b {
+    background-color: green;
+  }
+  .item-c {
+    background-color: yellow;
+  }
+  .item-d {
+    background-color: blue;
+  }
+}
