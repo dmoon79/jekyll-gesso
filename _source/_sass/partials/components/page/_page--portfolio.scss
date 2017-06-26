@@ -14,7 +14,7 @@
   .page__item-list {
     columns: 1;
     margin: 2rem 0;
-    @include tablet {
+    @include tablet2desktop {
       columns: 2;
     }
     @include desktop {

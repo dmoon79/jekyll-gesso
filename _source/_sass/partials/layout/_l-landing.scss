@@ -1,21 +1,55 @@
 .l-landing {
-  display: grid;
-  grid-template-columns: 33.33% 12% 16.66% 33%;
-  grid-template-rows: 200px 100px 100px 1fr 1fr;
-  .item-a {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: minmax(0px, max-content) minmax(0px, max-content) minmax(300px, max-content)  minmax(0px, max-content) 1fr 75px;
+    grid-template-areas:  "header"
+                          "logo"
+                          "intro"
+                          "banner"
+                          "content"
+                          "footer";
+    height: 100%;
+
+  @include large {
+    grid-template-columns: repeat(5, 20%); // 5 cols
+    grid-template-rows: minmax(0px, max-content) minmax(300px, max-content) minmax(0px, max-content) 1fr 75px;
+    grid-template-areas:  "header header header header header"
+                          "intro intro intro logo logo"
+                          "banner banner banner banner banner"
+                          "content content content content content"
+                          "footer footer footer footer-side footer-side";
+  }
+  .l-landing__header {
+    background-color: #ccc;
+    grid-area: header;
+  }
+  .l-landing__hero {
     background-color: red;
-    grid-column-start: 2;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    grid-area: intro;
+
   }
-  .item-b {
-    background-color: green;
-  }
-  .item-c {
+
+  .l-landing__logo {
     background-color: yellow;
+    grid-area: logo;
   }
-  .item-d {
+
+  .l-landing__banner {
+    background-color: orange;
+    grid-area: banner;
+  }
+
+  .l-landing__content {
     background-color: blue;
+    grid-area: content;
+  }
+
+  .l-landing__footer {
+    background-color: #333;
+    color: white;
+    grid-area: footer;
+    @include large {
+      grid-column: span 5;
+    }
   }
 }
