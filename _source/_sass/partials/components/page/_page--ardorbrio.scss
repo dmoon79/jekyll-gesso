@@ -1,3 +1,24 @@
 .page--ardorbrio {
-  height: 100vh;
+  .header {
+    padding: 2rem;
+    align-self: center;
+  }
+  .header__title,
+  .header__subtitle {
+    color: #FFF;
+  }
+  .banner {
+    padding: 2rem;
+  }
+  .l-landing__hero {
+    background-image: url('../images/carbon-river.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  .l-landing__logo {
+    display: flex;
+  }
+  .l-landing__banner {
+
+  }
 }

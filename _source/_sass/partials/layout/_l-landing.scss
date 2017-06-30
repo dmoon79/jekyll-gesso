@@ -1,7 +1,7 @@
 .l-landing {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: minmax(0px, max-content) minmax(0px, max-content) minmax(300px, max-content)  minmax(0px, max-content) 1fr 75px;
+    grid-template-rows: minmax(0px, max-content) minmax(0px, max-content) minmax(300px, max-content) minmax(0px, max-content) 1fr 275px;
     grid-template-areas:  "header"
                           "logo"
                           "intro"
@@ -12,7 +12,7 @@
 
   @include large {
     grid-template-columns: repeat(5, 20%); // 5 cols
-    grid-template-rows: minmax(0px, max-content) minmax(300px, max-content) minmax(0px, max-content) 1fr 75px;
+    grid-template-rows: minmax(0px, max-content) minmax(400px, max-content) minmax(0px, max-content) minmax(300px, max-content) minmax(75px, max-content);
     grid-template-areas:  "header header header header header"
                           "intro intro intro logo logo"
                           "banner banner banner banner banner"
@@ -20,27 +20,25 @@
                           "footer footer footer footer-side footer-side";
   }
   .l-landing__header {
-    background-color: #ccc;
+    background-color: $white;
     grid-area: header;
   }
   .l-landing__hero {
-    background-color: red;
     grid-area: intro;
-
   }
 
   .l-landing__logo {
-    background-color: yellow;
+    background-color: $blue;
     grid-area: logo;
   }
 
   .l-landing__banner {
-    background-color: orange;
+    background-color: $white;
     grid-area: banner;
   }
 
   .l-landing__content {
-    background-color: blue;
+    background-color: $green;
     grid-area: content;
   }
 
