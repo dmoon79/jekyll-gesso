@@ -2,16 +2,27 @@
   .header {
     padding: 2rem 1rem;;
     align-self: center;
+    .header__title,
+    .header__subtitle {
+      color: #FFF;
+    }
   }
-  .header__title,
-  .header__subtitle {
-    color: #FFF;
-  }
+
   .banner {
-    padding: 2rem 0;
+    font-family: "Oswald" sans-serif;
+    padding: rem(100px) 0;
+    .banner__title {
+      font-weight: 400;
+      font-size: rem(40px);
+      padding-bottom: 1rem;
+    }
     .banner__text {
-      font-weight:
-      line-height: 1.5;
+      font-weight: 100;
+      font-size: rem(30px);
+      line-height: rem(41px);
+    }
+    .button {
+      margin-top: rem(30px);
     }
   }
 
@@ -27,6 +38,9 @@
   .l-landing__logo {
     background-color: $blue;
     display: flex;
+    @include large {
+      padding: rem(100px) 0;
+    }
   }
   .l-landing__banner {
   }

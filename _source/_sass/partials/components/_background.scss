@@ -6,3 +6,16 @@
 .background--texture {
   background: url('/images/bg/purty_wood.png') !important;
 }
+
+.background--green {
+  background-color: $green;
+  color: $white;
+}
+
+.background--blue {
+  background-color: $blue;
+}
+
+.background--red {
+  background-color: $red;
+}
