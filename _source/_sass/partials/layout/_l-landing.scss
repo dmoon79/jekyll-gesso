@@ -25,11 +25,21 @@
   }
   .l-landing__hero {
     grid-area: intro;
+    @include large {
+      grid-row: 2;
+      grid-column: 1 / 6;
+    }
+
   }
 
   .l-landing__logo {
-    background-color: $blue;
     grid-area: logo;
+    @include large {
+      grid-row: 2;
+      grid-column: 4 / span 2;
+      opacity: .8;
+      z-index: 10;
+    }
   }
 
   .l-landing__banner {

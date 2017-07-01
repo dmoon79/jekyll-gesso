@@ -1,6 +1,6 @@
 .page--ardorbrio {
   .header {
-    padding: 2rem;
+    padding: 2rem 1rem;;
     align-self: center;
   }
   .header__title,
@@ -8,17 +8,31 @@
     color: #FFF;
   }
   .banner {
-    padding: 2rem;
+    padding: 2rem 0;
+    .banner__text {
+      font-weight:
+      line-height: 1.5;
+    }
+  }
+
+  .l-landing__header {
+    border-bottom: 1px solid $dark-grey;
   }
   .l-landing__hero {
     background-image: url('../images/carbon-river.jpg');
     background-size: cover;
     background-position: 50% 50%;
+
   }
   .l-landing__logo {
+    background-color: $blue;
     display: flex;
   }
   .l-landing__banner {
+  }
+  .l-landing__content {
+  }
 
+  .l-landing__footer {
   }
 }
