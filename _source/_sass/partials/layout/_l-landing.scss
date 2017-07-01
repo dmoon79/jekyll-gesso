@@ -1,22 +1,28 @@
 .l-landing {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: minmax(0px, max-content) minmax(0px, max-content) minmax(300px, max-content) minmax(0px, max-content) 1fr 275px;
+    grid-template-rows: minmax(0px, max-content) minmax(100px, max-content) minmax(100px, max-content) minmax(0px, max-content) minmax(0px, max-content) minmax(0px, max-content) minmax(0px, max-content) minmax(0px, max-content) minmax(0px, max-content);
     grid-template-areas:  "header"
                           "logo"
                           "intro"
                           "banner"
                           "content"
+                          "content1"
+                          "content2"
+                          "content3"
                           "footer";
     height: 100%;
 
   @include large {
     grid-template-columns: repeat(5, 20%); // 5 cols
-    grid-template-rows: minmax(0px, max-content) minmax(400px, max-content) minmax(0px, max-content) minmax(300px, max-content) minmax(75px, max-content);
+    grid-template-rows: minmax(0px, max-content) minmax(400px, max-content) minmax(0px, max-content) minmax(300px, max-content) minmax(0px, max-content) minmax(0px, max-content) minmax(0px, max-content) minmax(75px, max-content);
     grid-template-areas:  "header header header header header"
                           "intro intro intro logo logo"
                           "banner banner banner banner banner"
                           "content content content content content"
+                          "content1 content1 content1 content1 content1"
+                          "content2 content2 content2 content2 content2"
+                          "content3 content3 content3 content3 content3"
                           "footer footer footer footer-side footer-side";
   }
   .l-landing__header {
@@ -48,13 +54,21 @@
   }
 
   .l-landing__content {
-    // background-color: $green;
     grid-area: content;
   }
 
+  .l-landing__content1 {
+    grid-area: content1;
+  }
+
+  .l-landing__content2 {
+    grid-area: content2;
+  }
+  .l-landing__content3 {
+    grid-area: content3;
+  }
+
   .l-landing__footer {
-    background-color: #333;
-    color: white;
     grid-area: footer;
     @include large {
       grid-column: span 5;
