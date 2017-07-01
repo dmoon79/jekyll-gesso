@@ -1,32 +1,5 @@
 .page--ardorbrio {
-  .header {
-    padding: 2rem 1rem;;
-    align-self: center;
-    .header__title,
-    .header__subtitle {
-      color: #FFF;
-    }
-  }
-
-  .banner {
-    font-family: "Oswald" sans-serif;
-    padding: rem(100px) 0;
-    .banner__title {
-      font-weight: 400;
-      font-size: rem(40px);
-      line-height: rem(51px);
-      padding-bottom: 1rem;
-    }
-    .banner__text {
-      font-weight: 100;
-      font-size: rem(30px);
-      line-height: rem(41px);
-    }
-    .button {
-      margin-top: rem(30px);
-    }
-  }
-
+  
   .l-landing__header {
     border-bottom: 1px solid $dark-grey;
   }
