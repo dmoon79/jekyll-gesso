@@ -30,13 +30,25 @@
 }
 
 .button--green {
-  background-color: rgba($white, .9);;
+  background-color: rgba($white, .9);
   border: 1px solid $green;
   color: darken($green, 10%);
   text-transform: uppercase;
   &:hover {
     background-color: $green;
     border: 1px solid $green;
+    color: $white;
+  }
+}
+
+.button--white {
+  background-color: transparent;
+  border: 1px solid $white;
+  color: $white;
+  text-transform: uppercase;
+  &:hover {
+    background-color: $white;
+    border: 1px solid $white;
     color: $white;
   }
 }
