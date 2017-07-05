@@ -43,7 +43,6 @@
     @include large {
       grid-row: 2;
       grid-column: 4 / span 2;
-      opacity: .8;
       z-index: 10;
     }
   }

@@ -1,26 +1,38 @@
 .header {
   align-self: center;
   padding: 2rem 1rem;
-
-  .header__title {
-    color: #FFF;
-    font-family: $base-font-family;
-    font-size: rem(40px);
-    text-align: center;
-    @include large {
-      font-size: $font-size-xxxl;
-      text-align: left;
-    }
+  margin: 0 auto;
+  @include large {
+    margin: 0; 
   }
-  .header__subtitle {
-    color: #FFF;
-    font-family: $header-font-family;
-    font-size: $base-font-size;
-    font-weight: 100;
-    text-align: center;
-    @include large {
-      font-size: $font-size-xxl;
-      text-align: left;
-    }
+}
+
+.header__logo {
+  text-align: center;
+  @include large {
+    text-align: left;
+  }
+}
+.header__title {
+  color: #FFF;
+  font-family: $base-font-family;
+  font-size: rem(30px);
+  text-align: center;
+  @include large {
+    font-size: $font-size-xxl;
+    text-align: left;
+  }
+}
+.header__subtitle {
+  color: #FFF;
+  display: none;
+  font-family: $header-font-family;
+  font-size: $base-font-size;
+  font-weight: 100;
+  text-align: center;
+  @include large {
+    display: block;
+    font-size: $font-size-lg;
+    text-align: left;
   }
 }
