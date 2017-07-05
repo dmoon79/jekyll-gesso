@@ -4,6 +4,18 @@
   .button {
     margin-top: rem(30px);
   }
+  .col--2 {
+    columns: 1;
+    @include large {
+      columns: 2;
+    }
+  }
+  .col--3 {
+    columns: 1;
+    @include large {
+      columns: 3;
+    }
+  }
 }
 
 .banner__separator {
@@ -20,6 +32,10 @@
   font-size: rem(40px);
   line-height: rem(51px);
   padding-bottom: 1rem;
+  .banner--projects & {
+    margin-bottom: 1em;
+    text-align: center;
+  }
 }
 .banner__text {
   font-weight: 100;
@@ -29,4 +45,22 @@
 
  .banner--centered {
   text-align: center;
+}
+
+.banner__link {
+  color: $white;
+  display: block;
+  font-size: $font-size-xl;
+  line-height: calc($font-size-xl + 8px);
+  text-decoration: none;
+  &:focus,
+  &:hover {
+    color: $green;
+  }
+}
+
+.banner__button {
+  .banner--projects & {
+    text-align: center;
+  }
 }

@@ -26,7 +26,9 @@ layout: landing-page
           <div class="banner__text">
 
           </div>
-          <div class="button button--blue">Start a consultation</div>
+          <div class="banner__button">
+            <a class="button button--blue">Start a consultation</a>
+          </div>
         </div>
       </div>
     </div>
@@ -34,7 +36,7 @@ layout: landing-page
       <div class="layout-constrain">
         <div class="banner banner--centered">
           <div class="banner__title">
-            Services
+            What We Offer
           </div>
           <div class="banner__text">
             <div class="services">
@@ -48,19 +50,27 @@ layout: landing-page
       </div>
     </div>
     <div class="l-landing__content1">
-      <div class="layout-constrain">
+      <!-- <div class="layout-constrain">
         <div class="banner banner--centered">
-          <div class="banner__title">
-            Team
+          <div class="banner__title">Our Team</div>
+          <div class="banner__text">
+            <p></p>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
     <div class="l-landing__content2 background--blue">
       <div class="layout-constrain">
-        <div class="banner banner--centered">
-          <div class="banner__title">Projects</div>
-          <a href="/projects" class="button button--white">See all Projects</a>
+        <div class="banner banner--projects banner--centered">
+          <div class="banner__title">Our Work</div>
+          <div class="banner__text col--2">
+            {% for project in site.projects %}
+              <a class="banner__link" href="{{ project.url }}" target="_blank">{{ project.title }}</a>
+            {% endfor %}
+          </div>
+          <div class="banner__button">
+            <a href="/projects" class="button button--white">See All Projects</a>
+          </div>
         </div>
       </div>
     </div>
@@ -70,7 +80,9 @@ layout: landing-page
           <div class="banner__title">
             Contact
           </div>
-
+          <div class="banner__text">
+            Contact Us here
+          </div>
         </div>
       </div>
     </div>
