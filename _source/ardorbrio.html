@@ -15,7 +15,7 @@ layout: landing-page
     <div class="l-landing__logo">
       <div class="header">
         <h1 class="header__title">The Ardor Brio Company</h1>
-        <h3 class="header__subtitle">Since 2013</h3>
+        <h3 class="header__subtitle">Making the web more beautiful since 2013</h3>
       </div>
     </div>
 
@@ -40,10 +40,10 @@ layout: landing-page
           </div>
           <div class="banner__text">
             <div class="services">
-              <div class="services__item services__item--cms">Content Management</div>
-              <div class="services__item services__item--wad">Web Application</div>
-              <div class="services__item services__item--ecomm">eCommerce</div>
-              <div class="services__item services__item--support">Operations &amp; Support</div>
+              <div class="services__item services__item--cms">Content Management Solutions</div>
+              <div class="services__item services__item--wad">Web Application Development</div>
+              <div class="services__item services__item--ecomm">eCommerce Development</div>
+              <div class="services__item services__item--support">Website Maintanence &amp; Ongoing Support</div>
             </div>
           </div>
         </div>
@@ -64,12 +64,14 @@ layout: landing-page
         <div class="banner banner--projects banner--centered">
           <div class="banner__title">Our Work</div>
           <div class="banner__text col--2">
-            {% for project in site.projects %}
-              <a class="banner__link" href="{{ project.url }}" target="_blank">{{ project.title }}</a>
+            {% assign sortedProjects = site.projects | sort: 'year' | reverse %}
+            {% for project in sortedProjects %}
+              <p class="banner__link">{{ project.title }}</p>
+              <!-- <a class="banner__link" href="#" target="_blank">{{ project.title }}</a> -->
             {% endfor %}
           </div>
           <div class="banner__button">
-            <a href="/projects" class="button button--white">See All Projects</a>
+            <a href="/projects" class="button button--white">See More about Our Project Work</a>
           </div>
         </div>
       </div>
@@ -88,7 +90,12 @@ layout: landing-page
     </div>
     <div class="l-landing__footer background--grey">
       <div class="layout-constrain">
-        Footer
+        <div class="site-footer__copyright">
+          &copy; {{ site.time | date: '%Y' }} The Ardor Brio Company LLC. Seattle, WA. All Rights Reserved.
+        </div>
+        <!-- <div class="banner banner--centered">
+          <p class="banner__text">The Ardor Brio Company, &copy; 2017</p>
+        </div> -->
       </div>
     </div>
 

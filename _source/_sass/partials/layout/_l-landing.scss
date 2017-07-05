@@ -1,7 +1,7 @@
 .l-landing {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: minmax(0px, max-content) minmax(100px, max-content) minmax(100px, max-content) minmax(0px, max-content) minmax(0px, max-content) minmax(0px, max-content) minmax(0px, max-content) minmax(0px, max-content) minmax(0px, max-content);
+    grid-template-rows: minmax(0px, max-content) minmax(100px, max-content) minmax(300px, max-content) minmax(0px, max-content) minmax(0px, max-content) minmax(0px, max-content) minmax(0px, max-content) minmax(0px, max-content) minmax(0px, max-content);
     grid-template-areas:  "header"
                           "logo"
                           "intro"

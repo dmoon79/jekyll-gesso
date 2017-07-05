@@ -7,7 +7,7 @@ permalink: /projects/
     <div class="layout-constrain">
       <div class="intro">
         <div class="intro__card">
-          <h1 class="intro__card-title">Projects</h1>
+          <h1 class="intro__card-title">My Projects</h1>
           <p class="intro__card-subtitle">Throughout my career, I've had the opportunity to create and enhance websites for some of the most influential
           organizations in the world. Here are a few examples.</p>
         </div>
@@ -37,7 +37,7 @@ permalink: /projects/
             <div class="page__tags">{{ project.role | join:" & "}}</div>
           </div>
         {% if project.mission %}
-          <p class="page__mission">{{ project.mission }}</p>
+          <p class="page__mission">{{ project.mission }} <span><a href="{{ project.url }}" class="page__more-link">[...]</a></span></p>
         {% endif %}
         </div>
       {% endfor %}
