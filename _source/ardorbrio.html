@@ -24,11 +24,11 @@ layout: landing-page
         <div class="banner banner--centered">
           <div class="banner__title">We are the folks who build your vision on the web.</div>
           <div class="banner__text">
-
+            We're no-nonsense, friendly, and cost-effective web development professionals who can help you turn your orginiztion's vision into well-organized and highly-functional solutions.
           </div>
-          <div class="banner__button">
+          <!-- <div class="banner__button">
             <a class="button button--blue">Start a consultation</a>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -45,6 +45,9 @@ layout: landing-page
               <div class="services__item services__item--ecomm">eCommerce Development</div>
               <div class="services__item services__item--support">Website Maintanence &amp; Ongoing Support</div>
             </div>
+          </div>
+          <div class="banner__button">
+            <a class="intro__link" target="_blank" href="mailto:info@ardorbrio.com"><button class="button button--white">Discover How We Can Help You</button></a>
           </div>
         </div>
       </div>
@@ -63,6 +66,12 @@ layout: landing-page
       <div class="layout-constrain">
         <div class="banner banner--projects banner--centered">
           <div class="banner__title">Our Work</div>
+          <div class="banner__text">
+            Our experience is proven. Below are just a few of the client's we've worked with. Feel free to visit our <a href="/projects" target="_blank" class="banner__link--white">projects page</a> for detailed descriptions of past projects in our portfolio.
+          </div>
+          <div class="banner__text">
+            ---
+          </div>
           <div class="banner__text col--2">
             {% assign sortedProjects = site.projects | sort: 'year' | reverse %}
             {% for project in sortedProjects %}
@@ -79,12 +88,14 @@ layout: landing-page
     <div class="l-landing__content3">
       <div class="layout-constrain">
         <div class="banner banner--centered">
-          <div class="banner__title">
-            Contact
-          </div>
+          <div class="banner__title">Contact</div>
           <div class="banner__text">
-            Contact Us here
+            Getting your website together can often times be a little more tricky than what's promised to us. <br/>We understand this and we're here to help you.
           </div>
+          <div class="banner__button">
+            <a class="intro__link" target="_blank" href="mailto:info@ardorbrio.com"><button class="button button--blue">Contact Us To Learn More</button></a>
+          </div>
+
         </div>
       </div>
     </div>

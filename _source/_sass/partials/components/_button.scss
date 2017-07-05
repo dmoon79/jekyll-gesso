@@ -50,6 +50,11 @@
     border: 1px solid $white;
     color: $blue;
   }
+  .background--green & {
+    &:hover {
+      color: $green;
+    }
+  }
 }
 
 .button--blue {

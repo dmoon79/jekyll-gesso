@@ -31,9 +31,9 @@
   font-weight: 400;
   font-size: rem(40px);
   line-height: rem(51px);
-  padding-bottom: 1rem;
+  margin-bottom: 1em;
   .banner--projects & {
-    margin-bottom: 1em;
+
     text-align: center;
   }
 }
@@ -41,6 +41,7 @@
   font-weight: 100;
   font-size: rem(30px);
   line-height: rem(41px);
+  margin-bottom: 1em;
 }
 
  .banner--centered {
@@ -57,6 +58,9 @@
   &:hover {
     color: $green;
   }
+}
+.banner__link--white {
+  color: $white;
 }
 
 .banner__button {
