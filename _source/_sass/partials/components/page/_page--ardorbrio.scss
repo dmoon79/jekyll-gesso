@@ -13,7 +13,7 @@
     background-color: $blue;
     display: flex;
     @include large {
-      padding: rem(100px) 0;
+      padding: rem(50px) 0;
       margin-right: 4rem;
       margin-left: -4rem;
     }
@@ -25,6 +25,8 @@
   .l-landing__content1 {
   }
   .l-landing__content2 {
+  }
+  .l-landing__content3 {
   }
   .l-landing__footer {
   }
