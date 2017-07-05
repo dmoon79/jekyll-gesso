@@ -7,6 +7,9 @@
 }
 
 .button--large {
+  @extend %button;
+  font-size: rem(24px);
+  margin-top: 1rem;
 }
 
 .button--arrow {
