@@ -3,7 +3,7 @@
   padding: 2rem 1rem;
   margin: 0 auto;
   @include large {
-    margin: 0; 
+    margin: 0;
   }
 }
 
@@ -28,11 +28,12 @@
   display: none;
   font-family: $header-font-family;
   font-size: $base-font-size;
-  font-weight: 100;
   text-align: center;
   @include large {
     display: block;
-    font-size: $font-size-lg;
+    font-size: $font-size-md;
+    font-weight: 100;
+    font-style: italic;
     text-align: left;
   }
 }
