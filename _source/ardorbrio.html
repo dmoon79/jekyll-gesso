@@ -73,10 +73,18 @@ permalink: /ardorbrio/
         <div class="banner banner--projects banner--centered">
           <div class="banner__title">Our Work</div>
           <div class="banner__text">
-            Our experience is proven. Listed below are  a few of the clients we've worked with. <br> Feel free to visit our <a href="/projects" target="_blank" class="banner__link--white">projects page</a> for detailed descriptions of past projects in our portfolio.
+            Our experience is proven. Listed below are a few of the clients we've worked with. <br> Feel free to visit our <a href="/projects" target="_blank" class="banner__link--white">projects page</a> for detailed descriptions of past projects in our portfolio.
           </div>
           <div class="banner__text">
-            ---
+            <svg fill="#FFFFFF" height="50" viewBox="0 0 24 24" width="50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <defs>
+                    <path d="M0 0h24v24H0V0z" id="a"/>
+                </defs>
+                <clipPath id="b">
+                    <use overflow="visible" xlink:href="#a"/>
+                </clipPath>
+                <path clip-path="url(#b)" d="M19.5 9.5c-1.03 0-1.9.62-2.29 1.5h-2.92c-.39-.88-1.26-1.5-2.29-1.5s-1.9.62-2.29 1.5H6.79c-.39-.88-1.26-1.5-2.29-1.5C3.12 9.5 2 10.62 2 12s1.12 2.5 2.5 2.5c1.03 0 1.9-.62 2.29-1.5h2.92c.39.88 1.26 1.5 2.29 1.5s1.9-.62 2.29-1.5h2.92c.39.88 1.26 1.5 2.29 1.5 1.38 0 2.5-1.12 2.5-2.5s-1.12-2.5-2.5-2.5z"/>
+            </svg>
           </div>
           <div class="banner__text col--2">
             {% assign sortedProjects = site.projects | sort: 'year' | reverse %}
@@ -96,7 +104,7 @@ permalink: /ardorbrio/
         <div class="banner banner--centered">
           <div class="banner__title">Contact</div>
           <div class="banner__text">
-            Getting your website together can often times be a little more tricky than what's promised to us. <br/>We understand this and we're here to help you.
+            Getting your website together can often times be a little more tricky than what's promised to us. We understand this and we're here to help you.
           </div>
           <div class="banner__button">
             <a class="intro__link" target="_blank" href="mailto:info@ardorbrio.com"><button class="button--large button--blue">Contact Us To Learn More</button></a>
