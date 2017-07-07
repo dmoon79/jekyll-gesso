@@ -1,7 +1,8 @@
 # Site settings
 title: DEV - Derek Moon
 email: dmoon79@gmail.com
-description: "The portfolio of Derek Moon, a Seattle based web developer specializing in Wordpress, HTML5, Javascript app"
+description: "The portfolio of Derek Moon, a Seattle based web developer specializing in custom Wordpress, HTML5, Javascript applications"
+ab_description: "The Ardor Brio Company, a Seattle based web development agency specializing in custom Wordpress, HTML5, Javascript applications"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
 

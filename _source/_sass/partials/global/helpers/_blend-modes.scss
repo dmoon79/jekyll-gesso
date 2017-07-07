@@ -273,7 +273,7 @@
 @function blend-colorburn-color($blend, $base) {
   $tmp: (256 - ((255 - $base) * 256) / $blend);
 
-  // TODO: hacked to replicate photoshop
+  // NOTE: IGNORE THIS! hacked to replicate photoshop
   @if $blend == 0 {
     $blend: 255;
   }

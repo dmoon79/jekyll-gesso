@@ -13,6 +13,6 @@ tags:
   - SASS
 mission: |
   A repository of evidence-based family planning practices vetted by experts against specific criteria and documented in an easy-to-use, sharable format.
-role:  Front-End Developer
+role:  Lead Developer
 published: true
 ---

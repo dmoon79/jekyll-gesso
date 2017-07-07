@@ -37,7 +37,7 @@ permalink: /projects/
             <div class="page__tags">{{ project.role | join:" & "}}</div>
           </div>
         {% if project.mission %}
-          <p class="page__mission">{{ project.mission }}</p>
+          <p class="page__mission">{{ project.mission }} <span><a href="{{ project.url }}" class="page__more-link">[...]</a></span></p>
         {% endif %}
         </div>
       {% endfor %}

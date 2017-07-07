@@ -1,0 +1,70 @@
+.banner {
+  font-family: $base-font-family;
+  padding: rem(100px) 0;
+  .button {
+    margin-top: rem(30px);
+  }
+  .col--2 {
+    columns: 1;
+    @include large {
+      columns: 2;
+    }
+  }
+  .col--3 {
+    columns: 1;
+    @include large {
+      columns: 3;
+    }
+  }
+}
+
+.banner__separator {
+  border-top: 1px solid #fff;
+  height: 1px;
+  padding-bottom: 1rem;
+  width: 200px;
+  .banner--centered & {
+    margin: 0 auto;
+  }
+}
+.banner__title {
+  font-weight: 400;
+  font-size: rem(40px);
+  line-height: rem(51px);
+  margin-bottom: 1em;
+  .banner--projects & {
+
+    text-align: center;
+  }
+}
+.banner__text {
+  font-weight: 100;
+  font-size: rem(30px);
+  line-height: rem(41px);
+  margin-bottom: 1em;
+}
+
+ .banner--centered {
+  text-align: center;
+}
+
+.banner__link {
+  color: $white;
+  display: block;
+  font-size: $font-size-xl;
+  line-height: calc($font-size-xl + 8px);
+  text-decoration: none;
+  &:focus,
+  &:hover {
+    color: $green;
+  }
+}
+.banner__link--white {
+  color: $white;
+}
+
+.banner__button {
+  .banner--projects & {
+    text-align: center;
+  }
+}

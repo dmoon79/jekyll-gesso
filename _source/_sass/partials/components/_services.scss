@@ -1,0 +1,25 @@
+.services {
+  display: flex;
+  flex-flow: row wrap;
+  list-style-type: none;
+  // padding: 2rem 0;
+}
+.services__item {
+  width: 100%;
+  margin: 1rem 0;
+  @include large {
+    flex: 1;
+    text-align: center;
+  }
+}
+
+
+$icon-list: cms, ecomm, wad, support;
+@each $icon in $icon-list {
+  .services__item--#{$icon} {
+    &:before {
+      content: url('../images/svg/icon--#{$icon}.svg');
+      display: block;
+    }
+  }
+}

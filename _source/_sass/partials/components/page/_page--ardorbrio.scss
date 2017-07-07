@@ -1,0 +1,34 @@
+.page--ardorbrio {
+
+  .l-landing__header {
+    border-bottom: 1px solid $dark-grey;
+  }
+  .l-landing__hero {
+    background-image: url('../images/skyline-opt.jpg');
+    background-size: cover;
+    background-position: center 25%;
+
+  }
+  .l-landing__logo {
+    background-color: $blue;
+    display: flex;
+    @include large {
+      background-color: rgba($blue, .7);
+      padding: rem(50px) 0;
+      margin-right: 4rem;
+      margin-left: -4rem;
+    }
+  }
+  .l-landing__banner {
+  }
+  .l-landing__content {
+  }
+  .l-landing__content1 {
+  }
+  .l-landing__content2 {
+  }
+  .l-landing__content3 {
+  }
+  .l-landing__footer {
+  }
+}
