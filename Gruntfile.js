@@ -30,7 +30,7 @@ module.exports = function (grunt) {
                 command: 'bundle exec jekyll serve'
             },
             jekyllDeploy: {
-              command: 'rsync -av /sites/portfolio/_live/ bh:www/ardorbrio/'
+              command: 'rsync -av /sites/portfolio/_live/ bh:www/'
             },
             buildLive: {
               command: 'rm -rf _live && bundle exec jekyll build --config _config.yml,_config_live.yml && cp -r _public/css/ _live/css/'
