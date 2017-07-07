@@ -3,7 +3,7 @@ layout: project-single
 title: Johns Hopkins University - High Impact Practices
 slug: jhu-hip
 year: 2017
-link:
+link: https://www.fphighimpactpractices.org/
 image: jhu.png
 tags:
   - Wordpress
