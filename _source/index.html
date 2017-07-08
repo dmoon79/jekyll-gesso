@@ -6,7 +6,7 @@ layout: landing-page
   <div class="l-landing">
     <div class="l-landing__header">
       <div class="layout-constrain">
-        {% include nav--abco.html %}
+        {% include nav.html %}
       </div>
     </div>
     <div class="l-landing__hero">
@@ -72,7 +72,7 @@ layout: landing-page
         <div class="banner banner--projects banner--centered">
           <div class="banner__title">Our Work</div>
           <div class="banner__text">
-            Our experience is proven. Listed below are a few of the clients we've worked with. <br> Feel free to visit our <a href="/projects" target="_blank" class="banner__link--white">projects page</a> for detailed descriptions of past projects in our portfolio.
+            Our experience is proven. Listed below are a few of the clients we've worked with. <br> Visit our <a href="/projects" target="_blank" class="banner__link--white">projects page</a> for detailed descriptions of past projects in our portfolio.
           </div>
           <div class="banner__text">
             <svg fill="#FFFFFF" height="50" viewBox="0 0 24 24" width="50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -85,7 +85,7 @@ layout: landing-page
                 <path clip-path="url(#b)" d="M19.5 9.5c-1.03 0-1.9.62-2.29 1.5h-2.92c-.39-.88-1.26-1.5-2.29-1.5s-1.9.62-2.29 1.5H6.79c-.39-.88-1.26-1.5-2.29-1.5C3.12 9.5 2 10.62 2 12s1.12 2.5 2.5 2.5c1.03 0 1.9-.62 2.29-1.5h2.92c.39.88 1.26 1.5 2.29 1.5s1.9-.62 2.29-1.5h2.92c.39.88 1.26 1.5 2.29 1.5 1.38 0 2.5-1.12 2.5-2.5s-1.12-2.5-2.5-2.5z"/>
             </svg>
           </div>
-          <div class="banner__text col--2">
+          <div class="banner__text col--3">
             {% assign sortedProjects = site.projects | sort: 'year' | reverse %}
             {% for project in sortedProjects %}
               <p class="banner__link">{{ project.title }}</p>
