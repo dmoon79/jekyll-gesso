@@ -99,8 +99,8 @@ layout: landing-page
           <div class="banner__text col--3">
             {% assign sortedProjects = site.projects | sort: 'year' | reverse %}
             {% for project in sortedProjects %}
-              <p class="banner__link">{{ project.title }}</p>
-              <!-- <a class="banner__link" href="#" target="_blank">{{ project.title }}</a> -->
+              <!-- <p class="banner__link">{{ project.title }}</p> -->
+              <a class="banner__link" href="{{ project.url }}" target="_blank">{{ project.title }}</a>
             {% endfor %}
           </div>
           <div class="banner__button">
@@ -115,6 +115,7 @@ layout: landing-page
           <div class="banner__title">Contact</div>
           <div class="banner__text">
             Getting your website together can often times be a little more tricky than what's promised to us. We understand this and we're here to help you.
+            {% include lead-form.html %}
           </div>
           <div class="banner__button">
             <a class="intro__link" target="_blank" href="http://calendly.com/dmoon"><button class="button--large button--blue">Schedule Time to Talk with Us</button></a>

@@ -57,6 +57,7 @@
   &:focus,
   &:hover {
     color: $green;
+    text-decoration: underline;
   }
 }
 .banner__link--white {
