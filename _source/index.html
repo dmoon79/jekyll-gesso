@@ -94,8 +94,8 @@ layout: landing-page
           <div class="banner__text col--3">
             {% assign sortedProjects = site.projects | sort: 'year' | reverse %}
             {% for project in sortedProjects %}
-              <p class="banner__link">{{ project.title }}</p>
-              <!-- <a class="banner__link" href="#" target="_blank">{{ project.title }}</a> -->
+              <!-- <p class="banner__link">{{ project.title }}</p> -->
+              <a class="banner__link" href="{{ project.url }}" target="_self">{{ project.title }}</a>
             {% endfor %}
           </div>
           <div class="banner__button">
