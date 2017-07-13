@@ -8,8 +8,13 @@
   {% include head--abco.html %}
 
   <body class="layout--landing-page">
+    <section class="section-header">
+      {% include header.html %}
+    </section>
 
-    {{ content }}
+    <section class="section-content">
+        {{ content }}
+    </section>
 
   </body>
 </html>

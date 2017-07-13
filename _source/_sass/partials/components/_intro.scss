@@ -4,14 +4,11 @@
 }
 
 .intro__card {
-  background-color: rgba($green, 0.9);
+  background-color: rgba($blue, 0.9);
   color: $white;
   padding: 1rem 2rem;
   position: relative;
-  text-align: right;
-  @include large {
-    text-align: left;
-  }
+  text-align: left;
   .page--portfolio & {
     background-color: rgba($blue, 0.9);
   }

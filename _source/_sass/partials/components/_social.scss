@@ -1,9 +1,6 @@
 //Social Icon Bar
 .social {
   display: flex;
-  // border-top: 2px dotted $dark-grey;
-  // border-bottom: 2px solid $dark-grey;
-  // background-color: $dark-grey;
   flex-flow: row wrap;
   position: relative;
   justify-content: space-around;
@@ -12,13 +9,24 @@
     border-bottom: none;
   }
   width: 100%;
-  padding: 1em 2em;
+  padding: 1em;
+  .intro__social & {
+    padding: 0 0 1rem 0;
+    max-width: 200px;
+    path {
+      fill: $white;
+    }
+    .social__link {
+      width: 20px;
+      height: 20px;
+    }
+  }
 }
 
 .social__link {
   &:hover {
     .social__svg {
-      fill: $dark-grey;
+      fill: $blue;
       &:hover {
         fill: $light-grey;
       }
