@@ -23,5 +23,13 @@
       text-decoration: none;
       width: 100%;
     }
+    .nav__link--logo {
+      @include image-replace(77px, 30px);
+      background-image: url('../images/bg/header-logo.png');
+      background-repeat: no-repeat;
+      display: block;
+      position: relative;
+      top: -4px;
+    }
   }
 }
