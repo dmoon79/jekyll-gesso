@@ -12,6 +12,7 @@
     width: 16px;
     height: 16px;
   }
+
 }
 
 .site-header__social {
@@ -28,3 +29,13 @@
 }
 
 .site-header__wrapper {}
+
+.section-header {
+  &.is-fixed {
+    position: fixed;
+    top: 0;
+    display: block;
+    width: 100%;
+    z-index: 20;
+  }
+}
