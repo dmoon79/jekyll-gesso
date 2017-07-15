@@ -15,5 +15,5 @@ description:
 mission: >
   Delivering high tech language education solutions to the developing world
 role:  Lead Developer
-published: true
+published: false
 ---

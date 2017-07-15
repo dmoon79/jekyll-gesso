@@ -4,9 +4,10 @@
     border-bottom: 1px solid $dark-grey;
   }
   .l-landing__hero {
-    background-image: url('../images/skyline-opt.jpg');
+    background-image: url('../images/sea-skyline.jpg');
     background-size: cover;
-    background-position: center 25%;
+    background-position: top 25%;
+    background-repeat: no-repeat;
 
   }
   .l-landing__logo {
