@@ -25,6 +25,7 @@
     }
     .nav__link--logo {
       @include image-replace(77px, 30px);
+      // @include svg-background(abco);
       background-image: url('../images/bg/header-logo.png');
       background-repeat: no-repeat;
       display: block;
