@@ -15,7 +15,7 @@
 
   @include large {
     grid-template-columns: repeat(5, 20%); // 5 cols
-    grid-template-rows: minmax(0px, max-content) minmax(300px, max-content) minmax(0px, max-content) minmax(300px, max-content) minmax(0px, max-content) minmax(0px, max-content) minmax(0px, max-content) minmax(75px, max-content);
+    grid-template-rows: minmax(0px, max-content) minmax(300px, 650px) minmax(0px, max-content) minmax(300px, max-content) minmax(0px, max-content) minmax(0px, max-content) minmax(0px, max-content) minmax(75px, max-content);
     grid-template-areas:  "header header header header header"
                           "intro intro intro logo logo"
                           "banner banner banner banner banner"
